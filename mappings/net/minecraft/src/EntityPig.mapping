@@ -1,1 +1,2 @@
-CLASS net/minecraft/src/EntityPig net/minecraft/src/EntityPig
+CLASS mv net/minecraft/src/EntityPig
+	FIELD a saddled Z

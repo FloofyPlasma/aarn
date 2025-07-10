@@ -1,1 +1,6 @@
-CLASS net/minecraft/src/BlockCrops net/minecraft/src/BlockCrops
+CLASS hd net/minecraft/src/BlockCrops
+	METHOD i getGrowthRate (Lcn;III)F
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

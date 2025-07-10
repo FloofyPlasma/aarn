@@ -1,1 +1,2 @@
-CLASS net/minecraft/src/EntityMob net/minecraft/src/EntityMob
+CLASS dq net/minecraft/src/EntityMob
+	FIELD e attackStrength I

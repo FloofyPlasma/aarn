@@ -1,1 +1,34 @@
-CLASS net/minecraft/src/ChunkProviderGenerate net/minecraft/src/ChunkProviderGenerate
+CLASS nw net/minecraft/src/ChunkProviderGenerate
+	FIELD a noiseGen6 Llp;
+	FIELD b noiseGen7 Llp;
+	FIELD c mobSpawnerNoise Llp;
+	FIELD d noise3 [D
+	FIELD e noise1 [D
+	FIELD f noise2 [D
+	FIELD g noise6 [D
+	FIELD h noise7 [D
+	FIELD i unused [[I
+	FIELD j rand Ljava/util/Random;
+	FIELD k noiseGen1 Llp;
+	FIELD l noiseGen2 Llp;
+	FIELD m noiseGen3 Llp;
+	FIELD n noiseGen4 Llp;
+	FIELD o noiseGen5 Llp;
+	FIELD p worldObj Lcn;
+	FIELD q noiseArray [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
+	FIELD u caveGenerator Lcy;
+	METHOD <init> (Lcn;J)V
+		ARG 1 worldObj
+		ARG 2 seed
+	METHOD a generateTerrain (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks
+	METHOD a initializeNoiseField ([DIIIIII)[D
+	METHOD b replaceSurfaceBlocks (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks

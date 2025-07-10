@@ -1,1 +1,4 @@
-CLASS net/minecraft/src/BlockIce net/minecraft/src/BlockIce
+CLASS he net/minecraft/src/BlockIce
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 tex

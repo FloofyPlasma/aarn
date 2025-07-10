@@ -1,1 +1,4 @@
-CLASS net/minecraft/src/BlockSnowBlock net/minecraft/src/BlockSnowBlock
+CLASS p net/minecraft/src/BlockSnowBlock
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex

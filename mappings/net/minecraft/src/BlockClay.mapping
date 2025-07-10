@@ -1,1 +1,4 @@
-CLASS net/minecraft/src/BlockClay net/minecraft/src/BlockClay
+CLASS jv net/minecraft/src/BlockClay
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex

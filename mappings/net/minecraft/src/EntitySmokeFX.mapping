@@ -1,1 +1,2 @@
-CLASS net/minecraft/src/EntitySmokeFX net/minecraft/src/EntitySmokeFX
+CLASS nl net/minecraft/src/EntitySmokeFX
+	FIELD a smokeParticleScale F

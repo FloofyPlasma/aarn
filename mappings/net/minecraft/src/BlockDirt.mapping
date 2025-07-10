@@ -1,1 +1,4 @@
-CLASS net/minecraft/src/BlockDirt net/minecraft/src/BlockDirt
+CLASS hz net/minecraft/src/BlockDirt
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 tex

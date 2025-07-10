@@ -1,1 +1,2 @@
-CLASS net/minecraft/src/Explosion net/minecraft/src/Explosion
+CLASS je net/minecraft/src/Explosion
+	METHOD a doExplosion (Lcn;Lkh;DDDF)V

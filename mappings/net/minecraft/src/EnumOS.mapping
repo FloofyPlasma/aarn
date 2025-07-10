@@ -1,1 +1,6 @@
-CLASS net/minecraft/src/EnumOS net/minecraft/src/EnumOS
+CLASS ih net/minecraft/src/EnumOS
+	FIELD a linux Lih;
+	FIELD b solaris Lih;
+	FIELD c windows Lih;
+	FIELD d macos Lih;
+	FIELD e unknown Lih;

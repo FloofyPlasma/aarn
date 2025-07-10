@@ -1,0 +1,16 @@
+CLASS gy net/minecraft/src/NetClientHandler
+	FIELD a loginProgress Ljava/lang/String;
+	FIELD b rand Ljava/util/Random;
+	FIELD c disconnected Z
+	FIELD d netManager Lii;
+	FIELD e mc Lnet/minecraft/client/Minecraft;
+	FIELD f worldClient Lgs;
+	FIELD g posUpdated Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 ip
+		ARG 3 port
+	METHOD a processReadPackets ()V
+	METHOD a addToSendQueue (Lfn;)V
+		ARG 1 packet
+	METHOD b disconnect ()V

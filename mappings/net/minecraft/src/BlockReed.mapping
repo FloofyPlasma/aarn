@@ -1,1 +1,9 @@
-CLASS net/minecraft/src/BlockReed net/minecraft/src/BlockReed
+CLASS jm net/minecraft/src/BlockReed
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD h checkBlockCoordValid (Lcn;III)V
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

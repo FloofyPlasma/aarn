@@ -1,0 +1,29 @@
+CLASS lu net/minecraft/src/GuiIngame
+	FIELD a testMessage Ljava/lang/String;
+	FIELD b damageGuiPartialTime F
+	FIELD c prevVignetteBrightness F
+	FIELD d itemRenderer Lab;
+	FIELD e chatMessageList Ljava/util/List;
+	FIELD f rand Ljava/util/Random;
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h updateCounter I
+	FIELD i recordPlaying Ljava/lang/String;
+	FIELD j recordPlayingUpFor I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a updateTick ()V
+	METHOD a renderVignette (FII)V
+		ARG 1 brightness
+		ARG 2 width
+		ARG 3 height
+	METHOD a renderGameOverlay (FZII)V
+		ARG 1 renderPartialTick
+		ARG 2 hasScreen
+		ARG 3 width
+		ARG 4 height
+	METHOD a renderInventorySlot (IIIF)V
+		ARG 4 renderPartialTick
+	METHOD a addChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
+		ARG 1 record

@@ -1,1 +1,11 @@
-CLASS net/minecraft/src/BlockStationary net/minecraft/src/BlockStationary
+CLASS hn net/minecraft/src/BlockStationary
+	METHOD j setNotStationary (Lcn;III)V
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k isFlammable (Lcn;III)Z
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

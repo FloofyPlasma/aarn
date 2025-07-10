@@ -1,1 +1,3 @@
-CLASS net/minecraft/src/GameWindowListener net/minecraft/src/GameWindowListener
+CLASS fp net/minecraft/src/GameWindowListener
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b thread Ljava/lang/Thread;

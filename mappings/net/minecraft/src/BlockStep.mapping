@@ -1,1 +1,5 @@
-CLASS net/minecraft/src/BlockStep net/minecraft/src/BlockStep
+CLASS oi net/minecraft/src/BlockStep
+	FIELD a blockType Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 blockType

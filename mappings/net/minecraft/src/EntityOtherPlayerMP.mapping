@@ -1,1 +1,11 @@
-CLASS net/minecraft/src/EntityOtherPlayerMP net/minecraft/src/EntityOtherPlayerMP
+CLASS nt net/minecraft/src/EntityOtherPlayerMP
+	FIELD a unusedFloat F
+	FIELD bg otherPlayerMPPosRotationIncrements I
+	FIELD bh otherPlayerMPX D
+	FIELD bi otherPlayerMPY D
+	FIELD bj otherPlayerMPZ D
+	FIELD bk otherPlayerMPYaw D
+	FIELD bl otherPlayerMPPitch D
+	METHOD <init> (Lcn;Ljava/lang/String;)V
+		ARG 1 worldObj
+		ARG 2 username

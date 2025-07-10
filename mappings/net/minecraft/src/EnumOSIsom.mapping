@@ -1,1 +1,6 @@
-CLASS net/minecraft/src/EnumOSIsom net/minecraft/src/EnumOSIsom
+CLASS fa net/minecraft/src/EnumOSIsom
+	FIELD a linux Lfa;
+	FIELD b solaris Lfa;
+	FIELD c windows Lfa;
+	FIELD d macos Lfa;
+	FIELD e unknown Lfa;
