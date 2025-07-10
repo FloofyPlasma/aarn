@@ -1,6 +1,9 @@
-# Barn
+# Aarn
 
-**B**eta y**arn** is a [yarn](https://github.com/FabricMC/yarn) fork for b1.7.3
+**A**lpha y**arn** is a [barn](https://github.com/babric/barn) fork for a1.1.2_01
+
+> [!CAUTION]
+> Aarn is very unstable, and can only be used on the client.
 
 ## Usage
 
