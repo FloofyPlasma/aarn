@@ -672,7 +672,7 @@ publishing {
 // A task to ensure that the version being released has not already been released.
 task checkVersion {
 	doFirst {
-		def xml = new URL("https://maven.glass-launcher.net/babric/babric/aarn/maven-metadata.xml").text
+		def xml = new URL("https://floofyplasma.github.io/aabric-libraries/aabric/aarn/maven-metadata.xml").text
 		def metadata = new XmlSlurper().parseText(xml)
 		def versions = metadata.versioning.versions.version*.text();
 		if (versions.contains(version)) {
