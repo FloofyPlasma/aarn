@@ -1,5 +1,8 @@
 # Aarn
 
+![Build](https://github.com/floofyplasma/aarn/actions/workflows/build.yml/badge.svg)
+![Publish](https://github.com/floofyplasma/aarn/actions/workflows/publish.yml/badge.svg)
+
 **A**lpha y**arn** is a [barn](https://github.com/babric/barn) fork for a1.1.2_01
 
 > [!CAUTION]
