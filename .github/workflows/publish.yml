@@ -16,13 +16,13 @@ jobs:
       - uses: gradle/wrapper-validation-action@v1
 
       - name: Build and publish locally to folder
-        run: ./gradlew build javadocJar publish --stacktrace
+        run: ./gradlew build javadocJar checkVersion publish --stacktrace
 
       - name: Clone aabric-libraries repo
         uses: actions/checkout@v4
         with:
           repository: floofyplasma/aabric-libraries
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
           path: aabric-libraries
 
       - name: Copy published artifacts to repo
