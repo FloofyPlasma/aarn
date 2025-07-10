@@ -653,6 +653,10 @@ publishing {
 	}
 	repositories {
         mavenLocal()
+        maven {
+            name = "localDistribution"
+            url = uri("$buildDir/dist")
+        }
 		if (ENV.MAVEN_URL) {
 			maven {
 				url ENV.MAVEN_URL
