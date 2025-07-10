@@ -629,7 +629,7 @@ check.dependsOn javadocLint
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId "babric"
+			groupId "aabric"
 			artifactId "aarn"
 			version yarnVersion
 
@@ -652,6 +652,7 @@ publishing {
 		}
 	}
 	repositories {
+        mavenLocal()
 		if (ENV.MAVEN_URL) {
 			maven {
 				url ENV.MAVEN_URL
