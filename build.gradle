@@ -167,7 +167,7 @@ task mapClientIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary
 	input = downloadMinecraftClientJar.outputFile
 	mappings = downloadIntermediary.dest
 	classpath.from minecraftLibraries
-	from = "intermediary"
+	from = "official"
 	to = "intermediary"
 }
 
@@ -177,7 +177,7 @@ task mapServerIntermediaryJar(type: MapJarTask, dependsOn: [downloadIntermediary
 	input = downloadMinecraftServerJar.outputFile
 	mappings = downloadIntermediary.dest
 	classpath.from minecraftLibraries
-	from = "intermediary"
+	from = "official"
 	to = "intermediary"
 }
 
