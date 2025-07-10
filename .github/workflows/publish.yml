@@ -38,4 +38,4 @@ jobs:
           git commit -m "Update published artifacts from ${{ github.sha }}" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
