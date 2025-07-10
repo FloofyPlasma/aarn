@@ -1,2 +1,0 @@
-CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
-	FIELD field_2848 onlineMode Z
