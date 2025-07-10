@@ -1,1 +1,2 @@
 CLASS net/minecraft/src/GuiScreen net/minecraft/src/GuiScreen
+	METHOD a init ()V
