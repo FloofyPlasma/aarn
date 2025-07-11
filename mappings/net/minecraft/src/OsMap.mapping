@@ -1,2 +1,0 @@
-CLASS fq net/minecraft/src/OSMap
-	FIELD a osValues [I

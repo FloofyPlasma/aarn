@@ -8,12 +8,16 @@ buildscript {
 			name "Fabric Repository"
 			url "https://maven.fabricmc.net"
 		}
+		maven {
+			name "Aabric Repository"
+			url "https://floofyplasma.github.io/aabric-libraries"
+		}
 		mavenCentral()
         mavenLocal()
 	}
 	dependencies {
 		classpath "cuchaz:enigma-cli:${project.enigma_version}"
-		classpath "babric:stitch:${project.stitch_version}"
+		classpath "aabric:stitch:${project.stitch_version}"
 		classpath "de.undercouch:gradle-download-task:4.1.1"
 		classpath "net.fabricmc.unpick:unpick:${project.unpick_version}"
 		classpath "net.fabricmc.unpick:unpick-format-utils:${project.unpick_version}"
@@ -64,6 +68,10 @@ repositories {
 	maven {
 		name "Mojang"
 		url "https://libraries.minecraft.net/"
+	}
+	maven {
+		name "Aabric Repository"
+		url "https://floofyplasma.github.io/aabric-libraries"
 	}
 	mavenLocal()
 }
