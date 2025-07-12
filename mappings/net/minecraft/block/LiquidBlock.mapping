@@ -1,3 +1,37 @@
 CLASS net/minecraft/unmapped/C_4558465 net/minecraft/block/LiquidBlock
+	METHOD a getFlowAngle (Lnet/minecraft/unmapped/C_2627205;IIILnet/minecraft/unmapped/C_8554894;)D
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD b getHeightLoss (I)F
+		ARG 0 level
+	METHOD b getDistanceToSource (Lnet/minecraft/unmapped/C_2627205;III)I
+		COMMENT returns the distance to a source fluid. a falling fluid acts as a source
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e getFlow (Lnet/minecraft/unmapped/C_2627205;III)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD h getLevel (Lnet/minecraft/unmapped/C_3906126;III)I
+		COMMENT returns the level of this fluid. the first 3 bits encode the distance to a source
+		COMMENT fluid, while the 4th bit encodes whether the fluid is falling
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD i playFizzSound (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j checkSpreadCollisions (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
