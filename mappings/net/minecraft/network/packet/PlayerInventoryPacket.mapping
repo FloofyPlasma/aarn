@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_6489668 net/minecraft/network/packet/PlayerInventoryPacket
+	FIELD a menuid I
+	FIELD b stacks [Lnet/minecraft/unmapped/C_2750078;
 	METHOD <init> (I[Lnet/minecraft/unmapped/C_2750078;)V
 		ARG 1 type
 		ARG 2 items

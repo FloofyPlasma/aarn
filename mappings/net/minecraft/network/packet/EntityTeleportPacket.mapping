@@ -1,3 +1,9 @@
 CLASS net/minecraft/unmapped/C_9814383 net/minecraft/network/packet/EntityTeleportPacket
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e yaw B
+	FIELD f pitch B
 	METHOD <init> (Lnet/minecraft/unmapped/C_6385858;)V
 		ARG 1 entity

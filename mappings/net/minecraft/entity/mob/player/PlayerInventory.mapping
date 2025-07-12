@@ -6,5 +6,6 @@ CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInv
 	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
 		ARG 1 player
 	METHOD a getMainHandStack ()Lnet/minecraft/unmapped/C_2750078;
+	METHOD a insertStack (Lnet/minecraft/unmapped/C_2750078;)Z
 	METHOD a getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
 	METHOD f getArmorProtectionValue ()I

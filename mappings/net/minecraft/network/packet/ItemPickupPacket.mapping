@@ -1,1 +1,4 @@
 CLASS net/minecraft/unmapped/C_8710490 net/minecraft/network/packet/ItemPickupPacket
+	FIELD a menuId I
+	FIELD b dataId I
+	FIELD c value I

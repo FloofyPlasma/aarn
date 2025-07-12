@@ -1,1 +1,49 @@
 CLASS net/minecraft/unmapped/C_4443804 net/minecraft/network/PacketHandler
+	METHOD a onDisconnect (Ljava/lang/String;)V
+	METHOD a handleAddEntity (Lnet/minecraft/unmapped/C_1019530;)V
+		ARG 1 packet
+	METHOD a handleWorldChunk (Lnet/minecraft/unmapped/C_1111347;)V
+		ARG 1 packet
+	METHOD a handleBlocksUpdate (Lnet/minecraft/unmapped/C_2012603;)V
+		ARG 1 packet
+	METHOD a handleWorldTime (Lnet/minecraft/unmapped/C_3157620;)V
+		ARG 1 packet
+	METHOD a handleChunkUpdate (Lnet/minecraft/unmapped/C_4136842;)V
+		ARG 1 packet
+	METHOD a handleRemoveEntity (Lnet/minecraft/unmapped/C_4327082;)V
+		ARG 1 packet
+	METHOD a handleEntityPickup (Lnet/minecraft/unmapped/C_4378169;)V
+		ARG 1 packet
+	METHOD a handleBlockUpdate (Lnet/minecraft/unmapped/C_4509280;)V
+		ARG 1 packet
+	METHOD a handleAddItem (Lnet/minecraft/unmapped/C_4561926;)V
+		ARG 1 packet
+	METHOD a handleEntityMove (Lnet/minecraft/unmapped/C_4796873;)V
+		ARG 1 packet
+	METHOD a handleAddPlayer (Lnet/minecraft/unmapped/C_5314135;)V
+		ARG 1 packet
+	METHOD a handleSpawnPoint (Lnet/minecraft/unmapped/C_5315820;)V
+		ARG 1 packet
+	METHOD a handleDisconnect (Lnet/minecraft/unmapped/C_5515943;)V
+		ARG 1 packet
+	METHOD a handleInventory (Lnet/minecraft/unmapped/C_6489668;)V
+		ARG 1 packet
+	METHOD a handleEntityAnimation (Lnet/minecraft/unmapped/C_7964332;)V
+		ARG 1 packet
+	METHOD a handleItemPickup (Lnet/minecraft/unmapped/C_8710490;)V
+		ARG 1 packet
+	METHOD a handleBlockEntityUpdate (Lnet/minecraft/unmapped/C_8748575;)V
+		ARG 1 packet
+	METHOD a handleAddMob (Lnet/minecraft/unmapped/C_8754653;)V
+		ARG 1 packet
+	METHOD a handlePlayerMove (Lnet/minecraft/unmapped/C_8837730;)V
+		ARG 1 packet
+	METHOD a handleSelectSlot (Lnet/minecraft/unmapped/C_9200019;)V
+	METHOD a handleChatMessage (Lnet/minecraft/unmapped/C_9572077;)V
+		ARG 1 packet
+	METHOD a handleHandshake (Lnet/minecraft/unmapped/C_9595287;)V
+		ARG 1 packet
+	METHOD a handleLogin (Lnet/minecraft/unmapped/C_9614477;)V
+		ARG 1 packet
+	METHOD a handleEntityTeleport (Lnet/minecraft/unmapped/C_9814383;)V
+		ARG 1 packet

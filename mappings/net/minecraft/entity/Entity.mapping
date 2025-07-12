@@ -11,6 +11,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aQ random Ljava/util/Random;
 	FIELD aW maxHealth I
 	FIELD aY skin Ljava/lang/String;
+	FIELD ab networkId I
 	FIELD ac viewDistanceScaling D
 	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
 	FIELD ah prevX D
@@ -26,6 +27,9 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD ar pitch F
 	FIELD au shape Lnet/minecraft/unmapped/C_1414550;
 	FIELD av onGround Z
+	FIELD bd packetX I
+	FIELD be packeyY I
+	FIELD bf packetZ I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
 	METHOD F remove ()V
@@ -45,6 +49,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
 	METHOD a isSubmergedIn (Lnet/minecraft/unmapped/C_8554894;)Z
+	METHOD b teleport (DDDFF)V
 	METHOD b readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
 	METHOD c move (DDD)V

@@ -3,3 +3,6 @@ CLASS net/minecraft/unmapped/C_2354122 net/minecraft/network/Connection
 		ARG 1 socket
 		ARG 2 name
 		ARG 3 listener
+	METHOD a tick ()V
+	METHOD a disconnect (Ljava/lang/String;)V
+	METHOD a send (Lnet/minecraft/unmapped/C_4844124;)V

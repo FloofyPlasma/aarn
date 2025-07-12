@@ -4,6 +4,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	FIELD l difficulty I
 	FIELD n random Ljava/util/Random;
 	FIELD o spawnPointX I
+	FIELD p spawnPointY I
 	FIELD q spawnPointZ I
 	FIELD r fresh Z
 	FIELD y isMultiplayer Z
@@ -22,7 +23,9 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a clickSave (I)Z
 	METHOD a setBlockQuietly (IIII)Z
 	METHOD a setBlockWithMetadataQuietly (IIIII)Z
+	METHOD a packChunkData (IIIIII[B)V
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
+	METHOD a setTime (J)V
 	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
@@ -31,6 +34,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
+	METHOD b getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V

@@ -1,1 +1,8 @@
 CLASS net/minecraft/unmapped/C_4796873 net/minecraft/network/packet/EntityMovePacket
+	FIELD a id I
+	FIELD b dx B
+	FIELD c dy B
+	FIELD d dz B
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g hasAngles Z

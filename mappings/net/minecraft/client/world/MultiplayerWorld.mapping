@@ -1,1 +1,7 @@
 CLASS net/minecraft/unmapped/C_8817873 net/minecraft/client/world/MultiplayerWorld
+	METHOD a updateChunk (IIZ)V
+	METHOD a addEntity (ILnet/minecraft/unmapped/C_6385858;)V
+	METHOD b getEntity (I)Lnet/minecraft/unmapped/C_6385858;
+	METHOD c removeEntity (I)Lnet/minecraft/unmapped/C_6385858;
+	METHOD c setBlockWithMetadataFromPacket (IIIII)Z
+	METHOD c clearScheduledBlockChanges (IIIIII)V
