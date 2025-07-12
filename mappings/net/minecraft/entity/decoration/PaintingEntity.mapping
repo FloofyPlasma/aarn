@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_1693934 net/minecraft/entity/decoration/PaintingEntity
+	FIELD a dir I
+	FIELD b motive Lnet/minecraft/unmapped/C_3470312;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;IIII)V
 		ARG 1 world
 		ARG 2 x

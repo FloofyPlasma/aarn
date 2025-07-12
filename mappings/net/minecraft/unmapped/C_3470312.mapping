@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_3470312
+	FIELD A height I
+	FIELD B widthOffset I
+	FIELD C heightOffset I
+	FIELD z width I
