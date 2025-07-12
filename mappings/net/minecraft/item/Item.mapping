@@ -6,5 +6,7 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD at WOODEN_DOOR Lnet/minecraft/unmapped/C_4030632;
 	FIELD az IRON_DOOR Lnet/minecraft/unmapped/C_4030632;
 	FIELD c BY_ID [Lnet/minecraft/unmapped/C_4030632;
+	FIELD k COAL Lnet/minecraft/unmapped/C_4030632;
+	FIELD l DIAMOND Lnet/minecraft/unmapped/C_4030632;
 	METHOD <init> (I)V
 		ARG 1 id
