@@ -18,5 +18,6 @@ CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEnt
 		ARG 1 item
 		ARG 2 count
 	METHOD b canBreakBlock (Lnet/minecraft/unmapped/C_3635204;)Z
+	METHOD r getScore ()I
 	METHOD t getMainHandStack ()Lnet/minecraft/unmapped/C_2750078;
 	METHOD u clearSelectedSlot ()V
