@@ -20,3 +20,5 @@ CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 	METHOD a getKeyNameFromBinding (I)Ljava/lang/String;
 	METHOD a setKeyBinding (II)V
 	METHOD b setValue (II)V
+	METHOD c getValueFloat (I)F
+	METHOD d translateValue (I)Ljava/lang/String;
