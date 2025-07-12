@@ -2,3 +2,7 @@ CLASS net/minecraft/unmapped/C_1044273 net/minecraft/client/render/world/WorldRe
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 minecraft
 		ARG 2 textureManager
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+	METHOD b getChunkDebugInfo ()Ljava/lang/String;
+	METHOD c getEntityDebugInfo ()Ljava/lang/String;
+	METHOD d tick ()V

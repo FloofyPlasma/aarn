@@ -1,3 +1,4 @@
 CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
+	FIELD E health I
 	METHOD a isValidSpawnPosition ()Z
 	METHOD z doSpawnEffects ()V

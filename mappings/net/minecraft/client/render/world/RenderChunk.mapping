@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_5283200 net/minecraft/client/render/world/RenderChunk
+	FIELD b updateCounter I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Ljava/util/List;IIIII)V
 		ARG 1 world
 		ARG 2 blockEntitiesToBeRendered

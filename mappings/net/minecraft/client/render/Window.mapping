@@ -2,3 +2,5 @@ CLASS net/minecraft/unmapped/C_2293006 net/minecraft/client/render/Window
 	METHOD <init> (II)V
 		ARG 1 width
 		ARG 2 height
+	METHOD a getWidth ()I
+	METHOD b getHeight ()I

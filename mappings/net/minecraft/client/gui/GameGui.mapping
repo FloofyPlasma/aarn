@@ -1,3 +1,4 @@
 CLASS net/minecraft/unmapped/C_3699792 net/minecraft/client/gui/GameGui
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD a tickChat ()V

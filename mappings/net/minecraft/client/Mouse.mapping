@@ -1,3 +1,5 @@
 CLASS net/minecraft/unmapped/C_9846877 net/minecraft/client/Mouse
 	METHOD <init> (Ljava/awt/Component;)V
 		ARG 1 component
+	METHOD a grab ()V
+	METHOD b release ()V

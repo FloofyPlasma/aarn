@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_7185906 net/minecraft/util/math/MathHelper
+	METHOD b floor (D)I

@@ -1,5 +1,8 @@
 CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aA removed Z
+	FIELD ak x D
+	FIELD al y D
+	FIELD am z D
 	FIELD an velocityX D
 	FIELD ao velocityY D
 	FIELD ap velocityZ D
@@ -10,3 +13,4 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD e_ tick ()V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
+	METHOD q postSpawn ()V

@@ -1,5 +1,7 @@
 CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEntity
+	FIELD b inventory Lnet/minecraft/unmapped/C_4286596;
 	METHOD a openFurnaceMenu (Lnet/minecraft/unmapped/C_1196485;)V
+	METHOD a dropItem (Lnet/minecraft/unmapped/C_2750078;Z)V
 	METHOD a getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
 	METHOD a openInventoryMenu (Lnet/minecraft/unmapped/C_4390289;)V
 	METHOD b canBreakBlock (Lnet/minecraft/unmapped/C_3635204;)Z

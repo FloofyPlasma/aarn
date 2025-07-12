@@ -2,4 +2,8 @@ CLASS net/minecraft/unmapped/C_2454294 net/minecraft/client/ParticleManager
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 world
 		ARG 2 textureManager
+	METHOD a tick ()V
 	METHOD a addBlockMiningParticles (III)V
+	METHOD a addBlockBreakingParticles (IIII)V
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+	METHOD b getParticlesDebugInfo ()Ljava/lang/String;

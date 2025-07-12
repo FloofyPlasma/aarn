@@ -2,4 +2,5 @@ CLASS net/minecraft/unmapped/C_0139979 net/minecraft/client/resource/ResourceDow
 	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
 		ARG 1 gameDir
 		ARG 2 minecraft
+	METHOD b cancel ()V
 	METHOD run run ()V

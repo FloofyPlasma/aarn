@@ -1,7 +1,11 @@
 CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	FIELD c ticks J
 	FIELD h suppressBlockUpdates Z
+	FIELD l difficulty I
 	FIELD n random Ljava/util/Random;
+	FIELD o spawnPointX I
+	FIELD q spawnPointZ I
+	FIELD r fresh Z
 	FIELD y isMultiplayer Z
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
 		ARG 1 dir
@@ -12,6 +16,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 3 seed
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 saveName
+	METHOD a resetSpawnPoint ()V
 	METHOD a getClosestPlayer (DDDD)Lnet/minecraft/unmapped/C_5009044;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a setBlockQuietly (IIII)Z
@@ -20,20 +25,30 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
+	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
+	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V
 	METHOD b notifyBlockChanged (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+	METHOD c tickEntities ()V
+	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;
 	METHOD d setBlock (IIII)Z
+	METHOD d removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD e doLightUpdates ()Z
+	METHOD f addEntityAlways (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD g tick ()V
 	METHOD g updateNeighbors (IIII)V
 	METHOD h notifyBlockChanged (III)V
 	METHOD h scheduleTick (IIII)V
 	METHOD i hasSkyAccess (III)Z
+	METHOD j simulateForABit ()V
 	METHOD j getRawBrightness (III)I
 	METHOD k hasSignal (IIII)Z
 	METHOD l removeBlockEntity (III)V
+	METHOD m doRandomDisplayTicks (III)V
 	METHOD o hasNeighborSignal (III)Z

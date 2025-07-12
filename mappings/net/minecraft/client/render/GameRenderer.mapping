@@ -1,3 +1,7 @@
 CLASS net/minecraft/unmapped/C_4824661 net/minecraft/client/render/GameRenderer
+	FIELD a heldItemRenderer Lnet/minecraft/unmapped/C_2751481;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD a tick ()V
+	METHOD a pick (F)V
+	METHOD b render (F)V

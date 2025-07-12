@@ -1,3 +1,4 @@
 CLASS net/minecraft/unmapped/C_8425960 net/minecraft/client/render/ProgressRenderer
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD a setInitialTitle (Ljava/lang/String;)V

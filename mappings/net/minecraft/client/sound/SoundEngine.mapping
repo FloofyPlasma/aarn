@@ -1,2 +1,9 @@
 CLASS net/minecraft/unmapped/C_3624347 net/minecraft/client/sound/SoundEngine
+	METHOD a playRecord (Ljava/lang/String;FFFFF)V
+	METHOD a loadSound (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a tickListener (Lnet/minecraft/unmapped/C_1013763;F)V
+	METHOD a load (Lnet/minecraft/unmapped/C_7688744;)V
+	METHOD b close ()V
 	METHOD b play (Ljava/lang/String;FFFFF)V
+	METHOD b loadRecord (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c loadMusic (Ljava/lang/String;Ljava/io/File;)V

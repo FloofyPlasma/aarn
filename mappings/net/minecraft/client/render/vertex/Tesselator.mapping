@@ -1,3 +1,10 @@
 CLASS net/minecraft/unmapped/C_2334550 net/minecraft/client/render/vertex/Tesselator
+	FIELD a INSTANCE Lnet/minecraft/unmapped/C_2334550;
 	METHOD <init> (I)V
 		ARG 1 size
+	METHOD a end ()V
+	METHOD a vertex (DDD)V
+	METHOD a vertex (DDDDD)V
+	METHOD a start (I)V
+	METHOD b start ()V
+	METHOD b color (I)V

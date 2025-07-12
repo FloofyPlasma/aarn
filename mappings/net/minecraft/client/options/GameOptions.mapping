@@ -1,4 +1,12 @@
 CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
+	FIELD h fpsLimit Z
+	FIELD o inventoryKey Lnet/minecraft/unmapped/C_5027199;
+	FIELD p dropKey Lnet/minecraft/unmapped/C_5027199;
+	FIELD q chatKey Lnet/minecraft/unmapped/C_5027199;
+	FIELD r fogKey Lnet/minecraft/unmapped/C_5027199;
+	FIELD w difficulty I
+	FIELD x debugEnabled Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
 		ARG 1 minecraft
 		ARG 2 dir
+	METHOD b setValue (II)V

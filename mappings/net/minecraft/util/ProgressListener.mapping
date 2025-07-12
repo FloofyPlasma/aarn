@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_7918626 net/minecraft/util/ProgressListener
+	METHOD a progressStagePercentage (I)V
+	METHOD d setTask (Ljava/lang/String;)V

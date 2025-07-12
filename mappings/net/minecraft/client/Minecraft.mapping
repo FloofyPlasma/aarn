@@ -1,8 +1,45 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD A soundSystem Lnet/minecraft/unmapped/C_3624347;
+	FIELD B mouse Lnet/minecraft/unmapped/C_9846877;
+	FIELD C runDir Ljava/io/File;
+	FIELD F running Z
+	FIELD G fpsDebugString Ljava/lang/String;
+	FIELD H timeAfterLastTick J
+	FIELD I focussed Z
+	FIELD K sysTime J
+	FIELD M timer Lnet/minecraft/unmapped/C_5974036;
+	FIELD N resourceDownloader Lnet/minecraft/unmapped/C_0139979;
+	FIELD P attackCooldown I
+	FIELD Q tempWidth I
+	FIELD R tempHeight I
+	FIELD S serverAddress Ljava/lang/String;
+	FIELD T serverPort I
+	FIELD U waterSprite Lnet/minecraft/unmapped/C_0756314;
+	FIELD V lavaSprite Lnet/minecraft/unmapped/C_1350810;
+	FIELD W runDirectory Ljava/io/File;
+	FIELD Y joinPlayerCounter I
+	FIELD a fullscreen Z
+	FIELD b interactionManager Lnet/minecraft/unmapped/C_4237166;
+	FIELD c width I
+	FIELD d height I
 	FIELD e world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f worldRendeer Lnet/minecraft/unmapped/C_1044273;
+	FIELD g player Lnet/minecraft/unmapped/C_5367636;
 	FIELD h particleManager Lnet/minecraft/unmapped/C_2454294;
 	FIELD i session Lnet/minecraft/unmapped/C_3172064;
+	FIELD k canvas Ljava/awt/Canvas;
+	FIELD l appletMode Z
+	FIELD m stopped Z
+	FIELD n textureManager Lnet/minecraft/unmapped/C_3385278;
+	FIELD o textRenderer Lnet/minecraft/unmapped/C_4766485;
+	FIELD p screen Lnet/minecraft/unmapped/C_0786431;
+	FIELD q loadingScreenRenderer Lnet/minecraft/unmapped/C_8425960;
+	FIELD r gameRenderer Lnet/minecraft/unmapped/C_4824661;
+	FIELD u gui Lnet/minecraft/unmapped/C_3699792;
+	FIELD v skipGameRender Z
+	FIELD x crosshairTarget Lnet/minecraft/unmapped/C_5853518;
+	FIELD y options Lnet/minecraft/unmapped/C_7688744;
+	FIELD z applet Lnet/minecraft/client/MinecraftApplet;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 component
 		ARG 2 canvas
@@ -10,6 +47,51 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 4 width
 		ARG 5 height
 		ARG 6 fullscreen
+	METHOD a init ()V
+	METHOD a onResolutionChanged (II)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a renderMojangLogo (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+		ARG 6 height
+	METHOD a createRunDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 name
+	METHOD a setServerAddressAndPort (Ljava/lang/String;I)V
+		ARG 1 address
+		ARG 2 port
+	METHOD a loadResource (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 path
+		ARG 2 file
+	METHOD a openScreen (Lnet/minecraft/unmapped/C_0786431;)V
+		ARG 1 screen
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;Ljava/lang/String;)V
+		ARG 1 world
+	METHOD a printCrashReport (Lnet/minecraft/unmapped/C_5269767;)V
+	METHOD b getRunDirectory ()Ljava/io/File;
+	METHOD b startGame (Ljava/lang/String;)V
+	METHOD c stop ()V
+	METHOD c logGlError (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD d scheduleStop ()V
+	METHOD e closeScreen ()V
+	METHOD f grabMouse ()V
+	METHOD g openGameMenuScreen ()V
+	METHOD h toggleFullScreen ()V
+	METHOD i tick ()V
+	METHOD j isMultiplayer ()Z
+	METHOD l getChunkDebugInfo ()Ljava/lang/String;
+	METHOD m getEntityDebugInfo ()Ljava/lang/String;
 	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD n getParticleDebugInfo ()Ljava/lang/String;
+	METHOD p renderLoadingScreen ()V
+	METHOD q getOs ()Lnet/minecraft/unmapped/C_1774538;
+	METHOD r renderProfilerChart ()V
 	METHOD run run ()V
+	METHOD t forceReload ()V

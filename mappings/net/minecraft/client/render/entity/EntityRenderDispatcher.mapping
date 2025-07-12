@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_9610577 net/minecraft/client/render/entity/EntityRenderDispatcher
+	FIELD a INSTANCE Lnet/minecraft/unmapped/C_9610577;
+	FIELD f heldItemRenderer Lnet/minecraft/unmapped/C_2751481;
