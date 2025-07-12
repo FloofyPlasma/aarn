@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_4390289 net/minecraft/inventory/Inventory
+	METHOD c getSize ()I
+	METHOD c getStack (I)Lnet/minecraft/unmapped/C_2750078;
