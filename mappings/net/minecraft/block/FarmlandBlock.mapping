@@ -1,3 +1,13 @@
 CLASS net/minecraft/unmapped/C_8986452 net/minecraft/block/FarmlandBlock
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD h hasVegetation (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i isIrrigated (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
