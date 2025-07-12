@@ -12,3 +12,4 @@ CLASS net/minecraft/unmapped/C_2334550 net/minecraft/client/render/vertex/Tessel
 	METHOD b offset (DDD)V
 	METHOD b normal (FFF)V
 	METHOD b color (I)V
+	METHOD c addOffset (FFF)V
