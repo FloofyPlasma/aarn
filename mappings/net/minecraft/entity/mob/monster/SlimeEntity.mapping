@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_5371184 net/minecraft/entity/mob/monster/SlimeEntity
+	FIELD a targetStretch F
+	FIELD b lastStretch F
