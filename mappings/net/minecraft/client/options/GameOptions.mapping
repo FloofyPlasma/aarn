@@ -18,6 +18,7 @@ CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 		ARG 1 minecraft
 		ARG 2 dir
 	METHOD a getKeyNameFromBinding (I)Ljava/lang/String;
+	METHOD a setValue (IF)V
 	METHOD a setKeyBinding (II)V
 	METHOD b setValue (II)V
 	METHOD c getValueFloat (I)F
