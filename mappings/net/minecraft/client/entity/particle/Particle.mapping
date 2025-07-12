@@ -1,4 +1,7 @@
 CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Particle
+	FIELD l currentX D
+	FIELD m currentY D
+	FIELD n currentZ D
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDDDDD)V
 		ARG 1 world
 		ARG 2 x
@@ -7,3 +10,7 @@ CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Part
 		ARG 8 velocityX
 		ARG 10 velocityY
 		ARG 12 velocityZ
+	METHOD a render (Lnet/minecraft/unmapped/C_2334550;FFFFFF)V
+	METHOD b multiplyVelocity (F)Lnet/minecraft/unmapped/C_8905061;
+	METHOD c getTextureType ()I
+	METHOD d multiplyScale (F)Lnet/minecraft/unmapped/C_8905061;

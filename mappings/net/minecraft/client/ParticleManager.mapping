@@ -1,9 +1,26 @@
 CLASS net/minecraft/unmapped/C_2454294 net/minecraft/client/ParticleManager
+	FIELD a world Lnet/minecraft/unmapped/C_3906126;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textureManager Lnet/minecraft/unmapped/C_3385278;
+	FIELD d random Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 world
 		ARG 2 textureManager
 	METHOD a tick ()V
 	METHOD a addBlockMiningParticles (III)V
 	METHOD a addBlockBreakingParticles (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
 	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a renderParticles (Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 camera
+		ARG 2 tickDelta
+	METHOD a addParticle (Lnet/minecraft/unmapped/C_8905061;)V
+		ARG 1 particle
 	METHOD b getParticlesDebugInfo ()Ljava/lang/String;
+	METHOD b renderLitParticles (Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 camera
+		ARG 2 tickDelta

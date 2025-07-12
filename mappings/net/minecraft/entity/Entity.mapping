@@ -1,5 +1,8 @@
 CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aA removed Z
+	FIELD aI prevTickX D
+	FIELD aJ prevTickY D
+	FIELD aK prevTickZ D
 	FIELD ak x D
 	FIELD al y D
 	FIELD am z D
@@ -7,6 +10,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD ao velocityY D
 	FIELD ap velocityZ D
 	FIELD aq yaw F
+	FIELD ar pitch F
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
