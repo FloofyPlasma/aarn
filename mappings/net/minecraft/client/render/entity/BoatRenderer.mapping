@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_6441735 net/minecraft/client/render/entity/BoatRenderer
+	FIELD d model Lnet/minecraft/unmapped/C_3239917;
