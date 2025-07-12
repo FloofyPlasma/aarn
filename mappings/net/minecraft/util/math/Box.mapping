@@ -1,5 +1,10 @@
 CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
+	FIELD a minX D
 	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
 	METHOD <init> (DDDDDD)V
 		ARG 1 minX
 		ARG 3 minY
