@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_1826831 net/minecraft/entity/mob/monster/CreeperEntity
+	METHOD b getFusetime (F)F
