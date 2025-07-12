@@ -1,1 +1,50 @@
 CLASS net/minecraft/unmapped/C_7693268 net/minecraft/block/FlowingLiquidBlock
+	FIELD a adjacentSources I
+		COMMENT a counter that stores the amount of adjacent source liquids along the X and Z axes
+	FIELD b spreadDirections [Z
+		COMMENT whether this liquid should flow in each direction
+		COMMENT <br>
+		COMMENT @see net.minecraft.util.math.Facings
+	FIELD c distanceToGap [I
+		COMMENT the distance to the nearest gap to flow into for each horizontal direction
+		COMMENT <br>
+		COMMENT @see net.minecraft.util.math.Facings
+	METHOD a getDistanceToGap (Lnet/minecraft/unmapped/C_3906126;IIIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 distance
+		ARG 6 fromDir
+	METHOD f decreaseLevel (Lnet/minecraft/unmapped/C_3906126;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 level
+	METHOD g spreadTo (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 level
+	METHOD j convertToSource (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getSpreadDirections (Lnet/minecraft/unmapped/C_3906126;III)[Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l blocksSpreading (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m canSpreadTo (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
