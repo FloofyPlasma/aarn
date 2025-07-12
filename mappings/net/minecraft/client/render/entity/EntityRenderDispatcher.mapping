@@ -1,11 +1,45 @@
 CLASS net/minecraft/unmapped/C_9610577 net/minecraft/client/render/entity/EntityRenderDispatcher
 	FIELD a INSTANCE Lnet/minecraft/unmapped/C_9610577;
+	FIELD b offsetX D
+	FIELD c offsetY D
+	FIELD d offsetZ D
 	FIELD e textureManager Lnet/minecraft/unmapped/C_3385278;
 	FIELD f heldItemRenderer Lnet/minecraft/unmapped/C_2751481;
 	FIELD g world Lnet/minecraft/unmapped/C_3906126;
+	FIELD h camera Lnet/minecraft/unmapped/C_5009044;
 	FIELD i cameraYaw F
+	FIELD j cameraPitch F
 	FIELD k options Lnet/minecraft/unmapped/C_7688744;
+	FIELD l cameraX D
+	FIELD m cameraY D
+	FIELD n cameraZ D
+	FIELD o renderers Ljava/util/Map;
+	FIELD p textRenderer Lnet/minecraft/unmapped/C_4766485;
 	METHOD a textRenderer ()Lnet/minecraft/unmapped/C_4766485;
 	METHOD a getSquaredDistanceToCamera (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getRendererer (Ljava/lang/Class;)Lnet/minecraft/unmapped/C_9302567;
+		ARG 1 type
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a prepare (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_7688744;F)V
+		ARG 1 world
+		ARG 2 textureManager
+		ARG 3 textRenderer
+		ARG 4 playerEntity
+		ARG 5 gameOptions
+		ARG 6 tickDelta
 	METHOD a getRenderer (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_9302567;
+		ARG 1 entity
 	METHOD a render (Lnet/minecraft/unmapped/C_6385858;DDDFF)V
+		ARG 1 entity
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD a render (Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 entity
+		ARG 2 tickDelta
