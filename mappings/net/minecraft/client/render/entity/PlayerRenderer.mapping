@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_3604011 net/minecraft/client/render/entity/PlayerRenderer
+	METHOD b renderPlayerRightHandModel ()V

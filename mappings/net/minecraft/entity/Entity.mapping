@@ -11,6 +11,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aM stepHeight F
 	FIELD aN noClip Z
 	FIELD aQ random Ljava/util/Random;
+	FIELD aT onFireTimer I
 	FIELD aW maxHealth I
 	FIELD aY skin Ljava/lang/String;
 	FIELD ab networkId I
@@ -37,6 +38,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
 	METHOD F remove ()V
+	METHOD I isInWall ()Z
 	METHOD a setPosition (DDD)V
 	METHOD a updatePositionAndAngles (DDDFFI)V
 		ARG 1 x
@@ -67,3 +69,4 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD hashCode hashCode ()I
 	METHOD o isSneaking ()Z
 	METHOD q postSpawn ()V
+	METHOD x getTexture ()Ljava/lang/String;

@@ -1,3 +1,5 @@
 CLASS net/minecraft/unmapped/C_3466301 net/minecraft/client/render/block/BlockRenderer
 	METHOD <init> (Lnet/minecraft/unmapped/C_2627205;)V
 		ARG 1 world
+	METHOD a isGui3D (I)Z
+	METHOD a render (Lnet/minecraft/unmapped/C_3635204;)V
