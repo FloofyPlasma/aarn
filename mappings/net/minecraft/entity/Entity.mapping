@@ -1,9 +1,11 @@
 CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
+	FIELD aA removed Z
 	FIELD an velocityX D
 	FIELD ao velocityY D
 	FIELD ap velocityZ D
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
+	METHOD e_ tick ()V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
