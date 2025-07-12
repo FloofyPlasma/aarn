@@ -7,6 +7,7 @@ CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
 		ARG 3 y
 		ARG 5 z
 	METHOD a resetCache ()V
+	METHOD a of (DDD)Lnet/minecraft/unmapped/C_0336319;
 	METHOD a rotateX (F)V
 	METHOD a subtractFrom (Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_0336319;
 	METHOD a intermediateWithX (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;

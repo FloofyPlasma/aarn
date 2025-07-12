@@ -17,3 +17,5 @@ CLASS net/minecraft/unmapped/C_9856888 net/minecraft/client/render/model/Vertex
 		ARG 2 u
 		ARG 3 v
 	METHOD a withTextureCoords (FF)Lnet/minecraft/unmapped/C_9856888;
+		ARG 1 u
+		ARG 2 v
