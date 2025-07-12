@@ -14,6 +14,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a setBlockWithMetadataQuietly (IIIII)Z
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
