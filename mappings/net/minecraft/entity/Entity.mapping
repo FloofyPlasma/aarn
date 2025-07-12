@@ -3,6 +3,8 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aI prevTickX D
 	FIELD aJ prevTickY D
 	FIELD aK prevTickZ D
+	FIELD aL eyeHeightSneakoffset F
+	FIELD aY skin Ljava/lang/String;
 	FIELD ak x D
 	FIELD al y D
 	FIELD am z D
@@ -13,9 +15,15 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD ar pitch F
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
+	METHOD a writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
+	METHOD b readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
 	METHOD c refreshPositionAndAngles (DDDFF)V
 	METHOD e_ tick ()V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD hashCode hashCode ()I
+	METHOD o isSneaking ()Z
 	METHOD q postSpawn ()V

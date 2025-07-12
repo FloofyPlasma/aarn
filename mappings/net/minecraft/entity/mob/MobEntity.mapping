@@ -1,4 +1,9 @@
 CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
 	FIELD E health I
+	FIELD V sidewaysSpeed F
+	FIELD W forwardSpeed F
+	FIELD Y jumping Z
 	METHOD a isValidSpawnPosition ()Z
+	METHOD b_ tickDespawn ()V
+	METHOD j tickAi ()V
 	METHOD z doSpawnEffects ()V

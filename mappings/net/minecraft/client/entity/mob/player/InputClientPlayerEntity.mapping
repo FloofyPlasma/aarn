@@ -1,6 +1,9 @@
 CLASS net/minecraft/unmapped/C_5367636 net/minecraft/client/entity/mob/player/InputClientPlayerEntity
 	FIELD a input Lnet/minecraft/unmapped/C_4045198;
+	FIELD bg minecraft Lnet/minecraft/client/Minecraft;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3172064;)V
 		ARG 1 minecraft
 		ARG 2 world
 		ARG 3 session
+	METHOD a sendChat (Ljava/lang/String;)V
+		ARG 1 content

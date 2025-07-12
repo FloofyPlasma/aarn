@@ -1,9 +1,18 @@
 CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEntity
 	FIELD b inventory Lnet/minecraft/unmapped/C_4286596;
+	FIELD d playerScore I
+	FIELD i name Ljava/lang/String;
 	METHOD a openFurnaceMenu (Lnet/minecraft/unmapped/C_1196485;)V
+		ARG 1 furnace
 	METHOD a dropItem (Lnet/minecraft/unmapped/C_2750078;Z)V
 	METHOD a getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
 	METHOD a openInventoryMenu (Lnet/minecraft/unmapped/C_4390289;)V
+		ARG 1 inventory
+	METHOD a openSignEditor (Lnet/minecraft/unmapped/C_8215726;)V
+	METHOD a_ interact (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD a_ sendPickup (Lnet/minecraft/unmapped/C_6385858;I)V
+		ARG 1 item
+		ARG 2 count
 	METHOD b canBreakBlock (Lnet/minecraft/unmapped/C_3635204;)Z
 	METHOD t getMainHandStack ()Lnet/minecraft/unmapped/C_2750078;
 	METHOD u clearSelectedSlot ()V
