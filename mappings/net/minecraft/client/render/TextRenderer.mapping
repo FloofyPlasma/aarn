@@ -1,8 +1,26 @@
 CLASS net/minecraft/unmapped/C_4766485 net/minecraft/client/render/TextRenderer
+	FIELD a boundTexture I
+	FIELD b characterWidths [I
+	FIELD c boundPage I
 	METHOD <init> (Lnet/minecraft/unmapped/C_7688744;Ljava/lang/String;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 options
 		ARG 2 fontPath
 		ARG 3 textureManager
 	METHOD a getWidth (Ljava/lang/String;)I
+		ARG 1 string
 	METHOD a drawWithShadow (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD a drawLayer (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+		ARG 5 shadow
 	METHOD b draw (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color

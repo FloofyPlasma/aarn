@@ -2,6 +2,7 @@ CLASS net/minecraft/unmapped/C_3385278 net/minecraft/client/render/texture/Textu
 	METHOD <init> (Lnet/minecraft/unmapped/C_7688744;)V
 		ARG 1 options
 	METHOD a tick ()V
+	METHOD a bind (Ljava/awt/image/BufferedImage;)I
 	METHOD a load (Ljava/lang/String;)I
 	METHOD a bindHttpTexture (Ljava/lang/String;Ljava/lang/String;)I
 	METHOD a addSprite (Lnet/minecraft/unmapped/C_3544790;)V
