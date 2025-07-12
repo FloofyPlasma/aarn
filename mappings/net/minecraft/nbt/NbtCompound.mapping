@@ -1,2 +1,6 @@
 CLASS net/minecraft/unmapped/C_2800860 net/minecraft/nbt/NbtCompound
+	METHOD a putInt (Ljava/lang/String;I)V
+	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD e getInt (Ljava/lang/String;)I
+	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD toString toString ()Ljava/lang/String;

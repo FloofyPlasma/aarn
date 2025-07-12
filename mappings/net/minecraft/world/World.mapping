@@ -25,6 +25,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V
+	METHOD b notifyBlockChanged (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD d setBlock (IIII)Z
 	METHOD g updateNeighbors (IIII)V

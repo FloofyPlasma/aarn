@@ -1,1 +1,24 @@
 CLASS net/minecraft/unmapped/C_2074023 net/minecraft/block/entity/BlockEntity
+	FIELD a ID_TO_TYPE Ljava/util/Map;
+	FIELD b TYPE_TO_ID Ljava/util/Map;
+	FIELD e world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f x I
+	FIELD g y I
+	FIELD h z I
+	METHOD a squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 type
+		ARG 1 id
+	METHOD a readNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD b tick ()V
+	METHOD b writeNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD c fromNbt (Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_2074023;
+		ARG 0 nbt
+	METHOD f getBlockMetadata ()I
+	METHOD g getBlock ()Lnet/minecraft/unmapped/C_3635204;
+	METHOD j_ markDirty ()V
