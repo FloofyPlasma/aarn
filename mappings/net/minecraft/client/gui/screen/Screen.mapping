@@ -4,6 +4,7 @@ CLASS net/minecraft/unmapped/C_0786431 net/minecraft/client/gui/screen/Screen
 	FIELD d height I
 	FIELD e buttons Ljava/util/List;
 	FIELD f passEvents Z
+	FIELD g textRenderer Lnet/minecraft/unmapped/C_4766485;
 	METHOD a init ()V
 	METHOD a keyPressed (CI)V
 		ARG 1 chr
@@ -20,9 +21,13 @@ CLASS net/minecraft/unmapped/C_0786431 net/minecraft/client/gui/screen/Screen
 		ARG 1 minecraft
 		ARG 2 width
 		ARG 3 height
+	METHOD a buttonClicked (Lnet/minecraft/unmapped/C_2621421;)V
+		ARG 1 button
+	METHOD a confirmResult (ZI)V
 	METHOD b isPauseScreen ()Z
 	METHOD d handleInputs ()V
 	METHOD e handleMouse ()V
 	METHOD f handleKeyboard ()V
 	METHOD g tick ()V
 	METHOD h removed ()V
+	METHOD i renderBackground ()V
