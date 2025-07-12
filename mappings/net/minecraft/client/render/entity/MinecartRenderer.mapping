@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_7966489 net/minecraft/client/render/entity/MinecartRenderer
+	FIELD d model Lnet/minecraft/unmapped/C_3239917;

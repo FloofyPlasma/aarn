@@ -13,6 +13,7 @@ CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
 	METHOD b ofCache (DDD)Lnet/minecraft/unmapped/C_0336319;
 	METHOD b rotateY (F)V
 	METHOD b intermediateWithY (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+	METHOD c length ()D
 	METHOD c add (DDD)Lnet/minecraft/unmapped/C_0336319;
 	METHOD c distanceTo (Lnet/minecraft/unmapped/C_0336319;)D
 	METHOD c intermediateWithZ (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
