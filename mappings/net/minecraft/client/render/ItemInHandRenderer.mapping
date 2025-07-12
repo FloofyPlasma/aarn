@@ -1,5 +1,8 @@
 CLASS net/minecraft/unmapped/C_2751481 net/minecraft/client/render/ItemInHandRenderer
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD a updateHeldItem ()V
+	METHOD a renderHand (F)V
 	METHOD b onBlockUsed ()V
+	METHOD b renderScreenSpaceEffects (F)V
 	METHOD c onItemUsed ()V

@@ -2,6 +2,8 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aA removed Z
 	FIELD aB eyeHeight F
 	FIELD aD height F
+	FIELD aE prevHorizontalSpeed F
+	FIELD aF horizontalVelocity F
 	FIELD aI prevTickX D
 	FIELD aJ prevTickY D
 	FIELD aK prevTickZ D
@@ -25,6 +27,8 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD ap velocityZ D
 	FIELD aq yaw F
 	FIELD ar pitch F
+	FIELD as prevYaw F
+	FIELD at prevPitch F
 	FIELD au shape Lnet/minecraft/unmapped/C_1414550;
 	FIELD av onGround Z
 	FIELD bd packetX I
@@ -55,6 +59,8 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD c move (DDD)V
 	METHOD c refreshPositionAndAngles (DDDFF)V
 	METHOD c setRotaion (FF)V
+	METHOD c_ hasCollision ()Z
+	METHOD d updateLocalPlayerCamera (FF)V
 	METHOD e_ tick ()V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD h_ yShadowOrigin ()F

@@ -2,7 +2,14 @@ CLASS net/minecraft/unmapped/C_1044273 net/minecraft/client/render/world/WorldRe
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 minecraft
 		ARG 2 textureManager
+	METHOD a renderSky (F)V
+	METHOD a render (ID)V
+	METHOD a renderEntities (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_1633510;F)V
+	METHOD a updateFrustums (Lnet/minecraft/unmapped/C_1633510;F)V
 	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+	METHOD a render (Lnet/minecraft/unmapped/C_5009044;ID)I
 	METHOD b getChunkDebugInfo ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD b renderBlockOutline (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_5853518;ILnet/minecraft/unmapped/C_2750078;F)V
 	METHOD c getEntityDebugInfo ()Ljava/lang/String;
 	METHOD d tick ()V

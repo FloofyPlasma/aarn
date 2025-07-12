@@ -4,6 +4,7 @@ CLASS net/minecraft/unmapped/C_5853518 net/minecraft/world/HitResult
 	FIELD c y I
 	FIELD d z I
 	FIELD e face I
+	FIELD f offset Lnet/minecraft/unmapped/C_0336319;
 	FIELD g entity Lnet/minecraft/unmapped/C_6385858;
 	METHOD <init> (IIIILnet/minecraft/unmapped/C_0336319;)V
 		ARG 1 x

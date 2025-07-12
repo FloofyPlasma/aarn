@@ -29,11 +29,13 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
+	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
 	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
+	METHOD b getSkyColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD b getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
@@ -42,9 +44,11 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD c tickEntities ()V
 	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;
+	METHOD d getSurfaceHeight (II)I
 	METHOD d setBlock (IIII)Z
 	METHOD d removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
 	METHOD e doLightUpdates ()Z
+	METHOD e getFogColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD f addEntityAlways (Lnet/minecraft/unmapped/C_6385858;)V
 	METHOD g tick ()V
 	METHOD g updateNeighbors (IIII)V
