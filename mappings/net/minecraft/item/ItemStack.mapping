@@ -23,5 +23,7 @@ CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 	METHOD <init> (Lnet/minecraft/unmapped/C_4030632;I)V
 		ARG 1 item
 		ARG 2 size
+	METHOD a getItem ()Lnet/minecraft/unmapped/C_4030632;
 	METHOD a split (I)Lnet/minecraft/unmapped/C_2750078;
 	METHOD a writeNbt (Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_2800860;
+	METHOD c getMaxSize ()I

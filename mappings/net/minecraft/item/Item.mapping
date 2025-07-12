@@ -1,18 +1,26 @@
 CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
+	FIELD B STICK Lnet/minecraft/unmapped/C_4030632;
 	FIELD Q WHEAT_SEEDS Lnet/minecraft/unmapped/C_4030632;
 	FIELD R WHEAT Lnet/minecraft/unmapped/C_4030632;
 	FIELD aA REDSTONE Lnet/minecraft/unmapped/C_4030632;
 	FIELD aB SNOWBALL Lnet/minecraft/unmapped/C_4030632;
+	FIELD aF BRICK Lnet/minecraft/unmapped/C_4030632;
 	FIELD aG CLAY Lnet/minecraft/unmapped/C_4030632;
 	FIELD aH REEDS Lnet/minecraft/unmapped/C_4030632;
 	FIELD aQ RECORD_13 Lnet/minecraft/unmapped/C_4030632;
 	FIELD aS id I
 	FIELD an FLINT Lnet/minecraft/unmapped/C_4030632;
+	FIELD ao PORKCHOP Lnet/minecraft/unmapped/C_4030632;
+	FIELD ap COOKED_PORKCHOP Lnet/minecraft/unmapped/C_4030632;
 	FIELD as SIGN Lnet/minecraft/unmapped/C_4030632;
 	FIELD at WOODEN_DOOR Lnet/minecraft/unmapped/C_4030632;
+	FIELD aw LAVA_BUCKET Lnet/minecraft/unmapped/C_4030632;
 	FIELD az IRON_DOOR Lnet/minecraft/unmapped/C_4030632;
 	FIELD c BY_ID [Lnet/minecraft/unmapped/C_4030632;
 	FIELD k COAL Lnet/minecraft/unmapped/C_4030632;
 	FIELD l DIAMOND Lnet/minecraft/unmapped/C_4030632;
+	FIELD m IRON_INGOT Lnet/minecraft/unmapped/C_4030632;
+	FIELD n GOLD_INGOT Lnet/minecraft/unmapped/C_4030632;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD b getMaxStackSize ()I
