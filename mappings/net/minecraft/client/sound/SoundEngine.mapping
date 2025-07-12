@@ -6,4 +6,5 @@ CLASS net/minecraft/unmapped/C_3624347 net/minecraft/client/sound/SoundEngine
 	METHOD b close ()V
 	METHOD b play (Ljava/lang/String;FFFFF)V
 	METHOD b loadRecord (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c tickMusic ()V
 	METHOD c loadMusic (Ljava/lang/String;Ljava/io/File;)V

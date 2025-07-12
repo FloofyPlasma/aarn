@@ -1,1 +1,8 @@
 CLASS net/minecraft/unmapped/C_3271339 net/minecraft/client/SurvivalInteractionManager
+	FIELD c targetBlockX I
+	FIELD d targetBlockY I
+	FIELD e targetBlockZ I
+	FIELD f miningProgress F
+	FIELD g lastMiningProgress F
+	FIELD h miningSoundTimer F
+	FIELD i miningCooldown I
