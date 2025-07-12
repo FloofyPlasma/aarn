@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
+	FIELD b minY D
 	METHOD <init> (DDDDDD)V
 		ARG 1 minX
 		ARG 3 minY

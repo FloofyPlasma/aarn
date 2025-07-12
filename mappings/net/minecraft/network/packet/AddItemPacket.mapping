@@ -1,3 +1,9 @@
 CLASS net/minecraft/unmapped/C_4561926 net/minecraft/network/packet/AddItemPacket
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e velocityX B
+	FIELD f velocityY B
+	FIELD g velocityZ B
 	METHOD <init> (Lnet/minecraft/unmapped/C_3050136;)V
 		ARG 1 item

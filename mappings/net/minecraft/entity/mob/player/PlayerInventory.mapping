@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInventory
 	FIELD a inventorySlots [Lnet/minecraft/unmapped/C_2750078;
+	FIELD b armorSlots [Lnet/minecraft/unmapped/C_2750078;
 	FIELD d selectedSlot I
 	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
 		ARG 1 player

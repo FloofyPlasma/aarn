@@ -13,6 +13,8 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD ap velocityZ D
 	FIELD aq yaw F
 	FIELD ar pitch F
+	FIELD au shape Lnet/minecraft/unmapped/C_1414550;
+	FIELD av onGround Z
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
 	METHOD a writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
