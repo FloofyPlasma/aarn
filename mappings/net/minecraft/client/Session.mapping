@@ -1,4 +1,7 @@
 CLASS net/minecraft/unmapped/C_3172064 net/minecraft/client/Session
+	FIELD b username Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d password Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 username
 		ARG 2 id
