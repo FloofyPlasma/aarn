@@ -1,7 +1,36 @@
 CLASS net/minecraft/unmapped/C_0289174 net/minecraft/client/render/model/ModelPart
+	FIELD a pivotX F
+	FIELD b pivotY F
+	FIELD c pivotZ F
+	FIELD d rotationX F
+	FIELD e rotationY F
+	FIELD f rotationZ F
+	FIELD g flipped Z
 	FIELD h visible Z
+	FIELD i invisible Z
+	FIELD l textureU I
+	FIELD m textureV I
+	FIELD n compiled Z
+	FIELD o renderCallList I
 	METHOD <init> (II)V
 		ARG 1 u
 		ARG 2 v
 	METHOD a render (F)V
+		ARG 1 scale
+	METHOD a setPivot (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addBox (FFFIII)V
+	METHOD a addBox (FFFIIIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 sizeZ
+		ARG 7 increase
 	METHOD b translate (F)V
+		ARG 1 scale
+	METHOD c compile (F)V
+		ARG 1 scale

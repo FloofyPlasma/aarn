@@ -7,3 +7,5 @@ CLASS net/minecraft/unmapped/C_3589148 net/minecraft/client/render/model/Polygon
 		ARG 3 v1
 		ARG 4 u2
 		ARG 5 v2
+	METHOD a flip ()V
+	METHOD a compile (Lnet/minecraft/unmapped/C_2334550;F)V
