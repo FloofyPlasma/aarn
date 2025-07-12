@@ -25,6 +25,7 @@ CLASS net/minecraft/unmapped/C_0786431 net/minecraft/client/gui/screen/Screen
 		ARG 1 button
 	METHOD a confirmResult (ZI)V
 	METHOD b isPauseScreen ()Z
+	METHOD b drawBackgroundTexture (I)V
 	METHOD d handleInputs ()V
 	METHOD e handleMouse ()V
 	METHOD f handleKeyboard ()V

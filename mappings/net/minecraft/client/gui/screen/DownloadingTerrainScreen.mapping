@@ -1,3 +1,5 @@
 CLASS net/minecraft/unmapped/C_1310888 net/minecraft/client/gui/screen/DownloadingTerrainScreen
+	FIELD a networkHandler Lnet/minecraft/unmapped/C_4939758;
+	FIELD h ticks I
 	METHOD <init> (Lnet/minecraft/unmapped/C_4939758;)V
 		ARG 1 networkHandler
