@@ -6,6 +6,7 @@ CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
 	FIELD f WATER Lnet/minecraft/unmapped/C_8554894;
 	FIELD g LAVA Lnet/minecraft/unmapped/C_8554894;
 	FIELD k WOOL Lnet/minecraft/unmapped/C_8554894;
+	FIELD l FIRE Lnet/minecraft/unmapped/C_8554894;
 	FIELD m SAND Lnet/minecraft/unmapped/C_8554894;
 	FIELD n DECORATION Lnet/minecraft/unmapped/C_8554894;
 	FIELD o GLASS Lnet/minecraft/unmapped/C_8554894;

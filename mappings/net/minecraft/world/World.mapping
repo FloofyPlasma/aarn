@@ -12,6 +12,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 1 saveName
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b notifyRegionChanged (IIIIII)V

@@ -1,4 +1,38 @@
 CLASS net/minecraft/unmapped/C_9764049 net/minecraft/block/FireBlock
+	FIELD a burnChance [I
+	FIELD b spreadChance [I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 sprite
+	METHOD a registerBurnProperties (III)V
+		ARG 1 blockId
+		ARG 2 burnChance
+		ARG 3 spreadChance
+	METHOD a spread (Lnet/minecraft/unmapped/C_3906126;IIIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 chance
+		ARG 6 random
+	METHOD b canBurn (Lnet/minecraft/unmapped/C_2627205;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g updateBurnChance (Lnet/minecraft/unmapped/C_3906126;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 burnChance
+	METHOD h hasFlammableNeighbor (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getBurnChance (Lnet/minecraft/unmapped/C_3906126;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
