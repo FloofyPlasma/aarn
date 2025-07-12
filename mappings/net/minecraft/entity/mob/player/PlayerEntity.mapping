@@ -1,6 +1,8 @@
 CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEntity
 	FIELD b inventory Lnet/minecraft/unmapped/C_4286596;
 	FIELD d playerScore I
+	FIELD e prevStrideDistance F
+	FIELD f strideDistance F
 	FIELD i name Ljava/lang/String;
 	METHOD a openFurnaceMenu (Lnet/minecraft/unmapped/C_1196485;)V
 		ARG 1 furnace

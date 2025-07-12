@@ -1,5 +1,9 @@
 CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
 	FIELD E health I
+	FIELD M cameraPitch F
+	FIELD Q prevHandSwingAmount F
+	FIELD R handSwingAmount F
+	FIELD S handSwing F
 	FIELD V sidewaysSpeed F
 	FIELD W forwardSpeed F
 	FIELD Y jumping Z
