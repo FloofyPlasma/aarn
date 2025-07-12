@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_6469655 net/minecraft/block/RailBlockRailNode
+	METHOD a updateState (Z)V

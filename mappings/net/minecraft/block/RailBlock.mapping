@@ -2,3 +2,8 @@ CLASS net/minecraft/unmapped/C_2624096 net/minecraft/block/RailBlock
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 sprite
+	METHOD h updateShape (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
