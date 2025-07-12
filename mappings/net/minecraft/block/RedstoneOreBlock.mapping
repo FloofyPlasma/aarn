@@ -1,5 +1,16 @@
 CLASS net/minecraft/unmapped/C_3040973 net/minecraft/block/RedstoneOreBlock
+	FIELD a lit Z
 	METHOD <init> (IIZ)V
 		ARG 1 id
 		ARG 2 sprite
 		ARG 3 lit
+	METHOD h lightUp (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i addParticles (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
