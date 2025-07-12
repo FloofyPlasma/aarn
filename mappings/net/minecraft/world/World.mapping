@@ -10,4 +10,6 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 3 seed
 	METHOD <init> (Ljava/lang/String;)V
 		ARG 1 saveName
+	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
+	METHOD l removeBlockEntity (III)V
