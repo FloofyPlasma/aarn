@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_3624347 net/minecraft/client/sound/SoundEngine
+	METHOD b play (Ljava/lang/String;FFFFF)V

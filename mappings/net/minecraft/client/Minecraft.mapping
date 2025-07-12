@@ -1,4 +1,8 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD A soundSystem Lnet/minecraft/unmapped/C_3624347;
+	FIELD e world Lnet/minecraft/unmapped/C_3906126;
+	FIELD h particleManager Lnet/minecraft/unmapped/C_2454294;
+	FIELD i session Lnet/minecraft/unmapped/C_3172064;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 component
 		ARG 2 canvas

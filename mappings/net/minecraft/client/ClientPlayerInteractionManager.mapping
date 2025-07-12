@@ -1,3 +1,40 @@
 CLASS net/minecraft/unmapped/C_4237166 net/minecraft/client/ClientPlayerInteractionManager
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b creative Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
+	METHOD a stopMiningBlock ()V
+	METHOD a mineBlockInCreative (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a setFacingSouth (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD a useBlock (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2750078;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 stack
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD b getReach ()F
+	METHOD b finishMiningBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD b createPlayer (Lnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 world
+	METHOD b spawn (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD c tick ()V
+	METHOD c startMiningBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD d hasGui ()Z
