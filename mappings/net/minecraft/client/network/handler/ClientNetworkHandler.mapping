@@ -3,3 +3,4 @@ CLASS net/minecraft/unmapped/C_4939758 net/minecraft/client/network/handler/Clie
 		ARG 1 minecraft
 		ARG 2 address
 		ARG 3 port
+	METHOD a sendPacket (Lnet/minecraft/unmapped/C_4844124;)V

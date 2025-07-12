@@ -25,7 +25,9 @@ CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 		ARG 2 size
 	METHOD a getItem ()Lnet/minecraft/unmapped/C_4030632;
 	METHOD a split (I)Lnet/minecraft/unmapped/C_2750078;
+	METHOD a mineBlock (IIII)V
 	METHOD a writeNbt (Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_2800860;
 	METHOD a startUsing (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;)Lnet/minecraft/unmapped/C_2750078;
+	METHOD a onRemoved (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a use (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;IIII)Z
 	METHOD c getMaxSize ()I
