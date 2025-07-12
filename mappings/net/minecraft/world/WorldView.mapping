@@ -2,4 +2,5 @@ CLASS net/minecraft/unmapped/C_2627205 net/minecraft/world/WorldView
 	METHOD a getBlock (III)I
 	METHOD c getBrightness (III)F
 	METHOD e getBlockMetadata (III)I
+	METHOD f getMaterial (III)Lnet/minecraft/unmapped/C_8554894;
 	METHOD g isRedstoneConductor (III)Z
