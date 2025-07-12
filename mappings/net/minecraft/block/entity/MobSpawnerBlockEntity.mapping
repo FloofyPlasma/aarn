@@ -1,1 +1,7 @@
 CLASS net/minecraft/unmapped/C_6108840 net/minecraft/block/entity/MobSpawnerBlockEntity
+	FIELD a delay I
+	FIELD b type Ljava/lang/String;
+	FIELD c rotation D
+	FIELD d lastRotation D
+	METHOD a isNearPlayer ()Z
+	METHOD c delay ()V

@@ -7,4 +7,5 @@ CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
 		ARG 9 maxY
 		ARG 11 maxZ
 	METHOD a intersects (Lnet/minecraft/unmapped/C_1414550;)Z
+	METHOD b expand (DDD)Lnet/minecraft/unmapped/C_1414550;
 	METHOD b ofCache (DDDDDD)Lnet/minecraft/unmapped/C_1414550;

@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_5102005 net/minecraft/entity/Entities
+	METHOD a createSilently (Ljava/lang/String;Lnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_6385858;

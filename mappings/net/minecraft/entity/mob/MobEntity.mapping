@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
+	METHOD a isValidSpawnPosition ()Z
+	METHOD z doSpawnEffects ()V
