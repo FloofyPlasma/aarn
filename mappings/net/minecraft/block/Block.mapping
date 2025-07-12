@@ -98,7 +98,7 @@ CLASS net/minecraft/unmapped/C_3635204 net/minecraft/block/Block
 	FIELD m SAND_SOUNDS Lnet/minecraft/unmapped/C_5846486;
 	FIELD n BY_ID [Lnet/minecraft/unmapped/C_3635204;
 	FIELD o TICKS_RANDOMLY [Z
-	FIELD p IS_SOLID [Z
+	FIELD p IS_OPAQUE [Z
 	FIELD q HAS_BLOCK_ENTITY [Z
 	FIELD r OPACITIES [I
 	FIELD s IS_TRANSLUCENT [Z
