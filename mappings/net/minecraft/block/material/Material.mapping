@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
+	FIELD a AIR Lnet/minecraft/unmapped/C_8554894;
 	FIELD b GRASS Lnet/minecraft/unmapped/C_8554894;
 	FIELD c WOOD Lnet/minecraft/unmapped/C_8554894;
 	FIELD d STONE Lnet/minecraft/unmapped/C_8554894;
@@ -14,13 +15,16 @@ CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
 	FIELD n DECORATION Lnet/minecraft/unmapped/C_8554894;
 	FIELD o GLASS Lnet/minecraft/unmapped/C_8554894;
 	FIELD p TNT Lnet/minecraft/unmapped/C_8554894;
+	FIELD q CORAL Lnet/minecraft/unmapped/C_8554894;
 	FIELD r ICE Lnet/minecraft/unmapped/C_8554894;
 	FIELD s SNOW_LAYER Lnet/minecraft/unmapped/C_8554894;
 	FIELD t SNOW Lnet/minecraft/unmapped/C_8554894;
 	FIELD u CACTUS Lnet/minecraft/unmapped/C_8554894;
 	FIELD v CLAY Lnet/minecraft/unmapped/C_8554894;
+	FIELD w flammable Z
 	METHOD a isSolid ()Z
 	METHOD b isOpaque ()Z
 	METHOD c blocksMovement ()Z
 	METHOD d isLiquid ()Z
 	METHOD e isFlammable ()Z
+	METHOD f setFlammable ()Lnet/minecraft/unmapped/C_8554894;
