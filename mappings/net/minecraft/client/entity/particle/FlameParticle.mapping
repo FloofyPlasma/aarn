@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_7966473 net/minecraft/client/entity/particle/FlameParticle
+	FIELD a baseScale F

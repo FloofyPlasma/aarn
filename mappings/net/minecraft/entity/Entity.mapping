@@ -36,6 +36,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 		ARG 8 pitch
 		ARG 9 steps
 	METHOD a getBrightness (F)F
+		ARG 1 tickDelta
 	METHOD a writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
 	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
