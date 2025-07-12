@@ -6,6 +6,7 @@ CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEnt
 	FIELD i name Ljava/lang/String;
 	METHOD a openFurnaceMenu (Lnet/minecraft/unmapped/C_1196485;)V
 		ARG 1 furnace
+	METHOD a dropItem (Lnet/minecraft/unmapped/C_2750078;)V
 	METHOD a dropItem (Lnet/minecraft/unmapped/C_2750078;Z)V
 	METHOD a spawnDroppedItem (Lnet/minecraft/unmapped/C_3050136;)V
 		ARG 1 item
