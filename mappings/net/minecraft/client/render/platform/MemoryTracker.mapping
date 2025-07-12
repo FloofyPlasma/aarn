@@ -1,3 +1,4 @@
 CLASS net/minecraft/unmapped/C_8592380 net/minecraft/client/render/platform/MemoryTracker
 	METHOD a releaseLists ()V
 	METHOD c createIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD d createFloatBuffer (I)Ljava/nio/FloatBuffer;
