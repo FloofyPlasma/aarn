@@ -9,6 +9,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aN noClip Z
 	FIELD aY skin Ljava/lang/String;
 	FIELD ac viewDistanceScaling D
+	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
 	FIELD ah prevX D
 	FIELD ai prevY D
 	FIELD aj prevZ D
@@ -24,6 +25,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD av onGround Z
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
+	METHOD F remove ()V
 	METHOD a setPosition (DDD)V
 	METHOD a updatePositionAndAngles (DDDFFI)V
 		ARG 1 x
