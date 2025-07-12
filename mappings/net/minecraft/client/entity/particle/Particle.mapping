@@ -9,8 +9,14 @@ CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Part
 	FIELD j green F
 	FIELD k blue F
 	FIELD l currentX D
+		COMMENT linear interpolation between the previous and current X position of the particle
+		COMMENT currently being renderered
 	FIELD m currentY D
+		COMMENT linear interpolation between the previous and current Y position of the particle
+		COMMENT currently being renderered
 	FIELD n currentZ D
+		COMMENT linear interpolation between the previous and current Z position of the particle
+		COMMENT currently being renderered
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDDDDD)V
 		ARG 1 world
 		ARG 2 x
@@ -28,5 +34,7 @@ CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Part
 		ARG 6 forwards
 		ARG 7 sideways
 	METHOD b multiplyVelocity (F)Lnet/minecraft/unmapped/C_8905061;
+		ARG 1 value
 	METHOD c getTextureType ()I
 	METHOD d multiplyScale (F)Lnet/minecraft/unmapped/C_8905061;
+		ARG 1 value
