@@ -25,6 +25,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD g updateNeighbors (IIII)V
 	METHOD h notifyBlockChanged (III)V
 	METHOD h scheduleTick (IIII)V
+	METHOD i hasSkyAccess (III)Z
 	METHOD j getRawBrightness (III)I
 	METHOD l removeBlockEntity (III)V
 	METHOD o hasNeighborSignal (III)Z

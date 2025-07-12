@@ -4,3 +4,8 @@ CLASS net/minecraft/unmapped/C_1124552 net/minecraft/block/PlantBlock
 		ARG 2 sprite
 	METHOD b canPlantOn (I)Z
 		ARG 1 blockID
+	METHOD h canSurviveOrBreak (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
