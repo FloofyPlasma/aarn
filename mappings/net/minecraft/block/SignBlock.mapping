@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_0400468 net/minecraft/block/SignBlock
+	FIELD a blockEntityType Ljava/lang/Class;
+	FIELD b standing Z
 	METHOD <init> (ILjava/lang/Class;Z)V
 		ARG 1 id
 		ARG 2 blockEntityType
