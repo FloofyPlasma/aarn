@@ -2,6 +2,7 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD aA REDSTONE Lnet/minecraft/unmapped/C_4030632;
 	FIELD aB SNOWBALL Lnet/minecraft/unmapped/C_4030632;
 	FIELD aG CLAY Lnet/minecraft/unmapped/C_4030632;
+	FIELD aH REEDS Lnet/minecraft/unmapped/C_4030632;
 	FIELD aQ RECORD_13 Lnet/minecraft/unmapped/C_4030632;
 	FIELD aS id I
 	FIELD an FLINT Lnet/minecraft/unmapped/C_4030632;
