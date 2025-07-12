@@ -7,6 +7,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aL eyeHeightSneakoffset F
 	FIELD aM stepHeight F
 	FIELD aN noClip Z
+	FIELD aQ random Ljava/util/Random;
 	FIELD aY skin Ljava/lang/String;
 	FIELD ac viewDistanceScaling D
 	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
@@ -41,6 +42,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
 	METHOD b readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
+	METHOD c move (DDD)V
 	METHOD c refreshPositionAndAngles (DDDFF)V
 	METHOD c setRotaion (FF)V
 	METHOD e_ tick ()V

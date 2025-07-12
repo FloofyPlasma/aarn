@@ -2,6 +2,7 @@ CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Part
 	FIELD b miscTexColumn I
 	FIELD c randomUOffset F
 	FIELD d randomVOffset F
+	FIELD f lifetime I
 	FIELD g scale F
 	FIELD h gravity F
 	FIELD i red F
