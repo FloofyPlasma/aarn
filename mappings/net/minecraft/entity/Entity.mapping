@@ -1,6 +1,7 @@
 CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aA removed Z
 	FIELD aB eyeHeight F
+	FIELD aC width F
 	FIELD aD height F
 	FIELD aE prevHorizontalSpeed F
 	FIELD aF horizontalVelocity F

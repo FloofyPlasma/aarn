@@ -1,5 +1,11 @@
 CLASS net/minecraft/unmapped/C_9610577 net/minecraft/client/render/entity/EntityRenderDispatcher
 	FIELD a INSTANCE Lnet/minecraft/unmapped/C_9610577;
+	FIELD e textureManager Lnet/minecraft/unmapped/C_3385278;
 	FIELD f heldItemRenderer Lnet/minecraft/unmapped/C_2751481;
+	FIELD g world Lnet/minecraft/unmapped/C_3906126;
+	FIELD i cameraYaw F
+	FIELD k options Lnet/minecraft/unmapped/C_7688744;
+	METHOD a textRenderer ()Lnet/minecraft/unmapped/C_4766485;
+	METHOD a getSquaredDistanceToCamera (DDD)D
 	METHOD a getRenderer (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_9302567;
 	METHOD a render (Lnet/minecraft/unmapped/C_6385858;DDDFF)V

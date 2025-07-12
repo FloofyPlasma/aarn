@@ -1,1 +1,60 @@
 CLASS net/minecraft/unmapped/C_9302567 net/minecraft/client/render/entity/EntityRenderer
+	FIELD a dispatcher Lnet/minecraft/unmapped/C_9610577;
+	FIELD b shadowSize F
+	FIELD c shadowDarkness F
+	FIELD d model Lnet/minecraft/unmapped/C_3239917;
+	FIELD e blockRenderer Lnet/minecraft/unmapped/C_3466301;
+	METHOD a getTextRenderer ()Lnet/minecraft/unmapped/C_4766485;
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 path
+	METHOD a bindhttpTexture (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a drawBox (Lnet/minecraft/unmapped/C_1414550;)V
+		ARG 0 box
+	METHOD a renderAreaEffectCloud (Lnet/minecraft/unmapped/C_1414550;DDD)V
+		ARG 0 bounds
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD a renderShadowOnblock (Lnet/minecraft/unmapped/C_3635204;DDDIIIFFDDD)V
+		ARG 1 block
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 dxBlock
+		ARG 9 dyBlock
+		ARG 10 dzBlock
+		ARG 11 yaw
+		ARG 12 shadowSize
+		ARG 13 cx
+		ARG 15 cy
+		ARG 17 cz
+	METHOD a renderOnFire (Lnet/minecraft/unmapped/C_6385858;DDDF)V
+		ARG 1 entity
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 tickDelta
+	METHOD a render (Lnet/minecraft/unmapped/C_6385858;DDDFF)V
+		ARG 1 entity
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD a setEntityRenderDispatcher (Lnet/minecraft/unmapped/C_9610577;)V
+		ARG 1 dispatcher
+	METHOD b getWorld ()Lnet/minecraft/unmapped/C_3906126;
+	METHOD b postRender (Lnet/minecraft/unmapped/C_6385858;DDDFF)V
+		ARG 1 entity
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 yaw
+		ARG 9 tickDelta
+	METHOD c renderShadow (Lnet/minecraft/unmapped/C_6385858;DDDFF)V
+		ARG 1 entity
+		ARG 2 dx
+		ARG 4 dy
+		ARG 6 dz
+		ARG 8 yaw
+		ARG 9 tickDelta
