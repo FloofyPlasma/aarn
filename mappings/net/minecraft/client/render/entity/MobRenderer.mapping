@@ -1,7 +1,11 @@
 CLASS net/minecraft/unmapped/C_8191584 net/minecraft/client/render/entity/MobRenderer
+	FIELD d model Lnet/minecraft/unmapped/C_3239917;
+	FIELD e decorationModel Lnet/minecraft/unmapped/C_3239917;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3239917;F)V
 		ARG 1 model
 		ARG 2 shadowSize
+	METHOD a getYawWhileDead (Lnet/minecraft/unmapped/C_1013763;)F
+		ARG 1 entity
 	METHOD a scale (Lnet/minecraft/unmapped/C_1013763;F)V
 		ARG 1 entity
 		ARG 2 scale
@@ -9,6 +13,15 @@ CLASS net/minecraft/unmapped/C_8191584 net/minecraft/client/render/entity/MobRen
 		ARG 1 entity
 		ARG 2 f
 		ARG 3 timeDelta
+	METHOD a bindTexture (Lnet/minecraft/unmapped/C_1013763;I)Z
+	METHOD a setDecorationModel (Lnet/minecraft/unmapped/C_3239917;)V
+		ARG 1 decorationModel
+	METHOD b renderDecoration (Lnet/minecraft/unmapped/C_1013763;F)V
+		ARG 1 entity
+		ARG 2 tickDelta
+	METHOD c getHandSwingProgress (Lnet/minecraft/unmapped/C_1013763;F)F
+		ARG 1 entity
+		ARG 2 tickDelta
 	METHOD d getEntityAge (Lnet/minecraft/unmapped/C_1013763;F)F
 		ARG 1 entity
 		ARG 2 tickDelta

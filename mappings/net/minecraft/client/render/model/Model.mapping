@@ -1,2 +1,4 @@
 CLASS net/minecraft/unmapped/C_3239917 net/minecraft/client/render/model/Model
+	FIELD k handSwingProgress F
+	FIELD l hasVehicle Z
 	METHOD b render (FFFFFF)V

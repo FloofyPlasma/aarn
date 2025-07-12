@@ -12,11 +12,13 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aM stepHeight F
 	FIELD aN noClip Z
 	FIELD aQ random Ljava/util/Random;
+	FIELD aR time I
 	FIELD aT onFireTimer I
 	FIELD aW maxHealth I
 	FIELD aY skin Ljava/lang/String;
 	FIELD ab networkId I
 	FIELD ac viewDistanceScaling D
+	FIELD af vehicle Lnet/minecraft/unmapped/C_6385858;
 	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
 	FIELD ah prevX D
 	FIELD ai prevY D

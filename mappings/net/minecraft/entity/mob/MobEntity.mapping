@@ -14,6 +14,7 @@ CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
 	FIELD W forwardSpeed F
 	FIELD Y jumping Z
 	FIELD n bodyYaw F
+	FIELD o prevBodyYaw F
 	METHOD a isValidSpawnPosition ()Z
 	METHOD a rayTrace (DF)Lnet/minecraft/unmapped/C_5853518;
 	METHOD b_ tickDespawn ()V
