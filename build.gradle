@@ -143,14 +143,14 @@ import java.util.zip.GZIPOutputStream
 
 task downloadIntermediary(type: Download) {
 	group = buildMappingGroup
-	def url = "https://github.com/floofyplasma/intermediary/raw/master/mappings/${minecraft_version}.tiny"
+	def url = "https://github.com/floofyplasma/intermediary/raw/feather-mappings/mappings/${minecraft_version}.tiny"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
 task downloadIntermediaryV2(type: Download) {
 	group = buildMappingGroup
-	def url = "https://floofyplasma.github.io/aabric-libraries/aabric/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
+	def url = "https://floofyplasma.github.io/aabric-libraries/aabric-experimental/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 
