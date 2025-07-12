@@ -1,3 +1,33 @@
 CLASS net/minecraft/unmapped/C_7153081 net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
 	FIELD a INSTANCE Lnet/minecraft/unmapped/C_7153081;
+	FIELD b offsetX D
+	FIELD c offsetY D
+	FIELD d offsetZ D
+	FIELD e textureManager Lnet/minecraft/unmapped/C_3385278;
+	FIELD f world Lnet/minecraft/unmapped/C_3906126;
+	FIELD g camera Lnet/minecraft/unmapped/C_5009044;
+	FIELD h cameraYaw F
+	FIELD i cameraPitch F
+	FIELD j cameraX D
+	FIELD k cameraY D
+	FIELD l cameraZ D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n textRenderer Lnet/minecraft/unmapped/C_4766485;
+	METHOD a getTextRenderer ()Lnet/minecraft/unmapped/C_4766485;
+	METHOD a getRenderer (Ljava/lang/Class;)Lnet/minecraft/unmapped/C_3831356;
+		ARG 1 type
+	METHOD a hasRenderer (Lnet/minecraft/unmapped/C_2074023;)Z
+		ARG 1 blockEntity
 	METHOD a render (Lnet/minecraft/unmapped/C_2074023;DDDF)V
+		ARG 1 blockEntity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tickDelta
+	METHOD a remder (Lnet/minecraft/unmapped/C_2074023;F)V
+		ARG 1 blockEntity
+		ARG 2 tickDelta
+	METHOD a prepare (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_5009044;F)V
+		ARG 1 world
+	METHOD b getRenderer (Lnet/minecraft/unmapped/C_2074023;)Lnet/minecraft/unmapped/C_3831356;
+		ARG 1 blockEntity
