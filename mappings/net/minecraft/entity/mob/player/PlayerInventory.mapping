@@ -5,7 +5,7 @@ CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInv
 	FIELD f_2629489 player Lnet/minecraft/unmapped/C_5009044;
 	FIELD f_6398230 dirty Z
 	FIELD f_4113055 crafting [Lnet/minecraft/unmapped/C_2750078;
-	FIELD f_4113055 cursorItem Lnet/minecraft/unmapped/C_2750078;
+	FIELD f_4113056 cursorItem Lnet/minecraft/unmapped/C_2750078;
 	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
 		ARG 1 player
 	METHOD m_1328672 getSelectedItem ()Lnet/minecraft/unmapped/C_2750078;
