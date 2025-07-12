@@ -1,7 +1,9 @@
 CLASS net/minecraft/unmapped/C_7221329 net/minecraft/entity/FallingBlockEntity
+	FIELD a blockId I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;FFFI)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 block
+	METHOD i getWorld ()Lnet/minecraft/unmapped/C_3906126;
