@@ -19,6 +19,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a resetSpawnPoint ()V
 	METHOD a getClosestPlayer (DDDD)Lnet/minecraft/unmapped/C_5009044;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a clickSave (I)Z
 	METHOD a setBlockQuietly (IIII)Z
 	METHOD a setBlockWithMetadataQuietly (IIIII)Z
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
@@ -48,6 +49,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD i hasSkyAccess (III)Z
 	METHOD j simulateForABit ()V
 	METHOD j getRawBrightness (III)I
+	METHOD k disconnect ()V
 	METHOD k hasSignal (IIII)Z
 	METHOD l removeBlockEntity (III)V
 	METHOD m doRandomDisplayTicks (III)V
