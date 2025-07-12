@@ -1,4 +1,7 @@
 CLASS net/minecraft/unmapped/C_2293006 net/minecraft/client/render/Window
+	FIELD a scale I
+	FIELD b width I
+	FIELD c height I
 	METHOD <init> (II)V
 		ARG 1 width
 		ARG 2 height
