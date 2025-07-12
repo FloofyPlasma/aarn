@@ -10,7 +10,10 @@ CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
 	FIELD m SAND Lnet/minecraft/unmapped/C_8554894;
 	FIELD n DECORATION Lnet/minecraft/unmapped/C_8554894;
 	FIELD o GLASS Lnet/minecraft/unmapped/C_8554894;
+	FIELD s SNOW_LAYER Lnet/minecraft/unmapped/C_8554894;
+	FIELD t SNOW Lnet/minecraft/unmapped/C_8554894;
 	FIELD u CACTUS Lnet/minecraft/unmapped/C_8554894;
 	FIELD v CLAY Lnet/minecraft/unmapped/C_8554894;
 	METHOD a isSolid ()Z
+	METHOD b isOpaque ()Z
 	METHOD d isLiquid ()Z
