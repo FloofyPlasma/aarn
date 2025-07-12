@@ -1,2 +1,5 @@
 CLASS net/minecraft/unmapped/C_1011144 net/minecraft/nbt/NbtList
+	METHOD a get (I)Lnet/minecraft/unmapped/C_3984704;
+	METHOD a add (Lnet/minecraft/unmapped/C_3984704;)V
+	METHOD c size ()I
 	METHOD toString toString ()Ljava/lang/String;
