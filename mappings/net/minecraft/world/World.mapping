@@ -19,3 +19,4 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD g updateNeighbors (IIII)V
 	METHOD h scheduleTick (IIII)V
 	METHOD l removeBlockEntity (III)V
+	METHOD o hasNeighborSignal (III)Z
