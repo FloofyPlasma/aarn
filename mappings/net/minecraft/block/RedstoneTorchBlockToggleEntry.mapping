@@ -3,3 +3,8 @@ CLASS net/minecraft/unmapped/C_1186531 net/minecraft/block/RedstoneTorchBlockTog
 	FIELD b y I
 	FIELD c z I
 	FIELD d time J
+	METHOD <init> (IIIJ)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 time
