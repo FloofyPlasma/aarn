@@ -1,19 +1,1 @@
 CLASS net/minecraft/unmapped/C_1021050 net/minecraft/client/render/texture/SkinImageProcessor
-	FIELD f_8827936 data [I
-	FIELD f_4766091 width I
-	FIELD f_0281709 height I
-	METHOD m_6678561 setTransparent (IIII)V
-		ARG 1 u1
-		ARG 2 v1
-		ARG 3 u2
-		ARG 4 v2
-	METHOD m_3893255 setOpaque (IIII)V
-		ARG 1 u1
-		ARG 2 v1
-		ARG 3 u2
-		ARG 4 v2
-	METHOD m_2747514 hasTransperancy (IIII)Z
-		ARG 1 u1
-		ARG 2 v1
-		ARG 3 u2
-		ARG 4 v2

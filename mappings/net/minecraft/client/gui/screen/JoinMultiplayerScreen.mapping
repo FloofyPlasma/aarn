@@ -1,6 +1,3 @@
 CLASS net/minecraft/unmapped/C_4331994 net/minecraft/client/gui/screen/JoinMultiplayerScreen
-	FIELD f_8377260 parent Lnet/minecraft/unmapped/C_0786431;
-	FIELD f_5282305 ticks I
-	FIELD f_4784337 address Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;)V
 		ARG 1 parent

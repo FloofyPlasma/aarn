@@ -1,44 +1,4 @@
 CLASS net/minecraft/unmapped/C_0289174 net/minecraft/client/render/model/ModelPart
-	FIELD f_1032831 vertices [Lnet/minecraft/unmapped/C_9856888;
-	FIELD f_7982391 polygons [Lnet/minecraft/unmapped/C_3589148;
-	FIELD f_3780787 u I
-	FIELD f_4434142 v I
-	FIELD f_4126553 x F
-	FIELD f_0046491 y F
-	FIELD f_8041924 z F
-	FIELD f_5601851 rotationX F
-	FIELD f_4393656 rotationY F
-	FIELD f_9690333 rotationZ F
-	FIELD f_6954896 compiled Z
-	FIELD f_4488009 glList I
-	FIELD f_2994085 flipped Z
-	FIELD f_6189958 visible Z
-	FIELD f_8815988 invisible Z
 	METHOD <init> (II)V
 		ARG 1 u
 		ARG 2 v
-	METHOD m_6806243 addBox (FFFIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 sizeX
-		ARG 5 sizeY
-		ARG 6 sizeZ
-	METHOD m_7902911 addBox (FFFIIIF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 sizeX
-		ARG 5 sizeY
-		ARG 6 sizeZ
-		ARG 7 increase
-	METHOD m_3278750 setPos (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD m_7104545 render (F)V
-		ARG 1 scale
-	METHOD m_0246274 transform (F)V
-		ARG 1 scale
-	METHOD m_8334576 compile (F)V
-		ARG 1 scale

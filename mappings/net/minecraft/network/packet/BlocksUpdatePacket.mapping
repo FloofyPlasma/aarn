@@ -1,7 +1,1 @@
 CLASS net/minecraft/unmapped/C_2012603 net/minecraft/network/packet/BlocksUpdatePacket
-	FIELD f_2345080 chunkX I
-	FIELD f_6207328 chunkZ I
-	FIELD f_2357418 positions [S
-	FIELD f_7382311 blockIds [B
-	FIELD f_4902528 blockMetadata [B
-	FIELD f_8446350 blockChangeCount I

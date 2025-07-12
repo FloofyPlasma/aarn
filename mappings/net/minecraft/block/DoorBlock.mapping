@@ -1,11 +1,1 @@
 CLASS net/minecraft/unmapped/C_3484604 net/minecraft/block/DoorBlock
-	METHOD m_0892110 updateShape (I)V
-		ARG 1 facing
-	METHOD m_7732019 updateOpenState (Lnet/minecraft/unmapped/C_3906126;IIIZ)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 open
-	METHOD m_8094268 getFacing (I)I
-		ARG 1 metadata

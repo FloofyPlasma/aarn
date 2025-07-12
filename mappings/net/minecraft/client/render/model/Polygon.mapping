@@ -1,7 +1,4 @@
 CLASS net/minecraft/unmapped/C_3589148 net/minecraft/client/render/model/Polygon
-	FIELD f_2471300 vertices [Lnet/minecraft/unmapped/C_9856888;
-	FIELD f_0871286 vertexCount I
-	FIELD f_6662752 flipNormal Z
 	METHOD <init> ([Lnet/minecraft/unmapped/C_9856888;)V
 		ARG 1 vertices
 	METHOD <init> ([Lnet/minecraft/unmapped/C_9856888;IIII)V
@@ -10,7 +7,3 @@ CLASS net/minecraft/unmapped/C_3589148 net/minecraft/client/render/model/Polygon
 		ARG 3 v1
 		ARG 4 u2
 		ARG 5 v2
-	METHOD m_3919348 flip ()V
-	METHOD m_8096279 compile (Lnet/minecraft/unmapped/C_2334550;F)V
-		ARG 1 tesselator
-		ARG 2 scale

@@ -1,15 +1,1 @@
 CLASS net/minecraft/unmapped/C_8135468 net/minecraft/nbt/NbtIo
-	METHOD m_2540889 readCompressed (Ljava/io/InputStream;)Lnet/minecraft/unmapped/C_2800860;
-		ARG 0 is
-	METHOD m_4670107 writeCompressed (Lnet/minecraft/unmapped/C_2800860;Ljava/io/OutputStream;)V
-		ARG 0 nbt
-		ARG 1 os
-	METHOD m_9475633 read (Ljava/io/DataInput;)Lnet/minecraft/unmapped/C_2800860;
-		ARG 0 input
-	METHOD m_1247940 write (Lnet/minecraft/unmapped/C_2800860;Ljava/io/DataOutput;)V
-		ARG 0 nbt
-		ARG 1 output
-	METHOD m_5169961 readCompressed ([B)Lnet/minecraft/unmapped/C_2800860;
-		ARG 0 data
-	METHOD m_6997550 writeCompressed (Lnet/minecraft/unmapped/C_2800860;)[B
-		ARG 0 nbt

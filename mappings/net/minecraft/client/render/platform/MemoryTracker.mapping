@@ -1,14 +1,1 @@
 CLASS net/minecraft/unmapped/C_8592380 net/minecraft/client/render/platform/MemoryTracker
-	FIELD f_8161542 LIST_RANGES Ljava/util/List;
-	FIELD f_8005140 LISTS Ljava/util/List;
-	METHOD m_1767185 getLists (I)I
-		ARG 0 s
-	METHOD m_6927303 genTextures (Ljava/nio/IntBuffer;)V
-		ARG 0 lists
-	METHOD m_0303538 releaseLists ()V
-	METHOD m_3302467 createByteBuffer (I)Ljava/nio/ByteBuffer;
-		ARG 0 capacity
-	METHOD m_3971013 createIntBuffer (I)Ljava/nio/IntBuffer;
-		ARG 0 capacity
-	METHOD m_7325397 createFloatBuffer (I)Ljava/nio/FloatBuffer;
-		ARG 0 capacity

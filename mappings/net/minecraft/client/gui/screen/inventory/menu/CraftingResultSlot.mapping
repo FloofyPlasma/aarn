@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_3002588 net/minecraft/client/gui/screen/inventory/menu/CraftingResultSlot
-	FIELD f_4120416 craftingInventory Lnet/minecraft/unmapped/C_4390289;
 	METHOD <init> (Lnet/minecraft/unmapped/C_7542541;Lnet/minecraft/unmapped/C_4390289;Lnet/minecraft/unmapped/C_4390289;III)V
 		ARG 1 screen
 		ARG 2 craftingInventory

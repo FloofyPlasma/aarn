@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_0526782 net/minecraft/item/FoodItem
-	FIELD f_1063376 hungerPoints I
 	METHOD <init> (II)V
 		ARG 1 item
 		ARG 2 hungerPoints

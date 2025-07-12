@@ -1,6 +1,1 @@
 CLASS net/minecraft/unmapped/C_1019530 net/minecraft/network/packet/AddEntityPacket
-	FIELD f_8085681 id I
-	FIELD f_8697579 x I
-	FIELD f_7157195 y I
-	FIELD f_7561968 z I
-	FIELD f_9782340 type I

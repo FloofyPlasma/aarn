@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_9011699 net/minecraft/item/ShovelItem
-	FIELD f_3506684 EFFECTIVE_BLOCKS [Lnet/minecraft/unmapped/C_3635204;
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tier

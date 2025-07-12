@@ -1,4 +1,1 @@
 CLASS net/minecraft/unmapped/C_8978226 net/minecraft/client/render/block/entity/MobSpawnerRenderer
-	FIELD f_8112620 models Ljava/util/Map;
-	METHOD m_3330154 (Lnet/minecraft/unmapped/C_6108840;DDDF)V
-		ARG 1 x

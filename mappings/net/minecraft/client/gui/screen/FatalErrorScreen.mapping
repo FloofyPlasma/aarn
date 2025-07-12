@@ -1,3 +1,1 @@
 CLASS net/minecraft/unmapped/C_4643161 net/minecraft/client/gui/screen/FatalErrorScreen
-	FIELD f_9270758 title Ljava/lang/String;
-	FIELD f_5249900 description Ljava/lang/String;

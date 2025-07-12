@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_2813741 net/minecraft/client/render/world/DistanceChunkSorter
-	FIELD f_6258221 camera Lnet/minecraft/unmapped/C_6385858;
 	METHOD <init> (Lnet/minecraft/unmapped/C_6385858;)V
 		ARG 1 camera
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

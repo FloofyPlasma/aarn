@@ -1,7 +1,1 @@
 CLASS net/minecraft/unmapped/C_5371184 net/minecraft/entity/mob/monster/SlimeEntity
-	FIELD f_0694011 stretch F
-	FIELD f_8888018 lastStretch F
-	FIELD f_1856136 jumpTimer I
-	FIELD f_9722719 size I
-	METHOD m_8366419 setSize (I)V
-		ARG 1 size

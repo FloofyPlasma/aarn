@@ -1,13 +1,1 @@
 CLASS net/minecraft/unmapped/C_7542541 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuScreen
-	FIELD f_6686932 itemRenderer Lnet/minecraft/unmapped/C_4917405;
-	FIELD f_8214973 backgroundWidth I
-	FIELD f_2381230 backgroundHeight I
-	FIELD f_8927907 menuSlots Ljava/util/List;
-	METHOD m_5630231 renderLabels ()V
-	METHOD m_3483387 renderMenuBackground (F)V
-		ARG 1 tickDelta
-	METHOD m_6888955 renderSlot (Lnet/minecraft/unmapped/C_6331926;)V
-		ARG 1 slot
-	METHOD m_0808049 getSlot (II)Lnet/minecraft/unmapped/C_7192378;
-		ARG 1 x
-		ARG 2 y

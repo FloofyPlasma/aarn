@@ -1,10 +1,3 @@
 CLASS net/minecraft/unmapped/C_2426381 net/minecraft/entity/mob/animal/ChickenEntity
-	FIELD f_3610051 sheared Z
-	FIELD f_4961533 flapProgress F
-	FIELD f_3179847 flapSpeed F
-	FIELD f_2689643 lastFlapSpeed F
-	FIELD f_1515647 lastFlapProgress F
-	FIELD f_5318520 flapping F
-	FIELD f_4999110 layEggCooldown I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world

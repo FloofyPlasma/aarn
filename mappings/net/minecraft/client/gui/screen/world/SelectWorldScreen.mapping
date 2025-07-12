@@ -1,11 +1,3 @@
 CLASS net/minecraft/unmapped/C_6698663 net/minecraft/client/gui/screen/world/SelectWorldScreen
-	FIELD f_1901615 parent Lnet/minecraft/unmapped/C_0786431;
-	FIELD f_2624142 title Ljava/lang/String;
-	FIELD f_3795372 selected Z
 	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;)V
 		ARG 1 parent
-	METHOD m_4884417 getWorldName (I)Ljava/lang/String;
-		ARG 1 index
-	METHOD m_7766669 addButtons ()V
-	METHOD m_1496597 selectWorld (I)V
-		ARG 1 id

@@ -1,11 +1,1 @@
 CLASS net/minecraft/unmapped/C_3271339 net/minecraft/client/SurvivalInteractionManager
-	FIELD f_9195163 targetBlockX I
-	FIELD f_5397190 targetBlockY I
-	FIELD f_4935633 targetBlockZ I
-	FIELD f_1634419 miningProgress F
-	FIELD f_7952219 lastMiningProgress F
-	FIELD f_8501336 miningTicks F
-	FIELD f_2257000 miningCooldown I
-	FIELD f_9074778 monsterSpawner Lnet/minecraft/unmapped/C_9377562;
-	FIELD f_8680899 animalSpawner Lnet/minecraft/unmapped/C_9377562;
-	CLASS 7563172 7563172

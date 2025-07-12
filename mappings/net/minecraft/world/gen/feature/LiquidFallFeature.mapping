@@ -1,4 +1,3 @@
 CLASS net/minecraft/unmapped/C_7961743 net/minecraft/world/gen/feature/LiquidFallFeature
-	FIELD f_5954518 liquid I
 	METHOD <init> (I)V
 		ARG 1 liquid

@@ -1,8 +1,5 @@
 CLASS net/minecraft/unmapped/C_5863046 net/minecraft/world/LightType
-	FIELD f_2303695 SKY Lnet/minecraft/unmapped/C_5863046;
-	FIELD f_0443034 BLOCK Lnet/minecraft/unmapped/C_5863046;
-	FIELD f_4606728 defaultValue I
-	METHOD values values ()[Lnet/minecraft/unmapped/C_5863046;
-	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/unmapped/C_5863046;
 	METHOD <init> (Ljava/lang/String;II)V
 		ARG 3 defaultValue
+	METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/unmapped/C_5863046;
+	METHOD values values ()[Lnet/minecraft/unmapped/C_5863046;

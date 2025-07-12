@@ -1,4 +1,3 @@
 CLASS net/minecraft/unmapped/C_8400487 net/minecraft/world/gen/feature/PlantFeature
-	FIELD f_3075418 flower I
 	METHOD <init> (I)V
 		ARG 1 flower

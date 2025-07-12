@@ -1,12 +1,4 @@
 CLASS net/minecraft/unmapped/C_8593406 net/minecraft/world/chunk/AlphaChunkCache
-	FIELD f_1145022 chunks [Lnet/minecraft/unmapped/C_6755599;
-	FIELD f_9442623 world Lnet/minecraft/unmapped/C_3906126;
-	FIELD f_9348117 storage Lnet/minecraft/unmapped/C_2286002;
-	FIELD f_6542603 blocksForNewChunks [B
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2286002;)V
 		ARG 1 world
 		ARG 2 storage
-	METHOD m_8303908 (II)Lnet/minecraft/unmapped/C_6755599;
-	METHOD m_6463720 loadChunkFromStorage (II)Lnet/minecraft/unmapped/C_6755599;
-		ARG 1 chunkX
-		ARG 2 chunkZ

@@ -1,13 +1,7 @@
 CLASS net/minecraft/unmapped/C_6331926 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuSlot
-	FIELD f_0844398 menuScreen Lnet/minecraft/unmapped/C_7542541;
-	FIELD f_3073532 x I
-	FIELD f_1115886 y I
 	METHOD <init> (Lnet/minecraft/unmapped/C_7542541;Lnet/minecraft/unmapped/C_4390289;III)V
 		ARG 1 menuScreen
 		ARG 2 inventory
 		ARG 3 id
 		ARG 4 x
 		ARG 5 y
-	METHOD m_6193475 mouseClicked (II)Z
-		ARG 1 mouseX
-		ARG 2 mouseY

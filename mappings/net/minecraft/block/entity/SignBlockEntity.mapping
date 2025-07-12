@@ -1,3 +1,1 @@
 CLASS net/minecraft/unmapped/C_8215726 net/minecraft/block/entity/SignBlockEntity
-	FIELD f_5769441 lines [Ljava/lang/String;
-	FIELD f_8249914 currentRow I

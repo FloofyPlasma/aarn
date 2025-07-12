@@ -1,9 +1,3 @@
 CLASS net/minecraft/unmapped/C_9814383 net/minecraft/network/packet/EntityTeleportPacket
-	FIELD f_7253358 id I
-	FIELD f_3395263 x I
-	FIELD f_7518806 y I
-	FIELD f_2629919 z I
-	FIELD f_4644989 yaw B
-	FIELD f_5720818 pitch B
 	METHOD <init> (Lnet/minecraft/unmapped/C_6385858;)V
 		ARG 1 entity

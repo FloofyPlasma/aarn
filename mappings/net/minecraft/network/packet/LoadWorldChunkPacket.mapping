@@ -1,4 +1,1 @@
 CLASS net/minecraft/unmapped/C_4136842 net/minecraft/network/packet/LoadWorldChunkPacket
-	FIELD f_8021129 chunkX I
-	FIELD f_9992431 chunkZ I
-	FIELD f_8043100 load Z

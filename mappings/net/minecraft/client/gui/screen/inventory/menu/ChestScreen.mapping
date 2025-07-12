@@ -1,7 +1,4 @@
 CLASS net/minecraft/unmapped/C_5752680 net/minecraft/client/gui/screen/inventory/menu/ChestScreen
-	FIELD f_3299281 playerInventory Lnet/minecraft/unmapped/C_4390289;
-	FIELD f_7136534 inventory Lnet/minecraft/unmapped/C_4390289;
-	FIELD f_3228866 rows I
 	METHOD <init> (Lnet/minecraft/unmapped/C_4390289;Lnet/minecraft/unmapped/C_4390289;)V
 		ARG 1 playerInventory
 		ARG 2 inventory

@@ -1,5 +1,1 @@
 CLASS net/minecraft/unmapped/C_2419714 net/minecraft/world/gen/feature/DungeonFeature
-	METHOD m_8374190 pickLoot (Ljava/util/Random;)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 random
-	METHOD m_3766314 pickDungeonType (Ljava/util/Random;)Ljava/lang/String;
-		ARG 1 random

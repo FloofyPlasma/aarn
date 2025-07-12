@@ -1,10 +1,3 @@
 CLASS net/minecraft/unmapped/C_7641996 net/minecraft/entity/ai/pathing/Path
-	FIELD f_6636189 nodes [Lnet/minecraft/unmapped/C_7694617;
-	FIELD f_7452557 length I
-	FIELD f_7129492 currentIndex I
 	METHOD <init> ([Lnet/minecraft/unmapped/C_7694617;)V
 		ARG 1 nodes
-	METHOD m_2368561 advance ()V
-	METHOD m_1928148 isDone ()Z
-	METHOD m_8602548 getPos (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_0336319;
-		ARG 1 target

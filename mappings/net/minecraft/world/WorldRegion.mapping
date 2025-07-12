@@ -1,8 +1,4 @@
 CLASS net/minecraft/unmapped/C_3134254 net/minecraft/world/WorldRegion
-	FIELD f_3666145 chunkX I
-	FIELD f_9035617 chunkZ I
-	FIELD f_2446217 chunks [[Lnet/minecraft/unmapped/C_6755599;
-	FIELD f_8669340 world Lnet/minecraft/unmapped/C_3906126;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;IIIIII)V
 		ARG 1 world
 		ARG 2 minX
@@ -11,12 +7,3 @@ CLASS net/minecraft/unmapped/C_3134254 net/minecraft/world/WorldRegion
 		ARG 5 maxX
 		ARG 6 maxY
 		ARG 7 maxZ
-	METHOD m_3711658 getRawBrightness (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD m_4682712 getRawBrightness (IIIZ)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 useNeighborLight

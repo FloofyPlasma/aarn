@@ -1,18 +1,4 @@
 CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
-	FIELD f_2279018 size I
-	FIELD f_8576246 popAnimationTime I
-	FIELD f_0780610 id I
-	FIELD f_2995789 metadata I
-	METHOD <init> (Lnet/minecraft/unmapped/C_3635204;)V
-		ARG 1 block
-	METHOD <init> (Lnet/minecraft/unmapped/C_3635204;I)V
-		ARG 1 block
-		ARG 2 size
-	METHOD <init> (Lnet/minecraft/unmapped/C_4030632;)V
-		ARG 1 item
-	METHOD <init> (Lnet/minecraft/unmapped/C_4030632;I)V
-		ARG 1 item
-		ARG 2 size
 	METHOD <init> (I)V
 		ARG 1 id
 	METHOD <init> (II)V
@@ -24,43 +10,13 @@ CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 		ARG 3 metadata
 	METHOD <init> (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
-	METHOD m_8494788 getItem ()Lnet/minecraft/unmapped/C_4030632;
-	METHOD m_5278638 useOn (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;IIII)Z
-		ARG 1 player
-		ARG 2 world
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-		ARG 6 face
-	METHOD m_2334088 getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
+	METHOD <init> (Lnet/minecraft/unmapped/C_3635204;)V
 		ARG 1 block
-	METHOD m_9264093 startUsing (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 world
-		ARG 2 player
-	METHOD m_0066855 writeNbt (Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_2800860;
-		ARG 1 nbt
-	METHOD m_4555243 readNbt (Lnet/minecraft/unmapped/C_2800860;)V
-		ARG 1 nbt
-	METHOD m_0308377 getMaxSize ()I
-	METHOD m_7267649 getMaxDamage ()I
-	METHOD m_7305709 takeDamageAndBreak (I)V
-		ARG 1 amount
-	METHOD m_3149288 attack (Lnet/minecraft/unmapped/C_1013763;)V
-		ARG 1 entity
-	METHOD m_3316715 mineBlock (IIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 face
-	METHOD m_8066283 getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
-		ARG 1 target
-	METHOD m_9260974 canMineBlock (Lnet/minecraft/unmapped/C_3635204;)Z
+	METHOD <init> (Lnet/minecraft/unmapped/C_3635204;I)V
 		ARG 1 block
-	METHOD m_7941857 onRemoved (Lnet/minecraft/unmapped/C_5009044;)V
-		ARG 1 player
-	METHOD m_6568041 copy ()Lnet/minecraft/unmapped/C_2750078;
-	METHOD m_4105775 split (I)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 amount
-	METHOD m_7266957 getSprite ()I
-	METHOD m_8234787 interact (Lnet/minecraft/unmapped/C_1013763;)V
-		ARG 1 entity
+		ARG 2 size
+	METHOD <init> (Lnet/minecraft/unmapped/C_4030632;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/unmapped/C_4030632;I)V
+		ARG 1 item
+		ARG 2 size

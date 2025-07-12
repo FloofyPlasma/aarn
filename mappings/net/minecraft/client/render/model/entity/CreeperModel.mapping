@@ -1,8 +1,1 @@
 CLASS net/minecraft/unmapped/C_1090332 net/minecraft/client/render/model/entity/CreeperModel
-	FIELD f_1389949 head Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_6480879 hat Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_9369591 body Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_2967635 rightBackLeg Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_1012216 leftBackleg Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_0982750 rightFrontLeg Lnet/minecraft/unmapped/C_0289174;
-	FIELD f_4910050 leftFrontLeg Lnet/minecraft/unmapped/C_0289174;

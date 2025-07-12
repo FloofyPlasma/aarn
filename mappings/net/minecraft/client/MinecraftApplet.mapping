@@ -1,15 +1,5 @@
 CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
-	FIELD f_8056441 canvas Ljava/awt/Canvas;
-	FIELD f_3418168 minecraft Lnet/minecraft/client/Minecraft;
-	FIELD f_5361016 thread Ljava/lang/Thread;
+	METHOD destroy destroy ()V
 	METHOD init init ()V
-	METHOD m_6279050 startThread ()V
 	METHOD start start ()V
 	METHOD stop stop ()V
-	METHOD destroy destroy ()V
-	METHOD m_0730519 stopThread ()V
-	METHOD m_5175249 clearMemory ()V
-	CLASS 5746331 5746331
-		METHOD addNotify addNotify ()V
-		METHOD removeNotify removeNotify ()V
-	CLASS 7226165 7226165

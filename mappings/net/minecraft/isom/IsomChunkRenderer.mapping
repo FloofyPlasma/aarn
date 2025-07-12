@@ -1,11 +1,1 @@
 CLASS net/minecraft/unmapped/C_6726911 net/minecraft/isom/IsomChunkRenderer
-	FIELD f_8948415 colors [F
-	FIELD f_8082555 pixels [I
-	FIELD f_5319275 height [I
-	FIELD f_8747005 waterHeight [I
-	FIELD f_0174030 waterBrightness [I
-	FIELD f_4034772 depth [I
-	FIELD f_4809244 sprites [I
-	METHOD m_4394757 render (Lnet/minecraft/unmapped/C_2941751;)V
-		ARG 1 chunk
-	METHOD m_6725180 postProcess ()V

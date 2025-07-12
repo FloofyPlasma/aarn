@@ -1,13 +1,3 @@
 CLASS net/minecraft/unmapped/C_5974036 net/minecraft/client/TickTimer
-	FIELD f_5342306 tps F
-	FIELD f_7086038 timeSec D
-	FIELD f_1547140 ticksThisFrame I
-	FIELD f_6634432 partialTick F
-	FIELD f_3981960 tpsScale F
-	FIELD f_9607039 tickDelta F
-	FIELD f_8152395 lastTickTime J
-	FIELD f_7610845 cumTickTime J
-	FIELD f_3503925 tickTimeCorrection D
 	METHOD <init> (F)V
 		ARG 1 tps
-	METHOD m_4009581 advance ()V

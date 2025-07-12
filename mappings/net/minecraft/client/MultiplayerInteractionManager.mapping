@@ -1,15 +1,4 @@
 CLASS net/minecraft/unmapped/C_6794191 net/minecraft/client/MultiplayerInteractionManager
-	FIELD f_8483393 targetBlockX I
-	FIELD f_1716105 targetBlockY I
-	FIELD f_6658859 targetBlockZ I
-	FIELD f_8859176 miningProgress F
-	FIELD f_0036702 lastMiningProgress F
-	FIELD f_0963205 miningTicks F
-	FIELD f_2954349 miningCooldown I
-	FIELD f_9024333 isMiningBlock Z
-	FIELD f_0262023 networkHandler Lnet/minecraft/unmapped/C_4939758;
-	FIELD f_9892022 selectedHotbarSlot I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_4939758;)V
 		ARG 1 minecraft
 		ARG 2 networkHandler
-	METHOD m_0616403 sendSelectedHotbarSlot ()V

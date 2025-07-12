@@ -1,21 +1,15 @@
 CLASS net/minecraft/unmapped/C_9856888 net/minecraft/client/render/model/Vertex
-	FIELD f_4350793 pos Lnet/minecraft/unmapped/C_0336319;
-	FIELD f_1208123 u F
-	FIELD f_5919756 v F
 	METHOD <init> (FFFFF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 u
 		ARG 5 v
-	METHOD m_7441866 remap (FF)Lnet/minecraft/unmapped/C_9856888;
-		ARG 1 u
-		ARG 2 v
-	METHOD <init> (Lnet/minecraft/unmapped/C_9856888;FF)V
+	METHOD <init> (Lnet/minecraft/unmapped/C_0336319;FF)V
 		ARG 1 pos
 		ARG 2 u
 		ARG 3 v
-	METHOD <init> (Lnet/minecraft/unmapped/C_0336319;FF)V
+	METHOD <init> (Lnet/minecraft/unmapped/C_9856888;FF)V
 		ARG 1 pos
 		ARG 2 u
 		ARG 3 v

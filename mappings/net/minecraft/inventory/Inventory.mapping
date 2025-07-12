@@ -1,13 +1,1 @@
 CLASS net/minecraft/unmapped/C_4390289 net/minecraft/inventory/Inventory
-	METHOD m_5322905 getSize ()I
-	METHOD m_8258340 getItem (I)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 slot
-	METHOD m_7197418 removeItem (II)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 slot
-		ARG 2 amount
-	METHOD m_3820824 setItem (ILnet/minecraft/unmapped/C_2750078;)V
-		ARG 1 slot
-		ARG 2 item
-	METHOD m_0700518 getInventoryName ()Ljava/lang/String;
-	METHOD m_6204563 getMaxStackSize ()I
-	METHOD m_0762864 markDirty ()V

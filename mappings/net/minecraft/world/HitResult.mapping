@@ -1,11 +1,4 @@
 CLASS net/minecraft/unmapped/C_5853518 net/minecraft/world/HitResult
-	FIELD f_6529375 type I
-	FIELD f_0070115 x I
-	FIELD f_6536619 y I
-	FIELD f_6309744 z I
-	FIELD f_5340853 face I
-	FIELD f_3444455 facePos Lnet/minecraft/unmapped/C_0336319;
-	FIELD f_7133526 entity Lnet/minecraft/unmapped/C_6385858;
 	METHOD <init> (IIIILnet/minecraft/unmapped/C_0336319;)V
 		ARG 1 x
 		ARG 2 y

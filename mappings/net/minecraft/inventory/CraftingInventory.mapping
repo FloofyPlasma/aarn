@@ -1,7 +1,4 @@
 CLASS net/minecraft/unmapped/C_2178068 net/minecraft/inventory/CraftingInventory
-	FIELD f_2413097 items [Lnet/minecraft/unmapped/C_2750078;
-	FIELD f_1604289 size I
-	FIELD f_5304773 menu Lnet/minecraft/unmapped/C_7699185;
 	METHOD <init> (Lnet/minecraft/unmapped/C_7699185;II)V
 		ARG 1 menu
 		ARG 2 width

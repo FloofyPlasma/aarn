@@ -1,11 +1,1 @@
 CLASS net/minecraft/unmapped/C_2682589 net/minecraft/block/LiquidSourceBlock
-	METHOD m_7297270 convertToFlowing (Lnet/minecraft/unmapped/C_3906126;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD m_0334989 isFlammable (Lnet/minecraft/unmapped/C_3906126;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z

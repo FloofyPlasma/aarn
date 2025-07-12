@@ -1,12 +1,1 @@
 CLASS net/minecraft/unmapped/C_4045198 net/minecraft/client/entity/mob/player/Input
-	FIELD f_7472910 movementSideways F
-	FIELD f_7984611 movementForward F
-	FIELD f_7088534 wasJumping Z
-	FIELD f_0314305 jumping Z
-	FIELD f_2576950 sneaking Z
-	METHOD m_0500842 tick (Lnet/minecraft/unmapped/C_5009044;)V
-		ARG 1 player
-	METHOD m_0460692 releaseAllKeys ()V
-	METHOD m_6133262 handleKeyEvent (IZ)V
-		ARG 1 key
-		ARG 2 state

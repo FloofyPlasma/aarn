@@ -1,27 +1,4 @@
 CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
-	FIELD f_0724943 POOL Ljava/util/List;
-	FIELD f_5073000 poolIndex I
-	FIELD f_9162863 minX D
-	FIELD f_2662376 minY D
-	FIELD f_8292781 minZ D
-	FIELD f_4861340 maxX D
-	FIELD f_8677721 maxY D
-	FIELD f_6972664 maxZ D
-	METHOD m_9603301 of (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 0 minX
-		ARG 2 minY
-		ARG 4 minZ
-		ARG 6 maxX
-		ARG 8 maxY
-		ARG 10 maxZ
-	METHOD m_6304238 resetPool ()V
-	METHOD m_8516426 fromPool (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 0 minX
-		ARG 2 minY
-		ARG 4 minZ
-		ARG 6 maxX
-		ARG 8 maxY
-		ARG 10 maxZ
 	METHOD <init> (DDDDDD)V
 		ARG 1 minX
 		ARG 3 minY
@@ -29,50 +6,3 @@ CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
 		ARG 7 maxX
 		ARG 9 maxY
 		ARG 11 maxZ
-	METHOD m_6322332 set (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
-	METHOD m_3310866 expanded (DDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 1 dx
-		ARG 3 dy
-		ARG 5 dz
-	METHOD m_6186501 grown (DDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 1 dx
-		ARG 3 dy
-		ARG 5 dz
-	METHOD m_9497799 moved (DDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 1 dx
-		ARG 3 dy
-		ARG 5 dz
-	METHOD m_1629908 intersectX (Lnet/minecraft/unmapped/C_1414550;D)D
-		ARG 1 box
-		ARG 2 limit
-	METHOD m_3985442 intersectY (Lnet/minecraft/unmapped/C_1414550;D)D
-		ARG 1 box
-		ARG 2 limit
-	METHOD m_4691507 intersectZ (Lnet/minecraft/unmapped/C_1414550;D)D
-		ARG 1 box
-		ARG 2 limit
-	METHOD m_7506025 intersects (Lnet/minecraft/unmapped/C_1414550;)Z
-		ARG 1 box
-	METHOD m_6640618 move (DDD)Lnet/minecraft/unmapped/C_1414550;
-		ARG 1 dx
-		ARG 3 dy
-		ARG 5 dz
-	METHOD m_5238772 copy ()Lnet/minecraft/unmapped/C_1414550;
-	METHOD m_9111227 clip (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
-		ARG 1 from
-		ARG 2 to
-	METHOD m_8467880 containsYZ (Lnet/minecraft/unmapped/C_0336319;)Z
-		ARG 1 vec
-	METHOD m_6211599 containsXZ (Lnet/minecraft/unmapped/C_0336319;)Z
-		ARG 1 vec
-	METHOD m_5467595 containsXY (Lnet/minecraft/unmapped/C_0336319;)Z
-		ARG 1 vec
-	METHOD m_9066646 set (Lnet/minecraft/unmapped/C_1414550;)V
-		ARG 1 box
-	METHOD m_4056673 getAverageSideLength ()D

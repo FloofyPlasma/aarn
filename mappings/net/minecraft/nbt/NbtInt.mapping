@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_2783777 net/minecraft/nbt/NbtInt
-	FIELD f_9361897 value I
 	METHOD <init> (I)V
 		ARG 1 value
 	METHOD toString toString ()Ljava/lang/String;

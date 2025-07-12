@@ -1,21 +1,5 @@
 CLASS net/minecraft/unmapped/C_0070166 net/minecraft/world/chunk/ChunkCache
-	FIELD f_2915460 empty Lnet/minecraft/unmapped/C_6755599;
-	FIELD f_4203155 generator Lnet/minecraft/unmapped/C_9484672;
-	FIELD f_9906129 storage Lnet/minecraft/unmapped/C_2286002;
-	FIELD f_6510170 chunks [Lnet/minecraft/unmapped/C_6755599;
-	FIELD f_2043372 world Lnet/minecraft/unmapped/C_3906126;
-	FIELD f_2563350 cachedChunkX I
-	FIELD f_2498441 cachedChunkZ I
-	FIELD f_4622140 cachedChunk Lnet/minecraft/unmapped/C_6755599;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2286002;Lnet/minecraft/unmapped/C_9484672;)V
 		ARG 1 world
 		ARG 2 storage
 		ARG 3 generator
-	METHOD m_8303908 (II)Lnet/minecraft/unmapped/C_6755599;
-	METHOD m_4452120 loadChunkFromStorage (II)Lnet/minecraft/unmapped/C_6755599;
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_3931351 saveEntities (Lnet/minecraft/unmapped/C_6755599;)V
-		ARG 1 chunk
-	METHOD m_2119518 saveChunk (Lnet/minecraft/unmapped/C_6755599;)V
-		ARG 1 chunk

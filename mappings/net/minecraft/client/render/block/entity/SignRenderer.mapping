@@ -1,2 +1,1 @@
 CLASS net/minecraft/unmapped/C_7923429 net/minecraft/client/render/block/entity/SignRenderer
-	FIELD f_5710361 model Lnet/minecraft/unmapped/C_6674892;

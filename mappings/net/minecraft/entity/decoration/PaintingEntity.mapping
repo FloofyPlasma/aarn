@@ -1,56 +1,7 @@
 CLASS net/minecraft/unmapped/C_1693934 net/minecraft/entity/decoration/PaintingEntity
-	FIELD f_2855347 ticksSinceValidation I
-	FIELD f_1406861 dir I
-	FIELD f_4788047 blockX I
-	FIELD f_5377514 blockY I
-	FIELD f_4646429 blockZ I
-	FIELD f_1592333 motive Lnet/minecraft/unmapped/C_1693934$C_3470312;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;IIII)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 dir
-	METHOD m_2868272 setDirection (I)V
-		ARG 1 dir
-	METHOD m_8066915 getPositionOffset (I)F
-		ARG 1 length
-	METHOD m_4277798 canSurvive ()Z
-	CLASS C_3470312 Motive
-		FIELD f_6085180 KEBAB Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_8335183 AZTEC Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_8344041 ALBAN Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_8540204 AZTEC2 Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_1002256 BOMB Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_3636512 PLANT Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_7422084 WASTELAND Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_0415085 POOL Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_5863633 COURBET Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_4806470 SEA Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_3119139 SUNSET Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_7540834 CREEBET Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_4529098 WANDERER Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_6014055 GRAHAM Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_5399040 MATCH Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_3041004 BUST Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_7046940 STAGE Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_7629088 VOID Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_8417260 SKULL_AND_ROSES Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_8265992 FIGHTERS Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_1056362 POINTER Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_3152220 PIGSCENE Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_1559996 SKELETON Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_2804374 DONKEY_KONG Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		FIELD f_4826667 name Ljava/lang/String;
-		FIELD f_2094866 width I
-		FIELD f_3483178 height I
-		FIELD f_7875745 u I
-		FIELD f_8307472 v I
-		METHOD values values ()[Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/unmapped/C_1693934$C_3470312;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
-			ARG 3 name
-			ARG 4 width
-			ARG 5 height
-			ARG 6 u
-			ARG 7 v

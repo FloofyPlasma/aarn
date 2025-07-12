@@ -1,22 +1,3 @@
 CLASS net/minecraft/unmapped/C_2616453 net/minecraft/client/world/chunk/MultiplayerChunkCache
-	FIELD f_7773801 empty Lnet/minecraft/unmapped/C_6755599;
-	FIELD f_5625936 chunksByPos Ljava/util/Map;
-	FIELD f_4623282 chunks Ljava/util/List;
-	FIELD f_9078024 world Lnet/minecraft/unmapped/C_3906126;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
-	METHOD m_7151417 unloadChunk (II)V
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_1066391 loadChunk (II)Lnet/minecraft/unmapped/C_6755599;
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_8303908 (II)Lnet/minecraft/unmapped/C_6755599;
-	CLASS C_0932780 ChunkPos
-		FIELD f_7177981 x I
-		FIELD f_0809651 z I
-		METHOD <init> (II)V
-			ARG 1 x
-			ARG 2 z
-		METHOD equals equals (Ljava/lang/Object;)Z
-		METHOD hashCode hashCode ()I

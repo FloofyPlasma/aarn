@@ -1,20 +1,5 @@
 CLASS net/minecraft/unmapped/C_2941751 net/minecraft/isom/IsomRenderChunk
-	FIELD f_3349358 image Ljava/awt/image/BufferedImage;
-	FIELD f_4671375 world Lnet/minecraft/unmapped/C_3906126;
-	FIELD f_2691840 chunkX I
-	FIELD f_0783700 chunkZ I
-	FIELD f_8781079 rendered Z
-	FIELD f_8388581 empty Z
-	FIELD f_3297939 lastVisible I
-	FIELD f_6255679 toBeRendered Z
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;II)V
-		ARG 1 world
-		ARG 2 chunkX
-		ARG 3 chunkZ
-	METHOD m_5903322 init (II)V
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_2315191 init (Lnet/minecraft/unmapped/C_3906126;II)V
 		ARG 1 world
 		ARG 2 chunkX
 		ARG 3 chunkZ

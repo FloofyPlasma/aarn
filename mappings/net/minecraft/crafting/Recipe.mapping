@@ -1,21 +1,6 @@
 CLASS net/minecraft/unmapped/C_7213435 net/minecraft/crafting/Recipe
-	FIELD f_6886100 width I
-	FIELD f_6833129 height I
-	FIELD f_5794450 ingredients [I
-	FIELD f_4221171 result Lnet/minecraft/unmapped/C_2750078;
-	FIELD f_3431472 resultItem I
 	METHOD <init> (II[ILnet/minecraft/unmapped/C_2750078;)V
 		ARG 1 width
 		ARG 2 height
 		ARG 3 ingredients
 		ARG 4 result
-	METHOD m_7723385 matches ([I)Z
-		ARG 1 inventory
-	METHOD m_7169649 matches ([IIIZ)Z
-		ARG 1 inventory
-		ARG 2 x
-		ARG 3 y
-		ARG 4 rotate
-	METHOD m_6879194 getResult ([I)Lnet/minecraft/unmapped/C_2750078;
-		ARG 1 inventory
-	METHOD m_1008057 size ()I

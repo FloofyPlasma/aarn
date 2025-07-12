@@ -1,9 +1,4 @@
 CLASS net/minecraft/unmapped/C_2698111 net/minecraft/client/entity/particle/EntityPickupParticle
-	FIELD f_5210857 entity Lnet/minecraft/unmapped/C_6385858;
-	FIELD f_1924334 collector Lnet/minecraft/unmapped/C_6385858;
-	FIELD f_4422039 age I
-	FIELD f_9619348 lifetime I
-	FIELD f_9232348 offsetY F
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_6385858;F)V
 		ARG 1 world
 		ARG 2 entity

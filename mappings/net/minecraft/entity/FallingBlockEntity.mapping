@@ -1,10 +1,7 @@
 CLASS net/minecraft/unmapped/C_7221329 net/minecraft/entity/FallingBlockEntity
-	FIELD f_2774789 block I
-	FIELD f_3768277 fallingTicks I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;FFFI)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 block
-	METHOD m_1952812 getWorld ()Lnet/minecraft/unmapped/C_3906126;

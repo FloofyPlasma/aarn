@@ -1,6 +1,1 @@
 CLASS net/minecraft/unmapped/C_4048548 net/minecraft/client/render/texture/LavaSideSprite
-	FIELD f_9622654 current [F
-	FIELD f_6511976 next [F
-	FIELD f_6547819 heat [F
-	FIELD f_1841869 heatDelta [F
-	FIELD f_2098333 ticks I

@@ -1,2 +1,1 @@
 CLASS net/minecraft/unmapped/C_4327082 net/minecraft/network/packet/RemoveEntityPacket
-	FIELD f_8957324 id I

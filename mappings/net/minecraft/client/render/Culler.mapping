@@ -1,7 +1,1 @@
 CLASS net/minecraft/unmapped/C_1633510 net/minecraft/client/render/Culler
-	METHOD m_2658685 isVisible (Lnet/minecraft/unmapped/C_1414550;)Z
-		ARG 1 shape
-	METHOD m_5600360 prepare (DDD)V
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ

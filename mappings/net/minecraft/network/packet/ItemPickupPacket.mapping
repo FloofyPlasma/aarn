@@ -1,4 +1,1 @@
 CLASS net/minecraft/unmapped/C_8710490 net/minecraft/network/packet/ItemPickupPacket
-	FIELD f_9151485 id I
-	FIELD f_0122472 count I
-	FIELD f_2350840 metadata I

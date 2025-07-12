@@ -1,29 +1,4 @@
 CLASS net/minecraft/unmapped/C_8191584 net/minecraft/client/render/entity/MobRenderer
-	FIELD f_2071543 model Lnet/minecraft/unmapped/C_3239917;
-	FIELD f_9647144 decorationModel Lnet/minecraft/unmapped/C_3239917;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3239917;F)V
 		ARG 1 model
 		ARG 2 shadowSize
-	METHOD m_4967206 setDecorationModel (Lnet/minecraft/unmapped/C_3239917;)V
-		ARG 1 decorationModel
-	METHOD m_6990398 getAttackAnimationProgress (Lnet/minecraft/unmapped/C_1013763;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD m_2840569 getBob (Lnet/minecraft/unmapped/C_1013763;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD m_3637925 renderMore (Lnet/minecraft/unmapped/C_1013763;F)V
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD m_5098475 bindTexture (Lnet/minecraft/unmapped/C_1013763;I)Z
-		ARG 1 mob
-		ARG 2 layer
-	METHOD m_5642976 getDeathYaw (Lnet/minecraft/unmapped/C_1013763;)F
-		ARG 1 entity
-	METHOD m_2255736 getOverlayColor (Lnet/minecraft/unmapped/C_1013763;FF)I
-		ARG 1 entity
-		ARG 2 brightness
-		ARG 3 timeDelta
-	METHOD m_2860795 applyScale (Lnet/minecraft/unmapped/C_1013763;F)V
-		ARG 1 entity
-		ARG 2 scale

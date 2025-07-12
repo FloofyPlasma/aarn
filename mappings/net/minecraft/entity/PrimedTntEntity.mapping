@@ -1,6 +1,4 @@
 CLASS net/minecraft/unmapped/C_5584362 net/minecraft/entity/PrimedTntEntity
-	FIELD f_2228310 fuseTimer I
-	METHOD m_0588451 explode ()V
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;FFF)V
 		ARG 1 world
 		ARG 2 x

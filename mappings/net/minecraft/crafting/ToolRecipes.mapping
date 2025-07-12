@@ -1,5 +1,1 @@
 CLASS net/minecraft/unmapped/C_1991567 net/minecraft/crafting/ToolRecipes
-	FIELD f_7879373 patterns [[Ljava/lang/String;
-	FIELD f_2659207 recipes [[Ljava/lang/Object;
-	METHOD m_7432766 register (Lnet/minecraft/unmapped/C_2154975;)V
-		ARG 1 manager

@@ -1,7 +1,4 @@
 CLASS net/minecraft/unmapped/C_3777975 net/minecraft/client/gui/screen/options/OptionsScreen
-	FIELD f_2891933 parent Lnet/minecraft/unmapped/C_0786431;
-	FIELD f_2977656 title Ljava/lang/String;
-	FIELD f_2763431 options Lnet/minecraft/unmapped/C_7688744;
 	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;Lnet/minecraft/unmapped/C_7688744;)V
 		ARG 1 parent
 		ARG 2 options

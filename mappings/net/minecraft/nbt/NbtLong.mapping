@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_8965972 net/minecraft/nbt/NbtLong
-	FIELD f_7001525 value J
 	METHOD <init> (J)V
 		ARG 1 value
 	METHOD toString toString ()Ljava/lang/String;

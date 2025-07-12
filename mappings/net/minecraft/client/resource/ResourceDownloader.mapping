@@ -1,22 +1,5 @@
 CLASS net/minecraft/unmapped/C_0139979 net/minecraft/client/resource/ResourceDownloader
-	FIELD f_4560197 resourcesDir Ljava/io/File;
-	FIELD f_3817644 minecraft Lnet/minecraft/client/Minecraft;
-	FIELD f_8021028 stopped Z
 	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
 		ARG 1 gameDir
 		ARG 2 minecraft
 	METHOD run run ()V
-	METHOD m_3952720 forceReload ()V
-	METHOD m_4894155 loadResources (Ljava/io/File;Ljava/lang/String;)V
-		ARG 1 dir
-		ARG 2 prefix
-	METHOD m_1914282 download (Ljava/net/URL;Ljava/lang/String;JI)V
-		ARG 1 url
-		ARG 2 name
-		ARG 3 size
-		ARG 5 pass
-	METHOD m_2535201 download (Ljava/net/URL;Ljava/io/File;J)V
-		ARG 1 url
-		ARG 2 dst
-		ARG 3 size
-	METHOD m_4359826 shutdown ()V

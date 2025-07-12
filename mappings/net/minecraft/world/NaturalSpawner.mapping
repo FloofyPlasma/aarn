@@ -1,18 +1,5 @@
 CLASS net/minecraft/unmapped/C_9377562 net/minecraft/world/NaturalSpawner
-	FIELD f_1000049 mobSpawningChunks Ljava/util/Set;
-	FIELD f_6447542 cap I
-	FIELD f_6388320 baseType Ljava/lang/Class;
-	FIELD f_6683694 types [Ljava/lang/Class;
-	METHOD m_0572155 getRandomPosInChunk (Lnet/minecraft/unmapped/C_3906126;II)Lnet/minecraft/unmapped/C_8032589;
-		ARG 1 world
-		ARG 2 chunkX
-		ARG 3 chunkZ
 	METHOD <init> (ILjava/lang/Class;[Ljava/lang/Class;)V
 		ARG 1 cap
 		ARG 2 baseType
 		ARG 3 types
-	METHOD m_2453784 tick (Lnet/minecraft/unmapped/C_3906126;)V
-		ARG 1 world
-	METHOD m_1854971 run (Lnet/minecraft/unmapped/C_3906126;ILnet/minecraft/unmapped/C_7918626;)I
-		ARG 1 world
-		ARG 3 listener

@@ -1,4 +1,3 @@
 CLASS net/minecraft/unmapped/C_0121370 net/minecraft/item/MinecartItem
-	FIELD f_0882396 type I
 	METHOD <init> (II)V
 		ARG 1 id

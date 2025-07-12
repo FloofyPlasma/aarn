@@ -1,7 +1,1 @@
 CLASS net/minecraft/unmapped/C_1826831 net/minecraft/entity/mob/monster/CreeperEntity
-	FIELD f_1207512 fuse I
-	FIELD f_9963903 lastFuse I
-	FIELD f_3214430 fuseDuration I
-	FIELD f_8771002 fuseCooldown I
-	METHOD m_7170499 getFuse (F)F
-		ARG 1 tickDelta

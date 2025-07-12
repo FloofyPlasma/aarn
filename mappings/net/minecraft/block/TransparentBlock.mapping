@@ -1,5 +1,4 @@
 CLASS net/minecraft/unmapped/C_8443484 net/minecraft/block/TransparentBlock
-	FIELD f_0425222 culling Z
 	METHOD <init> (IILnet/minecraft/unmapped/C_8554894;Z)V
 		ARG 1 id
 		ARG 2 sprite

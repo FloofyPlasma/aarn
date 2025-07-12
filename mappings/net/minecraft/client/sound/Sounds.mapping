@@ -1,12 +1,1 @@
 CLASS net/minecraft/unmapped/C_4560329 net/minecraft/client/sound/Sounds
-	FIELD f_5028637 random Ljava/util/Random;
-	FIELD f_4841160 soundsByPath Ljava/util/Map;
-	FIELD f_7248081 sounds Ljava/util/List;
-	FIELD f_1061560 soundCount I
-	FIELD f_9349007 trimTrailingDigits Z
-	METHOD m_4373192 load (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/unmapped/C_0488196;
-		ARG 1 path
-		ARG 2 file
-	METHOD m_3102380 getRandom (Ljava/lang/String;)Lnet/minecraft/unmapped/C_0488196;
-		ARG 1 path
-	METHOD m_1653335 getRandom ()Lnet/minecraft/unmapped/C_0488196;

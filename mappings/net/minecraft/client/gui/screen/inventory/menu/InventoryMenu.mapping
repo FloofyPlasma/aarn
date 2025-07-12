@@ -1,5 +1,1 @@
 CLASS net/minecraft/unmapped/C_7699185 net/minecraft/client/gui/screen/inventory/menu/InventoryMenu
-	METHOD m_5612215 close (Lnet/minecraft/unmapped/C_5009044;)V
-		ARG 1 player
-	METHOD m_8603973 onContentsChanged (Lnet/minecraft/unmapped/C_4390289;)V
-		ARG 1 inventory

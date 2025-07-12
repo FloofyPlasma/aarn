@@ -1,4 +1,3 @@
 CLASS net/minecraft/isom/IsomPreviewApplet net/minecraft/isom/IsomPreviewApplet
-	FIELD f_0917068 canvas Lnet/minecraft/unmapped/C_5586685;
 	METHOD start start ()V
 	METHOD stop stop ()V

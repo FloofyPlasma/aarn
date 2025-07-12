@@ -1,14 +1,4 @@
 CLASS net/minecraft/unmapped/C_7192378 net/minecraft/inventory/slot/InventorySlot
-	FIELD f_2513672 id I
-	FIELD f_8999101 inventory Lnet/minecraft/unmapped/C_4390289;
 	METHOD <init> (Lnet/minecraft/unmapped/C_4390289;I)V
 		ARG 1 inventory
 		ARG 2 id
-	METHOD m_7573710 onItemRemoved ()V
-	METHOD m_6628482 isItemAllowed (Lnet/minecraft/unmapped/C_2750078;)Z
-		ARG 1 item
-	METHOD m_0472919 getItem ()Lnet/minecraft/unmapped/C_2750078;
-	METHOD m_6342010 setItem (Lnet/minecraft/unmapped/C_2750078;)V
-		ARG 1 item
-	METHOD m_9006711 getTexture ()I
-	METHOD m_3611799 markDirty ()V

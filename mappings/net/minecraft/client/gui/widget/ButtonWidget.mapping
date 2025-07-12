@@ -1,17 +1,4 @@
 CLASS net/minecraft/unmapped/C_2621421 net/minecraft/client/gui/widget/ButtonWidget
-	FIELD f_9324441 width I
-	FIELD f_2585197 height I
-	FIELD f_0196761 x I
-	FIELD f_6898817 y I
-	FIELD f_1547282 message Ljava/lang/String;
-	FIELD f_1932931 id I
-	FIELD f_0197900 active Z
-	FIELD f_5948919 visible Z
-	METHOD <init> (IIILjava/lang/String;)V
-		ARG 1 id
-		ARG 2 x
-		ARG 3 y
-		ARG 4 message
 	METHOD <init> (IIIIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x
@@ -19,20 +6,8 @@ CLASS net/minecraft/unmapped/C_2621421 net/minecraft/client/gui/widget/ButtonWid
 		ARG 4 width
 		ARG 5 height
 		ARG 6 message
-	METHOD m_4419001 getYImage (Z)I
-		ARG 1 hovered
-	METHOD m_3845983 render (Lnet/minecraft/client/Minecraft;II)V
-		ARG 1 minecraft
-		ARG 2 mouseX
-		ARG 3 mouseY
-	METHOD m_5661308 renderBackground (Lnet/minecraft/client/Minecraft;II)V
-		ARG 1 minecraft
-		ARG 2 mouseX
-		ARG 3 mouseY
-	METHOD m_1725815 mouseReleased (II)V
-		ARG 1 mouseX
-		ARG 2 mouseY
-	METHOD m_7801882 mouseClicked (Lnet/minecraft/client/Minecraft;II)Z
-		ARG 1 minecraft
-		ARG 2 mouseX
-		ARG 3 mouseY
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 message

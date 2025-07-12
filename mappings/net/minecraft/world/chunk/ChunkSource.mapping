@@ -1,16 +1,1 @@
 CLASS net/minecraft/unmapped/C_9484672 net/minecraft/world/chunk/ChunkSource
-	METHOD m_3469388 hasChunk (II)Z
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_8303908 getChunk (II)Lnet/minecraft/unmapped/C_6755599;
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD m_3412382 populateChunk (Lnet/minecraft/unmapped/C_9484672;II)V
-		ARG 1 source
-		ARG 2 chunkX
-		ARG 3 chunkZ
-	METHOD m_8231616 save (ZLnet/minecraft/unmapped/C_7918626;)Z
-		ARG 1 saveEntities
-		ARG 2 listener
-	METHOD m_1591842 tick ()Z
-	METHOD m_2288809 shouldSave ()Z

@@ -1,54 +1,14 @@
 CLASS net/minecraft/unmapped/C_5586685 net/minecraft/isom/IsomPreviewCanvas
-	FIELD f_5260949 frames I
-	FIELD f_2667138 scale I
-	FIELD f_8920088 renderDebugInfo Z
-	FIELD f_5862609 world Lnet/minecraft/unmapped/C_3906126;
-	FIELD f_5103971 workingDir Ljava/io/File;
-	FIELD f_7243712 running Z
-	FIELD f_7806128 chunksToRender Ljava/util/List;
-	FIELD f_3079561 chunks [[Lnet/minecraft/unmapped/C_2941751;
-	FIELD f_0474735 offsetX I
-	FIELD f_9058831 offsetZ I
-	FIELD f_5216979 mouseX I
-	FIELD f_7667496 mouseY I
-	METHOD m_5136659 getWorkingDirectory ()Ljava/io/File;
-	METHOD m_8619112 getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
-		ARG 1 name
-	METHOD m_8951458 getOs ()Lnet/minecraft/unmapped/C_5586685$C_4814958;
-	METHOD m_1343311 openWorld (Ljava/lang/String;)V
-		ARG 1 saveName
-	METHOD m_1021743 setAmbientDarkness (I)V
-		ARG 1 ambientDarkness
-	METHOD m_5959115 start ()V
-	METHOD m_7717219 stop ()V
-	METHOD m_5520251 getChunk (II)Lnet/minecraft/unmapped/C_2941751;
-		ARG 1 x
-		ARG 2 y
-	METHOD run run ()V
-	METHOD update update (Ljava/awt/Graphics;)V
-	METHOD paint paint (Ljava/awt/Graphics;)V
-	METHOD m_2489959 render ()V
-	METHOD m_6243187 render (Ljava/awt/Graphics2D;)V
-		ARG 1 graphics
-	METHOD mouseDragged mouseDragged (Ljava/awt/event/MouseEvent;)V
-	METHOD mouseMoved mouseMoved (Ljava/awt/event/MouseEvent;)V
-	METHOD mouseClicked mouseClicked (Ljava/awt/event/MouseEvent;)V
-	METHOD mouseEntered mouseEntered (Ljava/awt/event/MouseEvent;)V
-	METHOD mouseExited mouseExited (Ljava/awt/event/MouseEvent;)V
-	METHOD mousePressed mousePressed (Ljava/awt/event/MouseEvent;)V
-	METHOD mouseReleased mouseReleased (Ljava/awt/event/MouseEvent;)V
 	METHOD keyPressed keyPressed (Ljava/awt/event/KeyEvent;)V
 	METHOD keyReleased keyReleased (Ljava/awt/event/KeyEvent;)V
 	METHOD keyTyped keyTyped (Ljava/awt/event/KeyEvent;)V
-	CLASS 1477094 1477094
-	CLASS 4868490 4868490
-		METHOD run run ()V
-	CLASS 5967956 5967956
-	CLASS C_4814958 OS
-		FIELD f_8756767 LINUX Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		FIELD f_4277849 SOLARIS Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		FIELD f_9359910 WINDOWS Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		FIELD f_6510704 MACOS Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		FIELD f_9849018 UNKNOWN Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		METHOD values values ()[Lnet/minecraft/unmapped/C_5586685$C_4814958;
-		METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/unmapped/C_5586685$C_4814958;
+	METHOD mouseClicked mouseClicked (Ljava/awt/event/MouseEvent;)V
+	METHOD mouseDragged mouseDragged (Ljava/awt/event/MouseEvent;)V
+	METHOD mouseEntered mouseEntered (Ljava/awt/event/MouseEvent;)V
+	METHOD mouseExited mouseExited (Ljava/awt/event/MouseEvent;)V
+	METHOD mouseMoved mouseMoved (Ljava/awt/event/MouseEvent;)V
+	METHOD mousePressed mousePressed (Ljava/awt/event/MouseEvent;)V
+	METHOD mouseReleased mouseReleased (Ljava/awt/event/MouseEvent;)V
+	METHOD paint paint (Ljava/awt/Graphics;)V
+	METHOD run run ()V
+	METHOD update update (Ljava/awt/Graphics;)V

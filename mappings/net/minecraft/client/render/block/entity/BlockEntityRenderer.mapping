@@ -1,13 +1,1 @@
 CLASS net/minecraft/unmapped/C_3831356 net/minecraft/client/render/block/entity/BlockEntityRenderer
-	FIELD f_1878759 dispatcher Lnet/minecraft/unmapped/C_7153081;
-	METHOD m_7825810 render (Lnet/minecraft/unmapped/C_2074023;DDDF)V
-		ARG 1 blockEntity
-		ARG 2 dx
-		ARG 4 dy
-		ARG 6 dz
-		ARG 8 tickDelta
-	METHOD m_1828718 bindTexture (Ljava/lang/String;)V
-		ARG 1 path
-	METHOD m_3401467 init (Lnet/minecraft/unmapped/C_7153081;)V
-		ARG 1 dispatcher
-	METHOD m_0011055 getTextRenderer ()Lnet/minecraft/unmapped/C_4766485;

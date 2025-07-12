@@ -1,6 +1,4 @@
 CLASS net/minecraft/unmapped/C_6489668 net/minecraft/network/packet/PlayerInventoryPacket
-	FIELD f_6092194 type I
-	FIELD f_5166850 items [Lnet/minecraft/unmapped/C_2750078;
 	METHOD <init> (I[Lnet/minecraft/unmapped/C_2750078;)V
 		ARG 1 type
 		ARG 2 items

@@ -1,16 +1,1 @@
 CLASS net/minecraft/unmapped/C_1196485 net/minecraft/block/entity/FurnaceBlockEntity
-	FIELD f_6183045 inventory [Lnet/minecraft/unmapped/C_2750078;
-	FIELD f_0938009 fuelTime I
-	FIELD f_9569100 totalFuelTime I
-	FIELD f_4876613 cookTime I
-	METHOD m_6813347 hasFuel ()Z
-	METHOD m_2777642 canCook ()Z
-	METHOD m_5125947 finishCooking ()V
-	METHOD m_1389344 getResult (I)I
-		ARG 1 input
-	METHOD m_4423171 getFuelTime (Lnet/minecraft/unmapped/C_2750078;)I
-		ARG 1 item
-	METHOD m_2842854 getCookProgress (I)I
-		ARG 1 range
-	METHOD m_5904879 getLitProgress (I)I
-		ARG 1 range
