@@ -1,3 +1,7 @@
 CLASS net/minecraft/unmapped/C_9315908 net/minecraft/client/gui/screen/inventory/menu/SignEditScreen
+	FIELD a title Ljava/lang/String;
+	FIELD h sign Lnet/minecraft/unmapped/C_8215726;
+	FIELD i ticksSinceOpened I
+	FIELD j currentRow I
 	METHOD <init> (Lnet/minecraft/unmapped/C_8215726;)V
 		ARG 1 sign

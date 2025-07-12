@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_7153081 net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD a INSTANCE Lnet/minecraft/unmapped/C_7153081;
+	METHOD a render (Lnet/minecraft/unmapped/C_2074023;DDDF)V
