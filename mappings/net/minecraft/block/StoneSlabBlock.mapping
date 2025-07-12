@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_9331929 net/minecraft/block/StoneSlabBlock
+	FIELD a doubleSlab Z
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 doubleSlab
