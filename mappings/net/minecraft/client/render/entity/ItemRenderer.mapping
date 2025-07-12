@@ -1,3 +1,23 @@
 CLASS net/minecraft/unmapped/C_4917405 net/minecraft/client/render/entity/ItemRenderer
+	FIELD e random Ljava/util/Random;
+	METHOD a drawTexture (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+		ARG 6 height
+	METHOD a drawRect (Lnet/minecraft/unmapped/C_2334550;IIIII)V
+		ARG 1 tesselator
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 color
 	METHOD a renderGuiItem (Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_2750078;II)V
 	METHOD b renderItemInfo (Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_2750078;II)V
+		ARG 1 textRenderer
+		ARG 2 textureManager
+		ARG 3 stack
+		ARG 4 x
+		ARG 5 y

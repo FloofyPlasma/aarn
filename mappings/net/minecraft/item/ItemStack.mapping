@@ -35,3 +35,4 @@ CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 	METHOD b getSprite ()I
 	METHOD b interact (Lnet/minecraft/unmapped/C_1013763;)V
 	METHOD c getMaxSize ()I
+	METHOD d getMaxDamage ()I

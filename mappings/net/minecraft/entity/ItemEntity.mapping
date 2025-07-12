@@ -1,5 +1,8 @@
 CLASS net/minecraft/unmapped/C_3050136 net/minecraft/entity/ItemEntity
+	FIELD a item Lnet/minecraft/unmapped/C_2750078;
+	FIELD b age I
 	FIELD c pickUpDelay I
+	FIELD d hoverHeight F
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDDLnet/minecraft/unmapped/C_2750078;)V
 		ARG 1 world
 		ARG 2 x
