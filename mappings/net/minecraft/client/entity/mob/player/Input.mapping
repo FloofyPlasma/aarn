@@ -1,1 +1,6 @@
 CLASS net/minecraft/unmapped/C_4045198 net/minecraft/client/entity/mob/player/Input
+	FIELD a movementSideways F
+	FIELD b movementForward F
+	FIELD d jumping Z
+	FIELD e sneaking Z
+	METHOD a tick (Lnet/minecraft/unmapped/C_5009044;)V
