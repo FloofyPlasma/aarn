@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_1186531 net/minecraft/block/RedstoneTorchBlockToggleEntry
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d time J

@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
+	FIELD c ticks J
 	FIELD h suppressBlockUpdates Z
 	FIELD n random Ljava/util/Random;
 	FIELD y isMultiplayer Z
@@ -29,5 +30,6 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD h scheduleTick (IIII)V
 	METHOD i hasSkyAccess (III)Z
 	METHOD j getRawBrightness (III)I
+	METHOD k hasSignal (IIII)Z
 	METHOD l removeBlockEntity (III)V
 	METHOD o hasNeighborSignal (III)Z
