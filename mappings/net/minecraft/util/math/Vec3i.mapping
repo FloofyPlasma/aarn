@@ -1,4 +1,7 @@
 CLASS net/minecraft/unmapped/C_8032589 net/minecraft/util/math/Vec3i
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
 	METHOD <init> (III)V
 		ARG 1 x
 		ARG 2 y
