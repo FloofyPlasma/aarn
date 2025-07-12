@@ -637,7 +637,7 @@ check.dependsOn javadocLint
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId "aabric"
+			groupId "aabric-experimental"
 			artifactId "aarn"
 			version yarnVersion
 
