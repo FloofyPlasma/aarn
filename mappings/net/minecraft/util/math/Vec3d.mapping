@@ -1,6 +1,14 @@
 CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
 	METHOD <init> (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	METHOD a intermediateWithX (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+	METHOD b intermediateWithY (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+	METHOD c add (DDD)Lnet/minecraft/unmapped/C_0336319;
+	METHOD c distanceTo (Lnet/minecraft/unmapped/C_0336319;)D
+	METHOD c intermediateWithZ (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
 	METHOD toString toString ()Ljava/lang/String;

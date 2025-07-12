@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_7629809 net/minecraft/block/PressurePlateActivationRule
+	FIELD a EVERYTHING Lnet/minecraft/unmapped/C_7629809;
+	FIELD b MOBS Lnet/minecraft/unmapped/C_7629809;

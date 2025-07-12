@@ -1,3 +1,4 @@
 CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
+	FIELD c BY_ID [Lnet/minecraft/unmapped/C_4030632;
 	METHOD <init> (I)V
 		ARG 1 id
