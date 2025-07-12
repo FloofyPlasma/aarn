@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
+	FIELD Q WHEAT_SEEDS Lnet/minecraft/unmapped/C_4030632;
+	FIELD R WHEAT Lnet/minecraft/unmapped/C_4030632;
 	FIELD aA REDSTONE Lnet/minecraft/unmapped/C_4030632;
 	FIELD aB SNOWBALL Lnet/minecraft/unmapped/C_4030632;
 	FIELD aG CLAY Lnet/minecraft/unmapped/C_4030632;
