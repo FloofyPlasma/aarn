@@ -1,1 +1,6 @@
 CLASS net/minecraft/unmapped/C_7542541 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuScreen
+	FIELD a backgroundWidth I
+	FIELD h backgroundHeight I
+	FIELD i menu Ljava/util/List;
+	METHOD a drawBackground (F)V
+	METHOD j drawForeground ()V
