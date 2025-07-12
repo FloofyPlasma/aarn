@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_4917405 net/minecraft/client/render/entity/ItemRenderer
+	METHOD a renderGuiItem (Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_2750078;II)V
+	METHOD b renderItemInfo (Lnet/minecraft/unmapped/C_4766485;Lnet/minecraft/unmapped/C_3385278;Lnet/minecraft/unmapped/C_2750078;II)V

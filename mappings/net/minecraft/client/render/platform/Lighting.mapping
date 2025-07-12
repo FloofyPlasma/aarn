@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_4191835 net/minecraft/client/render/platform/Lighting
+	METHOD a turnOff ()V
+	METHOD b turnOn ()V

@@ -4,4 +4,5 @@ CLASS net/minecraft/unmapped/C_4824661 net/minecraft/client/render/GameRenderer
 		ARG 1 minecraft
 	METHOD a tick ()V
 	METHOD a pick (F)V
+	METHOD b stepGuiState ()V
 	METHOD b render (F)V

@@ -3,3 +3,6 @@ CLASS net/minecraft/unmapped/C_4766485 net/minecraft/client/render/TextRenderer
 		ARG 1 options
 		ARG 2 fontPath
 		ARG 3 textureManager
+	METHOD a getWidth (Ljava/lang/String;)I
+	METHOD a drawWithShadow (Ljava/lang/String;III)V
+	METHOD b draw (Ljava/lang/String;III)V

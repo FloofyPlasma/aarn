@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 	FIELD h fpsLimit Z
+	FIELD i fancyGraphics Z
 	FIELD j forwardKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD k leftKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD l backKey Lnet/minecraft/unmapped/C_5027199;

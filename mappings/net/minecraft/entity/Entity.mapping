@@ -9,6 +9,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	FIELD aM stepHeight F
 	FIELD aN noClip Z
 	FIELD aQ random Ljava/util/Random;
+	FIELD aW maxHealth I
 	FIELD aY skin Ljava/lang/String;
 	FIELD ac viewDistanceScaling D
 	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
@@ -43,6 +44,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 		ARG 1 nbt
 	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
+	METHOD a isSubmergedIn (Lnet/minecraft/unmapped/C_8554894;)Z
 	METHOD b readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
 	METHOD c move (DDD)V

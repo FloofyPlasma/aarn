@@ -1,1 +1,5 @@
 CLASS net/minecraft/unmapped/C_0043270 net/minecraft/client/gui/GuiElement
+	FIELD k drawOffset F
+	METHOD a fill (IIIII)V
+	METHOD b drawTexture (IIIIII)V
+	METHOD b drawString (Lnet/minecraft/unmapped/C_4766485;Ljava/lang/String;III)V

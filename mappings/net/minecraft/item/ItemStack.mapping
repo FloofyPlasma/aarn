@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 	FIELD a size I
+	FIELD b popAnimationTime I
 	FIELD c itemId I
 	FIELD d metadata I
 	METHOD <init> (I)V

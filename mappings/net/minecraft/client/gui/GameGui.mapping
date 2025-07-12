@@ -1,4 +1,30 @@
 CLASS net/minecraft/unmapped/C_3699792 net/minecraft/client/gui/GameGui
+	FIELD c vignetteBrightness F
+	FIELD d ITEM_RENDERER Lnet/minecraft/unmapped/C_4917405;
+	FIELD e chatMessages Ljava/util/List;
+	FIELD f random Ljava/util/Random;
+	FIELD g minecraft Lnet/minecraft/client/Minecraft;
+	FIELD h ticks I
+	FIELD i overlayMessage Ljava/lang/String;
+	FIELD j overlayMessageTimer I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
 	METHOD a tickChat ()V
+	METHOD a renderVignette (FII)V
+		ARG 1 brightnessAtEyes
+		ARG 2 width
+		ARG 3 height
+	METHOD a render (FZII)V
+		ARG 1 tickDelta
+		ARG 2 screenOpen
+		ARG 3 mouseX
+		ARG 4 mouseY
+	METHOD a renderInventoryslot (IIIF)V
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 z
+		ARG 4 tickDelta
+	METHOD a addChatMessage (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b setRecordPlayingOverlay (Ljava/lang/String;)V
+		ARG 1 playerName
