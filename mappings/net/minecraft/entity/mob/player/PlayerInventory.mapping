@@ -8,4 +8,5 @@ CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInv
 	METHOD a getMainHandStack ()Lnet/minecraft/unmapped/C_2750078;
 	METHOD a insertStack (Lnet/minecraft/unmapped/C_2750078;)Z
 	METHOD a getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
+	METHOD d getArmor (I)Lnet/minecraft/unmapped/C_2750078;
 	METHOD f getArmorProtectionValue ()I

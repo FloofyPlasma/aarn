@@ -1,2 +1,6 @@
 CLASS net/minecraft/unmapped/C_3604011 net/minecraft/client/render/entity/PlayerRenderer
+	FIELD f handmodel Lnet/minecraft/unmapped/C_4590573;
+	FIELD g model1 Lnet/minecraft/unmapped/C_4590573;
+	FIELD h model2 Lnet/minecraft/unmapped/C_4590573;
+	FIELD i ARMOR_VARIANTS [Ljava/lang/String;
 	METHOD b renderPlayerRightHandModel ()V

@@ -23,5 +23,6 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD n GOLD_INGOT Lnet/minecraft/unmapped/C_4030632;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a isHandHeld ()Z
 	METHOD a getSprite (Lnet/minecraft/unmapped/C_2750078;)I
 	METHOD b getMaxStackSize ()I

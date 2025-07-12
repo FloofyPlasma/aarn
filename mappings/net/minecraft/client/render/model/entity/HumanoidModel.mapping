@@ -1,4 +1,13 @@
 CLASS net/minecraft/unmapped/C_4590573 net/minecraft/client/render/model/entity/HumanoidModel
+	FIELD a head Lnet/minecraft/unmapped/C_0289174;
+	FIELD b hat Lnet/minecraft/unmapped/C_0289174;
+	FIELD c body Lnet/minecraft/unmapped/C_0289174;
+	FIELD d rightArm Lnet/minecraft/unmapped/C_0289174;
+	FIELD e leftArm Lnet/minecraft/unmapped/C_0289174;
+	FIELD f rightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD g leftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD i aimingBow Z
+	FIELD j sneaking Z
 	METHOD <init> (F)V
 		ARG 1 reduction
 	METHOD <init> (FF)V

@@ -66,6 +66,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD c setRotaion (FF)V
 	METHOD c_ hasCollision ()Z
 	METHOD d updateLocalPlayerCamera (FF)V
+	METHOD d getDistanceTo (Lnet/minecraft/unmapped/C_6385858;)F
 	METHOD e_ tick ()V
 	METHOD equals equals (Ljava/lang/Object;)Z
 	METHOD h_ yShadowOrigin ()F

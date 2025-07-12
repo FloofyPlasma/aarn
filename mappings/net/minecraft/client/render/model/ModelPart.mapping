@@ -3,3 +3,5 @@ CLASS net/minecraft/unmapped/C_0289174 net/minecraft/client/render/model/ModelPa
 	METHOD <init> (II)V
 		ARG 1 u
 		ARG 2 v
+	METHOD a render (F)V
+	METHOD b translate (F)V
