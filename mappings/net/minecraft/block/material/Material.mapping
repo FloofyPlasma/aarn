@@ -8,5 +8,6 @@ CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
 	FIELD n DECORATION Lnet/minecraft/unmapped/C_8554894;
 	FIELD o GLASS Lnet/minecraft/unmapped/C_8554894;
 	FIELD u CACTUS Lnet/minecraft/unmapped/C_8554894;
+	FIELD v CLAY Lnet/minecraft/unmapped/C_8554894;
 	METHOD a isSolid ()Z
 	METHOD d isLiquid ()Z
