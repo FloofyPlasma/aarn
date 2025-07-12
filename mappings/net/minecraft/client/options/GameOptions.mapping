@@ -11,9 +11,12 @@ CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 	FIELD q chatKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD r fogKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD s sneakKey Lnet/minecraft/unmapped/C_5027199;
+	FIELD t keyBindings [Lnet/minecraft/unmapped/C_5027199;
 	FIELD w difficulty I
 	FIELD x debugEnabled Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
 		ARG 1 minecraft
 		ARG 2 dir
+	METHOD a getKeyNameFromBinding (I)Ljava/lang/String;
+	METHOD a setKeyBinding (II)V
 	METHOD b setValue (II)V
