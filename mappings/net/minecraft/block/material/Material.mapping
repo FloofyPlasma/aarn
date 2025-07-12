@@ -7,6 +7,7 @@ CLASS net/minecraft/unmapped/C_8554894 net/minecraft/block/material/Material
 	FIELD g LAVA Lnet/minecraft/unmapped/C_8554894;
 	FIELD h LEAVES Lnet/minecraft/unmapped/C_8554894;
 	FIELD i PLANT Lnet/minecraft/unmapped/C_8554894;
+	FIELD j SPONGE Lnet/minecraft/unmapped/C_8554894;
 	FIELD k WOOL Lnet/minecraft/unmapped/C_8554894;
 	FIELD l FIRE Lnet/minecraft/unmapped/C_8554894;
 	FIELD m SAND Lnet/minecraft/unmapped/C_8554894;
