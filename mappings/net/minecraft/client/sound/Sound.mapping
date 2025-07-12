@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_0488196 net/minecraft/client/sound/Sound
+	FIELD f_6483398 path Ljava/lang/String;
+	FIELD f_4253640 url Ljava/net/URL;
+	METHOD <init> (Ljava/lang/String;Ljava/net/URL;)V
+		ARG 1 path
+		ARG 2 url

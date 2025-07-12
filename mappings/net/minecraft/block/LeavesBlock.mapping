@@ -1,0 +1,30 @@
+CLASS net/minecraft/unmapped/C_0559439 net/minecraft/block/LeavesBlock
+	FIELD f_4197193 spriteIndex I
+	FIELD f_6062330 updatesThisTick I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD m_4593295 breakLeaves (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_9454184 setCulling (Z)V
+		ARG 1 culling
+	METHOD m_0266274 updateNeighborLogProximity (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 neighborX
+		ARG 3 neighborY
+		ARG 4 neighborZ
+		ARG 5 proximity
+	METHOD m_6872528 updateLogProximity (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_0148130 getLogProximity (Lnet/minecraft/unmapped/C_3906126;IIII)I
+		ARG 1 world
+		ARG 2 neighborX
+		ARG 3 neighborY
+		ARG 4 neighborZ
+		ARG 5 proximity

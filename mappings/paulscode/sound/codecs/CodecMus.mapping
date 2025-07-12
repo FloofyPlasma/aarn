@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_4826153 paulscode/sound/codecs/CodecMus
+	METHOD openInputStream openInputStream ()Ljava/io/InputStream;
+	CLASS C_8761487 MusInputStream
+		FIELD f_3633075 hash I
+		FIELD f_6482065 inputStream Ljava/io/InputStream;
+		FIELD f_5727891 buffer [B
+		METHOD <init> (Lnet/minecraft/unmapped/C_4826153;Ljava/net/URL;Ljava/io/InputStream;)V
+			ARG 2 fileURL
+		METHOD read read ()I
+		METHOD read read ([BII)I

@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_1388208 net/minecraft/client/entity/mob/player/LocalClientPlayerEntity
+	FIELD f_3595738 networkHandler Lnet/minecraft/unmapped/C_4939758;
+	FIELD f_0812108 ticksSinceSendInventory I
+	FIELD f_2013067 sentX D
+	FIELD f_3268934 sentMinY D
+	FIELD f_0402895 sentY D
+	FIELD f_9332058 sentZ D
+	FIELD f_8615502 sentYaw F
+	FIELD f_3188362 sentPitch F
+	FIELD f_8189916 sentInventory Lnet/minecraft/unmapped/C_4286596;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3172064;Lnet/minecraft/unmapped/C_4939758;)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 networkHandler
+	METHOD m_3495192 sendMovement ()V

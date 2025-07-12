@@ -1,0 +1,41 @@
+CLASS net/minecraft/unmapped/C_4078372 net/minecraft/world/gen/chunk/OverworldChunkGenerator
+	FIELD f_9316266 random Ljava/util/Random;
+	FIELD f_6281590 minLimitPerlinNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_7885619 maxLimitPerlinNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_5435487 perlinNoise1 Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_6330805 perlinNoise2 Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_4543428 perlinNoise3 Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_6725025 scaleNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_2236408 depthNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_9290433 forestNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD f_5278555 world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f_5835085 heightMap [D
+	FIELD f_7022010 sandBuffer [D
+	FIELD f_1351414 gravelBuffer [D
+	FIELD f_4647454 depthBuffer [D
+	FIELD f_0546041 cave Lnet/minecraft/unmapped/C_6329603;
+	FIELD f_6976031 perlinNoiseBuffer [D
+	FIELD f_4704241 minLimitPerlinNoiseBuffer [D
+	FIELD f_6282798 maxLimitPerlinNoiseBuffer [D
+	FIELD f_5533962 scaleNoiseBuffer [D
+	FIELD f_8017949 depthNoiseBuffer [D
+	FIELD f_0332294 waterDepths [[I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD m_7836416 generateHeightMap ([DIIIIII)[D
+		ARG 1 heightMap
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 sizeX
+		ARG 6 sizeY
+		ARG 7 sizeZ
+	METHOD m_8884370 buildTerrain (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks
+	METHOD m_0713473 buildSurfaces (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks

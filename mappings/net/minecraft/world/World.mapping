@@ -1,0 +1,422 @@
+CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
+	FIELD f_8409741 lightUpdates Ljava/util/List;
+	FIELD f_8269266 entities Ljava/util/List;
+	FIELD f_8245938 entitiesToRemove Ljava/util/List;
+	FIELD f_7861349 scheduledTicksInOrder Ljava/util/TreeSet;
+	FIELD f_9143601 scheduledTicks Ljava/util/Set;
+	FIELD f_6375999 blockEntities Ljava/util/List;
+	FIELD f_2924408 players Ljava/util/List;
+	FIELD f_1618367 ticks J
+	FIELD f_1456809 cloudColor J
+	FIELD f_0967095 ambientDarkness I
+	FIELD f_3981340 randomTickLCG I
+	FIELD f_4145190 randomTickLCGIncrement I
+	FIELD f_3261245 suppressNeighborChangedUpdates Z
+	FIELD f_3211652 initTimeMillis J
+	FIELD f_7319966 lastSaveTime I
+	FIELD f_2951879 difficulty I
+	FIELD f_7114289 random Ljava/util/Random;
+	FIELD f_6988360 spawnPointX I
+	FIELD f_9398901 spawnPointY I
+	FIELD f_7237409 spawnPointZ I
+	FIELD f_4655699 isNew Z
+	FIELD f_6260143 eventListeners Ljava/util/List;
+	FIELD f_5139049 chunkSource Lnet/minecraft/unmapped/C_9484672;
+	FIELD f_2537859 saveDir Ljava/io/File;
+	FIELD f_1783857 seed J
+	FIELD f_0762360 playerData Lnet/minecraft/unmapped/C_2800860;
+	FIELD f_8535327 sizeOnDisk J
+	FIELD f_9320105 saveName Ljava/lang/String;
+	FIELD f_5996800 searchingSpawnPoint Z
+	FIELD f_1719259 collisions Ljava/util/ArrayList;
+	FIELD f_8852672 tickingChunks Ljava/util/Set;
+	FIELD f_1902481 ambientSoundCooldown I
+	FIELD f_1449524 entitiesInArea Ljava/util/List;
+	FIELD f_2117871 isMultiplayer Z
+	FIELD f_5665045 textRenderer Ljava/lang/Object;
+	FIELD f_3119731 snowCovered Z
+	FIELD f_7778442 skyColor J
+	FIELD f_3393854 fogColor J
+	FIELD f_1283049 brightnessTable [F
+	METHOD m_7447312 createChunkCache (Ljava/io/File;)Lnet/minecraft/unmapped/C_9484672;
+		ARG 1 dir
+	METHOD m_3043681 getSurfaceBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD m_4418114 save (ZLnet/minecraft/unmapped/C_7918626;)V
+		ARG 1 saveEntities
+		ARG 2 progressListener
+	METHOD m_1813388 saveData ()V
+	METHOD m_2296533 isChunkLoaded (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_2026412 isAreaLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD m_2079321 isChunkLoadedAt (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD m_9850346 getChunk (II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 x
+		ARG 2 z
+	METHOD m_5992029 getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD m_3304116 setBlockWithMetadataQuietly (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+		ARG 5 metadata
+	METHOD m_4644614 setBlockQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD m_7778811 setBlockMetadata (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
+	METHOD m_6841872 setBlockMetadataQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
+	METHOD m_6927039 setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD m_2111420 setBlockWithMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+		ARG 5 metadata
+	METHOD m_8305191 notifyBlockChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_5713760 onBlockChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD m_5453024 onHeightMapChanged (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 newHeight
+		ARG 4 oldHeight
+	METHOD m_5295298 notifyRegionChanged (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD m_9602010 updateNeighbors (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD m_4678567 neighborChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 neighborBlock
+	METHOD m_5208817 hasSkyAccess (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_0091796 getRawBrightness (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_0113274 getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 useNeighborLight
+	METHOD m_5196840 hasSkyLight (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_6424422 getHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD m_7043535 updateLightIfOtherThan (Lnet/minecraft/unmapped/C_5863046;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 light
+	METHOD m_1517868 getLight (Lnet/minecraft/unmapped/C_5863046;III)I
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_3937516 setLight (Lnet/minecraft/unmapped/C_5863046;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 light
+	METHOD m_6019688 getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_3076658 isSunny ()Z
+	METHOD m_1352031 rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 from
+		ARG 2 to
+	METHOD m_9880818 rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;Z)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 from
+		ARG 2 to
+		ARG 3 allowLiquids
+	METHOD m_6696906 playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
+		ARG 1 source
+		ARG 2 sound
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD m_4172995 playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 sound
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD m_9197713 playRecordMusic (Ljava/lang/String;III)V
+		ARG 1 record
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_6016912 addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD m_0503999 addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 entity
+	METHOD m_3687959 notifyEntityAdded (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_5171225 notifyEntityRemoved (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_1409827 removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_1367228 addEventListener (Lnet/minecraft/unmapped/C_2782822;)V
+		ARG 1 listener
+	METHOD m_1845335 getCollisions (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 shape
+	METHOD m_1321530 calculateAmbientDarkness (F)I
+		ARG 1 tickDelta
+	METHOD m_2275985 getTimeOfDay (F)F
+		ARG 1 tickDelta
+	METHOD m_0299234 getSurfaceHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD m_7641576 scheduleTick (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 block
+	METHOD m_2471566 tickEntities ()V
+	METHOD m_6712451 tickEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_2023409 isUnobstructed (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 bounds
+	METHOD m_9156319 containsLiquid (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 bounds
+	METHOD m_8468847 containsFireSource (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 bounds
+	METHOD m_6722421 applyLiquidDrag (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 bounds
+		ARG 2 material
+		ARG 3 entity
+	METHOD m_4199410 containsMaterial (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
+		ARG 1 bounds
+		ARG 2 material
+	METHOD m_2679365 containsLiquid (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
+		ARG 1 bounds
+		ARG 2 material
+	METHOD m_6686428 getBlockDensity (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_1414550;)F
+		ARG 1 pos
+		ARG 2 bounds
+	METHOD m_0209603 getBlockEntity (III)Lnet/minecraft/unmapped/C_2074023;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_8694006 setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD m_9062143 removeBlockEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_7835334 doLightUpdates ()Z
+	METHOD m_0387766 updateLight (Lnet/minecraft/unmapped/C_5863046;IIIIII)V
+		ARG 1 type
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD m_3601007 updateLight (Lnet/minecraft/unmapped/C_5863046;IIIIIIZ)V
+		ARG 1 type
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+		ARG 8 expand
+	METHOD m_9859231 initAmbientDarkness ()V
+	METHOD m_0624358 tick ()V
+	METHOD m_6100908 tickChunks ()V
+	METHOD m_3593710 doScheduledTicks (Z)Z
+		ARG 1 flush
+	METHOD m_1689591 getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 exclude
+		ARG 2 bounds
+	METHOD m_9014160 getEntitiesOfType (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 type
+		ARG 2 bounds
+	METHOD m_0023710 notifyBlockEntityChanged (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD m_2641441 getEntityCount (Ljava/lang/Class;)I
+		ARG 1 type
+	METHOD m_7505880 loadEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD m_7800047 unloadEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD m_2921988 canPlace (IIIIZ)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 skipCollisionChecks
+	METHOD m_7084862 findPath (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_6385858;F)Lnet/minecraft/unmapped/C_7641996;
+		ARG 1 entity
+		ARG 2 target
+		ARG 3 range
+	METHOD m_2534066 findPath (Lnet/minecraft/unmapped/C_6385858;IIIF)Lnet/minecraft/unmapped/C_7641996;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 range
+	METHOD m_1164560 hasDirectSignal (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dir
+	METHOD m_5003743 hasDirectNeighborSignal (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_0788778 hasSignal (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dir
+	METHOD m_9946635 hasNeighborSignal (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_8874150 getNearestPlayer (Lnet/minecraft/unmapped/C_6385858;D)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 entity
+		ARG 2 range
+	METHOD m_3078835 getNearestPlayer (DDDD)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 range
+	METHOD m_5628232 checkSessionLock ()V
+	METHOD m_0566124 explode (Lnet/minecraft/unmapped/C_6385858;DDDF)V
+		ARG 1 source
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 power
+	METHOD m_9312594 getWorldData (Ljava/io/File;Ljava/lang/String;)Lnet/minecraft/unmapped/C_2800860;
+		ARG 0 gameDir
+		ARG 1 saveName
+	METHOD m_9583644 deleteWorld (Ljava/io/File;Ljava/lang/String;)V
+		ARG 0 gameDir
+		ARG 1 saveName
+	METHOD m_4805602 deleteFilesRecursively ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 dir
+		ARG 2 saveName
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 dir
+		ARG 2 saveName
+		ARG 3 seed
+	METHOD m_3766127 resetSpawnPoint ()V
+	METHOD m_0762970 loadPlayer (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD m_0537941 saveWhilePaused (I)Z
+		ARG 1 step
+	METHOD m_1985242 removeEventListener (Lnet/minecraft/unmapped/C_2782822;)V
+		ARG 1 listener
+	METHOD m_4256689 getCloudColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD m_2510182 getFogColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD m_8928585 getPrecipitationHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD m_7334458 getStarBrightness (F)F
+		ARG 1 tickDelta
+	METHOD m_7254465 extinguishFire (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD m_2356502 getEntityOfSubtype (Ljava/lang/Class;)Lnet/minecraft/unmapped/C_6385858;
+		ARG 1 type
+	METHOD m_9392586 getDebugInfo ()Ljava/lang/String;
+	METHOD m_5794371 forceSave (Lnet/minecraft/unmapped/C_7918626;)V
+		ARG 1 progressListener
+	METHOD m_8169946 doRandomDisplayTicks (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_6461927 getEntities ()Ljava/util/List;
+	METHOD m_6787182 prepare ()V
+	METHOD m_3353779 unpackChunkData (IIIIII[B)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 widthX
+		ARG 5 height
+		ARG 6 widthZ
+		ARG 7 data
+	METHOD m_9929941 disconnect ()V
+	METHOD m_6612657 setTime (J)V
+		ARG 1 time
+	METHOD m_4614615 addEntityAlways (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 saveName
+	METHOD m_5710968 isValidSpawnPoint (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD m_2613927 getSkyColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta

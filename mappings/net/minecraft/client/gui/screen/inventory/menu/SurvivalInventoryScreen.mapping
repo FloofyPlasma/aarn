@@ -1,0 +1,8 @@
+CLASS net/minecraft/unmapped/C_6923352 net/minecraft/client/gui/screen/inventory/menu/SurvivalInventoryScreen
+	FIELD f_5463137 menu Lnet/minecraft/unmapped/C_9404371;
+	FIELD f_2259564 mouseX F
+	FIELD f_9996971 mouseY F
+	METHOD <init> (Lnet/minecraft/unmapped/C_4390289;[Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 inventory
+		ARG 2 craftingSlots
+	CLASS 8749673 8749673

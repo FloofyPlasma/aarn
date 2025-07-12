@@ -1,0 +1,17 @@
+CLASS net/minecraft/unmapped/C_5602753 net/minecraft/block/PressurePlateBlock
+	FIELD f_2399905 rule Lnet/minecraft/unmapped/C_5602753$C_7629809;
+	METHOD <init> (IILnet/minecraft/unmapped/C_5602753$C_7629809;)V
+		ARG 1 id
+		ARG 2 sprite
+		ARG 3 rule
+	METHOD m_4201484 updateOutputState (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	CLASS C_7629809 ActivationRule
+		FIELD f_7022967 EVERYTHING Lnet/minecraft/unmapped/C_5602753$C_7629809;
+		FIELD f_8746385 MOBS Lnet/minecraft/unmapped/C_5602753$C_7629809;
+		FIELD f_8609996 PLAYERS Lnet/minecraft/unmapped/C_5602753$C_7629809;
+		METHOD values values ()[Lnet/minecraft/unmapped/C_5602753$C_7629809;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnet/minecraft/unmapped/C_5602753$C_7629809;

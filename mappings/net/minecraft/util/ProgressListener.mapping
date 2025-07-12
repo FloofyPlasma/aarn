@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_7918626 net/minecraft/util/ProgressListener
+	METHOD m_5266201 progressStartNoAbort (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD m_5570081 progressStage (Ljava/lang/String;)V
+		ARG 1 stage
+	METHOD m_3915830 progressStagePercentage (I)V
+		ARG 1 percentage

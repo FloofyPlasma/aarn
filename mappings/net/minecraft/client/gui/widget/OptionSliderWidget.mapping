@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_3916494 net/minecraft/client/gui/widget/OptionSliderWidget
+	FIELD f_7953973 value F
+	FIELD f_4850801 dragging Z
+	FIELD f_3553534 option I
+	METHOD <init> (IIIILjava/lang/String;F)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 message
+		ARG 6 value

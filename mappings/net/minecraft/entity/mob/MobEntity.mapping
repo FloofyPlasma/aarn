@@ -1,0 +1,88 @@
+CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
+	FIELD f_9550947 invulnerableTicks I
+	FIELD f_1826368 bodyYaw F
+	FIELD f_8877986 lastBodyYaw F
+	FIELD f_7904404 lastWalkProgress F
+	FIELD f_2059924 walkProgress F
+	FIELD f_7427983 totalWalkDistance F
+	FIELD f_2675121 lastTotalWalkDistance F
+	FIELD f_3689196 texture Ljava/lang/String;
+	FIELD f_9063309 rotationOffset F
+	FIELD f_0526150 modelName Ljava/lang/String;
+	FIELD f_2521528 score I
+	FIELD f_0244461 lastDamageTaken F
+	FIELD f_2411485 interpolateOnly Z
+	FIELD f_0160615 lastAttackAnimationProgress F
+	FIELD f_8355779 attackAnimationProgress F
+	FIELD f_9406435 health I
+	FIELD f_6681712 prevHealth I
+	FIELD f_5887688 ambientSoundTimer I
+	FIELD f_2918756 damagedTimer I
+	FIELD f_7753738 damagedTime I
+	FIELD f_2152200 damagedSwingDir F
+	FIELD f_6286313 deathTicks I
+	FIELD f_9268217 attackTimer I
+	FIELD f_5978062 lastTilt F
+	FIELD f_3234379 tilt F
+	FIELD f_8161233 dead Z
+	FIELD f_9652876 lastWalkAnimationSpeed F
+	FIELD f_8790022 walkAnimationSpeed F
+	FIELD f_9774414 walkAnimationProgress F
+	FIELD f_7414120 lerpSteps I
+	FIELD f_9470824 lerpX D
+	FIELD f_5232654 lerpY D
+	FIELD f_9268563 lerpZ D
+	FIELD f_1280492 lerpYaw D
+	FIELD f_0115357 lerpPitch D
+	FIELD f_3276296 farFromPlayerTicks I
+	FIELD f_2281696 sidewaysSpeed F
+	FIELD f_5907752 forwardSpeed F
+	FIELD f_2472007 rotationSpeed F
+	FIELD f_1638648 jumping Z
+	FIELD f_1337476 defaultPitch F
+	FIELD f_0531186 walkSpeed F
+	FIELD f_2937920 lookTarget Lnet/minecraft/unmapped/C_6385858;
+	FIELD f_3169143 lookTimer I
+	METHOD m_5751746 canSee (Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 entity
+	METHOD m_8620403 getAmbientSoundInterval ()I
+	METHOD m_6671400 animateSpawn ()V
+	METHOD m_6031420 heal (I)V
+		ARG 1 amount
+	METHOD m_9886824 getSoundVolume ()F
+	METHOD m_9980999 getAmbientSound ()Ljava/lang/String;
+	METHOD m_0628689 getHurtSound ()Ljava/lang/String;
+	METHOD m_6640029 getDeathSound ()Ljava/lang/String;
+	METHOD m_5038246 applyKnockback (Lnet/minecraft/unmapped/C_6385858;IDD)V
+		ARG 1 attacker
+		ARG 2 amount
+		ARG 3 dx
+		ARG 5 dz
+	METHOD m_4650833 die (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 killer
+	METHOD m_4601038 getDropItem ()I
+	METHOD m_1998843 moveRelative (FF)V
+		ARG 1 sideways
+		ARG 2 forwards
+	METHOD m_5116461 isClimbing ()Z
+	METHOD m_5818797 mobTick ()V
+	METHOD m_9824126 jump ()V
+	METHOD m_6773208 aiTick ()V
+	METHOD m_0544398 lookAt (Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 target
+		ARG 2 maxRotationChange
+	METHOD m_8768955 lerpRotation (FFF)F
+		ARG 1 from
+		ARG 2 to
+		ARG 3 maxChange
+	METHOD m_3748125 beforeRemove ()V
+	METHOD m_6814594 canSpawn ()Z
+	METHOD m_7678494 getLookVector (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD m_4248136 getAttackAnimationProgress (F)F
+		ARG 1 tickDelta
+	METHOD m_4755429 getPosition (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD m_4926853 rayTrace (DF)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 distance
+		ARG 3 tickDelta

@@ -1,0 +1,20 @@
+CLASS net/minecraft/unmapped/C_6205974 net/minecraft/world/gen/noise/PerlinNoise
+	FIELD f_4448671 noiseLevels [Lnet/minecraft/unmapped/C_0611937;
+	FIELD f_6571600 levels I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 levels
+	METHOD m_1189144 getValue (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD m_2945258 getRegion ([DDDDIIIDDD)[D
+		ARG 1 values
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 sizeX
+		ARG 9 sizeY
+		ARG 10 sizeZ
+		ARG 11 scaleX
+		ARG 13 scaleY
+		ARG 15 scaleZ

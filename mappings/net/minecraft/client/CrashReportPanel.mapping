@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_5147087 net/minecraft/client/CrashReportPanel
+	METHOD <init> (Lnet/minecraft/unmapped/C_5269767;)V
+		ARG 1 report
+	CLASS C_4977943 LogoCanvas
+		FIELD f_7327812 logo Ljava/awt/image/BufferedImage;
+		METHOD paint paint (Ljava/awt/Graphics;)V
+	CLASS C_7334919 BorderCanvas
+		METHOD <init> (I)V
+			ARG 1 size

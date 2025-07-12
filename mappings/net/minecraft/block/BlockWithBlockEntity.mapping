@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_6664676 net/minecraft/block/BlockWithBlockEntity
+	METHOD m_0502820 createBlockEntity ()Lnet/minecraft/unmapped/C_2074023;

@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_8958653 net/minecraft/entity/mob/animal/PigEntity
+	FIELD f_2467488 saddled Z
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world

@@ -1,0 +1,142 @@
+CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
+	FIELD f_2237872 random Ljava/util/Random;
+	FIELD f_8186366 BY_ID [Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0519279 IRON_SHOVEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1026064 IRON_PICKAXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5055426 IRON_AXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2523624 FLINT_AND_STEEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7036344 APPLE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1430064 BOW Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9554125 ARROW Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5639101 COAL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1680702 DIAMOND Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3735861 IRON_INGOT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0840822 GOLD_INGOT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2298321 IRON_SWORD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6742914 WOODEN_SWORD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2182761 WOODEN_SHOVEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8188540 WOODEN_PICKAXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9142242 WOODEN_AXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2311616 STONE_SWORD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5662756 STONE_SHOVEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9567996 STONE_PICKAXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6714732 STONE_AXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5756649 DIAMOND_SWORD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0372123 DIAMOND_SHOVEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4063006 DIAMOND_PICKAXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8210474 DIAMOND_AXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8682107 STICK Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8121763 BOWL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0923608 MUSHROOM_STEW Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0940514 GOLDEN_SWORD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7430152 GOLDEN_SHOVEL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2696626 GOLDEN_PICKAXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2039811 GOLDEN_AXE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5216905 STRING Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1296734 FEATHER Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8090053 GUNPOWDER Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8662003 WOODEN_HOE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5009261 STONE_HOE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6276240 IRON_HOE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8555829 DIAMOND_HOE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8678602 GOLDEN_HOE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1239548 WHEAT_SEEDS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1026117 WHEAT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4413916 BREAD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7020203 LEATHER_HELMET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6171387 LEATHER_CHESTPLATE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7179169 LEATHER_LEGGINGS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6314546 LEATHER_BOOTS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0222887 CHAINMAIL_HELMET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4770385 CHAINMAIL_CHESTPLATE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6981216 CHAINMAIL_LEGGINGS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9172194 CHAINMAIL_BOOTS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8104327 IRON_HELMET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7812132 IRON_CHESTPLATE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9423823 IRON_LEGGINGS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9966856 IRON_BOOTS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4095949 DIAMOND_HELMET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0202604 DIAMOND_CHESTPLATE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4501537 DIAMOND_LEGGINGS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6913651 DIAMOND_BOOTS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3925125 GOLDEN_HELMET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0810948 GOLDEN_CHESTPLATE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5377435 GOLDEN_LEGGINGS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1037523 GOLDEN_BOOTS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4183746 FLINT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7388276 PORKCHOP Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0296516 COOKED_PORKCHOP Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1245333 PAINTING Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_6650227 GOLDEN_APPLE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8571612 SIGN Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2401834 WOODEN_DOOR Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8980718 BUCKET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_0473166 WATER_BUCKET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2483303 LAVA_BUCKET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9857678 MINECART Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2983789 SADDLE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7063605 IRON_DOOR Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_8056023 REDSTONE Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2264337 SNOWBALL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5593769 BOAT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2653962 LEATHER Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9296114 MILK_BUCKET Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_1451265 BRICK Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3592845 CLAY Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3160490 REEDS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2983497 PAPER Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2975464 BOOK Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3394190 SLIMEBALL Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_4072620 CHEST_MINECART Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7071311 FURNACE_MINECART Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_5092931 EGG Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7995583 COMPASS Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_9746914 FISHING_ROD Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_7733814 RECORD_13 Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_3009184 RECORD_CAT Lnet/minecraft/unmapped/C_4030632;
+	FIELD f_2841131 id I
+	FIELD f_9247003 maxStackSize I
+	FIELD f_4704192 maxDamage I
+	FIELD f_4914550 sprite I
+	FIELD f_5075013 handheld Z
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD m_1364135 setSprite (I)Lnet/minecraft/unmapped/C_4030632;
+		ARG 1 sprite
+	METHOD m_9844872 useOn (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;IIII)Z
+		ARG 1 stack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD m_3907516 getMiningSpeed (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_3635204;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD m_6337043 startUsing (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD m_7986821 getMaxStackSize ()I
+	METHOD m_3198345 getMaxDamage ()I
+	METHOD m_9532015 attack (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 stack
+		ARG 2 target
+	METHOD m_5872189 mineBlock (Lnet/minecraft/unmapped/C_2750078;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD m_1072215 getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
+		ARG 1 target
+	METHOD m_8581178 canMineBlock (Lnet/minecraft/unmapped/C_3635204;)Z
+		ARG 1 block
+	METHOD m_3129782 interact (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 stack
+		ARG 2 entity
+	METHOD m_5370996 setHandheld ()Lnet/minecraft/unmapped/C_4030632;
+	METHOD m_8620274 getSprite (Lnet/minecraft/unmapped/C_2750078;)I
+		ARG 1 stack
+	METHOD m_6815351 isHandheld ()Z

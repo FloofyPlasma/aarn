@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_3604011 net/minecraft/client/render/entity/PlayerRenderer
+	FIELD f_4767822 player Lnet/minecraft/unmapped/C_4590573;
+	FIELD f_7676523 armor1 Lnet/minecraft/unmapped/C_4590573;
+	FIELD f_2102096 armor2 Lnet/minecraft/unmapped/C_4590573;
+	FIELD f_6509173 ARMOR_VARIANTS [Ljava/lang/String;
+	METHOD m_8078064 renderRightHand ()V

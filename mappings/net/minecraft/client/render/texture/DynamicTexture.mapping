@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_3544790 net/minecraft/client/render/texture/DynamicTexture
+	FIELD f_5732441 pixels [B
+	FIELD f_7672603 sprite I
+	FIELD f_2222266 anaglyph Z
+	FIELD f_4805264 copyTo I
+	FIELD f_7516203 replicate I
+	FIELD f_1612973 atlas I
+	METHOD <init> (I)V
+		ARG 1 sprite
+	METHOD m_4399705 tick ()V
+	METHOD m_0563012 bind (Lnet/minecraft/unmapped/C_3385278;)V
+		ARG 1 textureManager

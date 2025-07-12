@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_5314135 net/minecraft/network/packet/AddPlayerPacket
+	FIELD f_5804039 id I
+	FIELD f_3884486 name Ljava/lang/String;
+	FIELD f_3707592 x I
+	FIELD f_5012922 y I
+	FIELD f_2567078 z I
+	FIELD f_2075811 yaw B
+	FIELD f_7689065 pitch B
+	FIELD f_9427202 itemInHand I
+	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player

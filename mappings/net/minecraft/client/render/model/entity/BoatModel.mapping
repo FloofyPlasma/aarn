@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_3645733 net/minecraft/client/render/model/entity/BoatModel
+	FIELD f_1721497 parts [Lnet/minecraft/unmapped/C_0289174;

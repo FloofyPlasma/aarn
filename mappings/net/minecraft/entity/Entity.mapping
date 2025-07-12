@@ -1,0 +1,198 @@
+CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
+	FIELD f_0446062 nextNetworkId I
+	FIELD f_2970669 networkId I
+	FIELD f_3454775 viewDistanceScaling D
+	FIELD f_4441447 blocksBuilding Z
+	FIELD f_5736304 rider Lnet/minecraft/unmapped/C_6385858;
+	FIELD f_4481416 vehicle Lnet/minecraft/unmapped/C_6385858;
+	FIELD f_9083885 world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f_7030235 lastX D
+	FIELD f_0785216 lastY D
+	FIELD f_0921820 lastZ D
+	FIELD f_1958235 x D
+	FIELD f_2469136 y D
+	FIELD f_2243525 z D
+	FIELD f_6075053 velocityX D
+	FIELD f_4622616 velocityY D
+	FIELD f_9116444 velocityZ D
+	FIELD f_0467073 yaw F
+	FIELD f_4421521 pitch F
+	FIELD f_7279727 lastYaw F
+	FIELD f_0093249 lastPitch F
+	FIELD f_2044537 shape Lnet/minecraft/unmapped/C_1414550;
+	FIELD f_1240689 onGround Z
+	FIELD f_7363959 collidingHorizontally Z
+	FIELD f_5872649 collidingVertically Z
+	FIELD f_9780990 colliding Z
+	FIELD f_4811161 immovable Z
+	FIELD f_1175468 removed Z
+	FIELD f_9213323 eyeHeight F
+	FIELD f_4042167 width F
+	FIELD f_5906359 height F
+	FIELD f_7773566 lastWalkDistance F
+	FIELD f_1280697 walkDistance F
+	FIELD f_8425346 makesSteps Z
+	FIELD f_3794260 fallDistance F
+	FIELD f_3523765 blocksWalkedOn I
+	FIELD f_2452937 prevX D
+	FIELD f_0546174 prevY D
+	FIELD f_9586137 prevZ D
+	FIELD f_6392472 eyeHeightSneakOffset F
+	FIELD f_6786615 stepHeight F
+	FIELD f_7134678 noClip Z
+	FIELD f_4332443 pushSpeedReduction F
+	FIELD f_9962160 random Ljava/util/Random;
+	FIELD f_7850449 ticks I
+	FIELD f_4418656 safeOnFireTime I
+	FIELD f_6123985 onFireTimer I
+	FIELD f_2474245 breathCapacity I
+	FIELD f_8982142 inWater Z
+	FIELD f_9251059 invulnerableTimer I
+	FIELD f_1258318 breath I
+	FIELD f_2700814 firstTick Z
+	FIELD f_2776092 ridingEntityPitchDelta D
+	FIELD f_7705907 ridingEntityYawDelta D
+	FIELD f_7412338 inChunk Z
+	FIELD f_6605905 chunkX I
+	FIELD f_0413263 chunkY I
+	FIELD f_3964471 chunkZ I
+	FIELD f_1581698 skin Ljava/lang/String;
+	FIELD f_5217252 lastKnownX I
+	FIELD f_8162682 lastKnownY I
+	FIELD f_5639636 lastKnownZ I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD m_7572763 remove ()V
+	METHOD m_2788323 setSize (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD m_8787252 setRotation (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD m_2141747 setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_0718337 tick ()V
+	METHOD m_0464956 baseTick ()V
+	METHOD m_0184559 voidTick ()V
+	METHOD m_3552814 canMove (DDD)Z
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD m_2801634 move (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD m_8698004 isSneaking ()Z
+	METHOD m_8299246 getCollisionShape ()Lnet/minecraft/unmapped/C_1414550;
+	METHOD m_6700748 takeFireDamage (I)V
+		ARG 1 amount
+	METHOD m_8092679 takeFallDamage (F)V
+		ARG 1 distance
+	METHOD m_0439182 checkWaterCollisions ()Z
+	METHOD m_1335960 isSubmergedIn (Lnet/minecraft/unmapped/C_8554894;)Z
+		ARG 1 liquid
+	METHOD m_9119163 getEyeHeight ()F
+	METHOD m_1332985 isInLava ()Z
+	METHOD m_0500056 updateVelocity (FFF)V
+		ARG 1 sideways
+		ARG 2 forwards
+		ARG 3 scale
+	METHOD m_3581619 getBrightness (F)F
+		ARG 1 tickDelta
+	METHOD m_1770219 updatePositionAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD m_0917900 setPositionAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD m_2872153 distanceTo (Lnet/minecraft/unmapped/C_6385858;)F
+		ARG 1 entity
+	METHOD m_0692136 squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_5454154 distanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_1103396 squaredDistanceTo (Lnet/minecraft/unmapped/C_6385858;)D
+		ARG 1 entity
+	METHOD m_8086437 onPlayerCollision (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD m_1624777 push (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_7542452 addVelocity (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD m_3238154 takeDamage (Lnet/minecraft/unmapped/C_6385858;I)Z
+		ARG 1 source
+		ARG 2 amount
+	METHOD m_7828889 hasCollision ()Z
+	METHOD m_4933034 isPushable ()Z
+	METHOD m_6349202 takeKillScore (Lnet/minecraft/unmapped/C_6385858;I)V
+		ARG 1 victim
+		ARG 2 score
+	METHOD m_6188111 writeNbt (Lnet/minecraft/unmapped/C_2800860;)Z
+		ARG 1 nbt
+	METHOD m_6319588 writeNbtWithoutId (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD m_4469361 readNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD m_6011557 getTypeId ()Ljava/lang/String;
+	METHOD m_9618795 readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD m_4059289 writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD m_2466537 toNbtList ([D)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 values
+	METHOD m_5720743 toNbtList ([F)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 values
+	METHOD m_9022030 dropItem (II)Lnet/minecraft/unmapped/C_3050136;
+		ARG 1 item
+		ARG 2 amount
+	METHOD m_4351561 dropItem (IIF)Lnet/minecraft/unmapped/C_3050136;
+		ARG 1 item
+		ARG 2 amount
+		ARG 3 offsetY
+	METHOD m_4184737 isAlive ()Z
+	METHOD m_9320812 isInWall ()Z
+	METHOD m_7287105 interact (Lnet/minecraft/unmapped/C_5009044;)Z
+		ARG 1 player
+	METHOD m_8446175 getCollisionAgainstShape (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 other
+	METHOD m_4691206 rideTick ()V
+	METHOD m_7333701 updateRiderPositon ()V
+	METHOD m_1375534 getRideHeight ()D
+	METHOD m_7560901 getMountHeight ()D
+	METHOD m_5966517 startRiding (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_4306841 resetPos ()V
+	METHOD m_9598325 updateLocalPlayerCamera (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD m_6683300 setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD m_5739228 shouldRender (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 cameraPos
+	METHOD m_8702565 shouldRender (D)Z
+		ARG 1 squaredDistanceToCamera
+	METHOD m_4351874 getTexture ()Ljava/lang/String;
+	METHOD m_3413954 getShadowHeightOffset ()F
+	METHOD m_2834985 lerpPositionAndAngles (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+		ARG 9 steps

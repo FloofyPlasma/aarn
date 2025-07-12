@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_7983274 net/minecraft/client/render/model/entity/SlimeModel
+	FIELD f_9783477 body Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_0496161 rightEye Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_4947532 leftEye Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_1173048 mouth Lnet/minecraft/unmapped/C_0289174;
+	METHOD <init> (I)V
+		ARG 1 v

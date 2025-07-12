@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_3945099 net/minecraft/client/render/entity/PrimedTntRenderer
+	FIELD f_9424655 blockRenderer Lnet/minecraft/unmapped/C_3466301;

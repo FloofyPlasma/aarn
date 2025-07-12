@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_7662486 net/minecraft/client/gui/screen/ConnectScreen
+	FIELD f_6568346 networkHandler Lnet/minecraft/unmapped/C_4939758;
+	FIELD f_9656316 aborted Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 address
+		ARG 3 port
+	CLASS 0454576 0454576
+		METHOD run run ()V

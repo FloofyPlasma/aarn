@@ -1,0 +1,17 @@
+CLASS net/minecraft/unmapped/C_3239917 net/minecraft/client/render/model/Model
+	FIELD f_9615756 attackAnimationProgress F
+	FIELD f_6240269 riding Z
+	METHOD m_2324866 render (FFFFFF)V
+		ARG 1 walkAnimationProgress
+		ARG 2 walkAnimationSpeed
+		ARG 3 bob
+		ARG 4 yaw
+		ARG 5 pitch
+		ARG 6 scale
+	METHOD m_5805395 setupAnimation (FFFFFF)V
+		ARG 1 walkAnimationProgress
+		ARG 2 walkAnimationSpeed
+		ARG 3 bob
+		ARG 4 yaw
+		ARG 5 pitch
+		ARG 6 scale

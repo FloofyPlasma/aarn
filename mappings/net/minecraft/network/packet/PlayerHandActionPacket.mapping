@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_7790186 net/minecraft/network/packet/PlayerHandActionPacket
+	FIELD f_9070467 x I
+	FIELD f_1362151 y I
+	FIELD f_3259292 z I
+	FIELD f_9653661 face I
+	FIELD f_3053181 action I
+	METHOD <init> (IIIII)V
+		ARG 1 action
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face

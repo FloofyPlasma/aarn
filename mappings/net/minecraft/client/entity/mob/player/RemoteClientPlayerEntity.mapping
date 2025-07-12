@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_1309851 net/minecraft/client/entity/mob/player/RemoteClientPlayerEntity
+	FIELD f_8246933 lerpSteps I
+	FIELD f_2683551 lerpX D
+	FIELD f_0720124 lerpY D
+	FIELD f_4315993 lerpZ D
+	FIELD f_2736595 lerpYaw D
+	FIELD f_8375310 lerpPitch D
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Ljava/lang/String;)V
+		ARG 1 world
+		ARG 2 name

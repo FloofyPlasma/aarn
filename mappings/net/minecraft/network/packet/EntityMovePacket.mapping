@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_4796873 net/minecraft/network/packet/EntityMovePacket
+	FIELD f_6205785 id I
+	FIELD f_8049395 dx B
+	FIELD f_4193826 dy B
+	FIELD f_1984185 dz B
+	FIELD f_4495805 yaw B
+	FIELD f_1939195 pitch B
+	FIELD f_1909845 hasAngles Z
+	CLASS C_4137949 Position
+	CLASS C_4614408 PositionAndAngles
+	CLASS C_4858115 Angles

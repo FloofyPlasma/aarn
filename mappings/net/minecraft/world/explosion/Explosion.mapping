@@ -1,0 +1,8 @@
+CLASS net/minecraft/unmapped/C_3632207 net/minecraft/world/explosion/Explosion
+	METHOD m_2400494 damageEntities (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6385858;DDDF)V
+		ARG 1 world
+		ARG 2 source
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 power

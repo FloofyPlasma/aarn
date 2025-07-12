@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_9315908 net/minecraft/client/gui/screen/inventory/menu/SignEditScreen
+	FIELD f_2344312 title Ljava/lang/String;
+	FIELD f_1337690 sign Lnet/minecraft/unmapped/C_8215726;
+	FIELD f_7121870 ticks I
+	FIELD f_9043223 row I
+	METHOD <init> (Lnet/minecraft/unmapped/C_8215726;)V
+		ARG 1 sign

@@ -1,0 +1,24 @@
+CLASS net/minecraft/unmapped/C_2751481 net/minecraft/client/render/ItemInHandRenderer
+	FIELD f_1515651 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_0997266 itemInHand Lnet/minecraft/unmapped/C_2750078;
+	FIELD f_4282606 handHeight F
+	FIELD f_2262411 lastHandHeight F
+	FIELD f_9447755 blockRenderer Lnet/minecraft/unmapped/C_3466301;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD m_7986777 render (Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 item
+	METHOD m_0066103 renderHand (F)V
+		ARG 1 tickDelta
+	METHOD m_2544514 renderScreenEffects (F)V
+		ARG 1 tickDelta
+	METHOD m_9425643 renderInWallEffect (FI)V
+		ARG 1 tickDelta
+		ARG 2 sprite
+	METHOD m_1052024 renderInWaterEffect (F)V
+		ARG 1 tickDelta
+	METHOD m_8425432 renderOnFireEffect (F)V
+		ARG 1 tickDelta
+	METHOD m_0593782 tick ()V
+	METHOD m_0120829 onBlockUsed ()V
+	METHOD m_8665200 onItemUsed ()V

@@ -1,0 +1,40 @@
+CLASS net/minecraft/unmapped/C_2354122 net/minecraft/network/Connection
+	FIELD f_3464520 LOCK Ljava/lang/Object;
+	FIELD f_2874325 READ_THREAD_COUNTER I
+	FIELD f_8256911 WRITE_THREAD_COUNTER I
+	FIELD f_9701999 lock Ljava/lang/Object;
+	FIELD f_4852909 socket Ljava/net/Socket;
+	FIELD f_7480399 input Ljava/io/DataInputStream;
+	FIELD f_1012589 output Ljava/io/DataOutputStream;
+	FIELD f_8380807 open Z
+	FIELD f_2922837 readQueue Ljava/util/List;
+	FIELD f_6158504 sendQueue Ljava/util/List;
+	FIELD f_3167608 delayedSendQueue Ljava/util/List;
+	FIELD f_5087504 listener Lnet/minecraft/unmapped/C_4443804;
+	FIELD f_9101341 closed Z
+	FIELD f_2374678 writer Ljava/lang/Thread;
+	FIELD f_0566420 reader Ljava/lang/Thread;
+	FIELD f_6479725 disconnected Z
+	FIELD f_5422241 disconnectReason Ljava/lang/String;
+	FIELD f_9649046 timeout I
+	FIELD f_7688848 sendQueueSize I
+	FIELD f_8851260 delay I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lnet/minecraft/unmapped/C_4443804;)V
+		ARG 1 socket
+		ARG 2 name
+		ARG 3 listener
+	METHOD m_5183790 send (Lnet/minecraft/unmapped/C_4844124;)V
+		ARG 1 packet
+	METHOD m_6416101 write ()V
+	METHOD m_9328634 read ()V
+	METHOD m_9503844 handleException (Ljava/lang/Exception;)V
+		ARG 1 exception
+	METHOD m_3757750 tick ()V
+	METHOD m_1282084 close (Ljava/lang/String;)V
+		ARG 1 reason
+	CLASS 2512635 2512635
+		METHOD run run ()V
+	CLASS 6680059 6680059
+		METHOD run run ()V
+	CLASS 7593858 7593858
+		METHOD run run ()V

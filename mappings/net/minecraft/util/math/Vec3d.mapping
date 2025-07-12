@@ -1,0 +1,55 @@
+CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
+	FIELD f_6042173 POOL Ljava/util/List;
+	FIELD f_8688668 poolIndex I
+	FIELD f_1625353 x D
+	FIELD f_4544943 y D
+	FIELD f_9811199 z D
+	METHOD m_4013997 of (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD m_8146632 resetPool ()V
+	METHOD m_3880807 fromPool (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_1627285 subtract (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_0897417 normalize ()Lnet/minecraft/unmapped/C_0336319;
+	METHOD m_0246283 add (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_0462993 distanceTo (Lnet/minecraft/unmapped/C_0336319;)D
+		ARG 1 vec
+	METHOD m_8920503 squaredDistanceTo (Lnet/minecraft/unmapped/C_0336319;)D
+		ARG 1 vec
+	METHOD m_0762483 squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_9180474 length ()D
+	METHOD m_6352418 intermediateWithX (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+		ARG 2 x
+	METHOD m_7174784 intermediateWithY (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+		ARG 2 y
+	METHOD m_2538535 intermediateWithZ (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+		ARG 2 z
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD m_8599403 subtractFrom (Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+	METHOD m_4859753 cross (Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+	METHOD m_5158207 rotateX (F)V
+		ARG 1 angle
+	METHOD m_0735657 rotateY (F)V
+		ARG 1 angle

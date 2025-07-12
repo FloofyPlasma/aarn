@@ -1,0 +1,51 @@
+CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInventory
+	FIELD f_3513265 items [Lnet/minecraft/unmapped/C_2750078;
+	FIELD f_7176564 armor [Lnet/minecraft/unmapped/C_2750078;
+	FIELD f_2096892 selectedSlot I
+	FIELD f_2629489 player Lnet/minecraft/unmapped/C_5009044;
+	FIELD f_6398230 dirty Z
+	FIELD f_4113055 crafting [Lnet/minecraft/unmapped/C_2750078;
+	FIELD f_4113055 cursorItem Lnet/minecraft/unmapped/C_2750078;
+	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD m_1328672 getSelectedItem ()Lnet/minecraft/unmapped/C_2750078;
+	METHOD m_9683374 getSlot (I)I
+		ARG 1 item
+	METHOD m_7123133 getSlotWithSpace (I)I
+		ARG 1 item
+	METHOD m_5702576 getEmptySlot ()I
+	METHOD m_4972139 addItemStack (II)I
+		ARG 1 item
+		ARG 2 amount
+	METHOD m_9549002 tick ()V
+	METHOD m_7237595 removeOne (I)Z
+		ARG 1 item
+	METHOD m_1691146 addItem (Lnet/minecraft/unmapped/C_2750078;)Z
+		ARG 1 item
+	METHOD m_6877993 getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
+		ARG 1 block
+	METHOD m_7670852 writeNbt (Lnet/minecraft/unmapped/C_1011144;)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 list
+	METHOD m_0050266 readNbt (Lnet/minecraft/unmapped/C_1011144;)V
+		ARG 1 list
+	METHOD m_0415661 getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
+		ARG 1 target
+	METHOD m_7353396 canMineBlock (Lnet/minecraft/unmapped/C_3635204;)Z
+		ARG 1 block
+	METHOD m_0105264 getArmorProtection ()I
+	METHOD m_8132622 damageArmor (I)V
+		ARG 1 damage
+	METHOD m_2480464 dropAll ()V
+	METHOD m_8632037 selectSlot (IZ)V
+		ARG 1 block
+		ARG 2 creative
+	METHOD m_5576257 scrollInHotbar (I)V
+		ARG 1 amount
+	METHOD m_8648382 getArmor (I)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 slot
+	METHOD m_6219073 contentEquals (Lnet/minecraft/unmapped/C_4286596;)Z
+		ARG 1 other
+	METHOD m_0791110 itemsEqual (Lnet/minecraft/unmapped/C_2750078;Lnet/minecraft/unmapped/C_2750078;)Z
+		ARG 1 item1
+		ARG 2 item2
+	METHOD m_4775289 copy ()Lnet/minecraft/unmapped/C_4286596;

@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_9958683 net/minecraft/entity/vehicle/BoatEntity
+	FIELD f_3318676 damage I
+	FIELD f_4105400 damagedTimer I
+	FIELD f_6372840 damagedSwingDir I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,34 @@
+CLASS net/minecraft/unmapped/C_0043270 net/minecraft/client/gui/GuiElement
+	FIELD f_3282381 drawOffset F
+	METHOD m_0538379 fill (IIIII)V
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 x2
+		ARG 4 y2
+		ARG 5 color
+	METHOD m_2425914 fillGradient (IIIIII)V
+		ARG 1 x1
+		ARG 2 y1
+		ARG 3 x2
+		ARG 4 y2
+		ARG 5 color1
+		ARG 6 color2
+	METHOD m_0754689 drawCenteredString (Lnet/minecraft/unmapped/C_4766485;Ljava/lang/String;III)V
+		ARG 1 textRenderer
+		ARG 2 text
+		ARG 3 centerX
+		ARG 4 y
+		ARG 5 color
+	METHOD m_9223139 drawString (Lnet/minecraft/unmapped/C_4766485;Ljava/lang/String;III)V
+		ARG 1 textRenderer
+		ARG 2 text
+		ARG 3 x
+		ARG 4 y
+		ARG 5 color
+	METHOD m_2493408 drawTexture (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+		ARG 6 height

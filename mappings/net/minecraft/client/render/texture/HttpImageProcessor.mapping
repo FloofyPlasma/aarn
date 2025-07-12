@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_5556060 net/minecraft/client/render/texture/HttpImageProcessor
+	METHOD m_3689096 process (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 image

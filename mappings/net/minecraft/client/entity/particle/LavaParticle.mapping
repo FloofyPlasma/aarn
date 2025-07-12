@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_7132859 net/minecraft/client/entity/particle/LavaParticle
+	FIELD f_2124656 initialSize F
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

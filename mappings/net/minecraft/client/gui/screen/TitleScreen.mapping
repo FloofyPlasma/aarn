@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_0309511 net/minecraft/client/gui/screen/TitleScreen
+	FIELD f_4988594 RANDOM Ljava/util/Random;
+	FIELD f_1870356 logo [Ljava/lang/String;
+	FIELD f_6549029 letterBlocks [[Lnet/minecraft/unmapped/C_0309511$C_4312231;
+	FIELD f_2312947 ticks F
+	FIELD f_4349665 splashText Ljava/lang/String;
+	METHOD m_4138453 renderLogo (F)V
+		ARG 1 tickDelta
+	CLASS C_4312231 LetterBlock
+		FIELD f_8041845 y D
+		FIELD f_3026719 lastY D
+		FIELD f_2525815 deltaY D
+		METHOD <init> (Lnet/minecraft/unmapped/C_0309511;II)V
+			ARG 2 y
+			ARG 3 x
+		METHOD m_8935444 tick ()V

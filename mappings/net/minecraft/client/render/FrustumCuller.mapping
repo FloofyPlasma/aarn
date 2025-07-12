@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_6516244 net/minecraft/client/render/FrustumCuller
+	FIELD f_5728644 frustum Lnet/minecraft/unmapped/C_4712589;
+	FIELD f_1603874 offsetX D
+	FIELD f_4729980 offsetY D
+	FIELD f_9968942 offsetZ D
+	METHOD m_4009563 intersectsFrustum (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ

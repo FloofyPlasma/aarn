@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_0873063 net/minecraft/client/gui/screen/inventory/menu/CraftingTableMenu
+	FIELD f_8748895 inventory Lnet/minecraft/unmapped/C_2178068;
+	FIELD f_5994796 resultInventory Lnet/minecraft/unmapped/C_4390289;

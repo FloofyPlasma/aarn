@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_1017062 net/minecraft/client/gui/screen/GameMenuScreen
+	FIELD f_5290614 saveStep I
+	FIELD f_2845584 ticks I

@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_8125832 net/minecraft/block/FurnaceBlock
+	FIELD f_1480746 lit Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 lit
+	METHOD m_7556299 updateFacing (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_9854814 updateLitState (ZLnet/minecraft/unmapped/C_3906126;III)V
+		ARG 0 lit
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

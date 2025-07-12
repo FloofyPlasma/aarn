@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_0806362 net/minecraft/client/entity/particle/ItemParticle
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDDLnet/minecraft/unmapped/C_4030632;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item

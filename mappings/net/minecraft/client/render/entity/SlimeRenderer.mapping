@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_3215913 net/minecraft/client/render/entity/SlimeRenderer
+	FIELD f_6164198 innerModel Lnet/minecraft/unmapped/C_3239917;
+	METHOD <init> (Lnet/minecraft/unmapped/C_3239917;Lnet/minecraft/unmapped/C_3239917;F)V
+		ARG 1 model
+		ARG 2 innerModel
+		ARG 3 shadowSize

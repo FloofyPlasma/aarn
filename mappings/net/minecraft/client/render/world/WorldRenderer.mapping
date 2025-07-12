@@ -1,0 +1,107 @@
+CLASS net/minecraft/unmapped/C_1044273 net/minecraft/client/render/world/WorldRenderer
+	FIELD f_7404452 blockEntitiesToBeRendered Ljava/util/List;
+	FIELD f_4415583 world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f_9220461 textureManager Lnet/minecraft/unmapped/C_3385278;
+	FIELD f_5607847 dirtyChunks Ljava/util/List;
+	FIELD f_9451185 sortedChunks [Lnet/minecraft/unmapped/C_5283200;
+	FIELD f_6979547 chunks [Lnet/minecraft/unmapped/C_5283200;
+	FIELD f_0904057 chunkCountX I
+	FIELD f_3933893 chunkCountY I
+	FIELD f_4898986 chunkCountZ I
+	FIELD f_2783901 chunksGlList I
+	FIELD f_5470803 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_9902985 blockRenderer Lnet/minecraft/unmapped/C_3466301;
+	FIELD f_1119205 occlusionBuffer Ljava/nio/IntBuffer;
+	FIELD f_4416184 occlusion Z
+	FIELD f_4574005 ticks I
+	FIELD f_0639559 starsGlList I
+	FIELD f_7010084 lightSkyGlList I
+	FIELD f_7007574 darkSkyGlList I
+	FIELD f_6271537 minChunkX I
+	FIELD f_0695005 minChunkY I
+	FIELD f_3013122 minChunkZ I
+	FIELD f_7844112 maxChunkX I
+	FIELD f_2346662 maxChunkY I
+	FIELD f_2778982 maxChunkZ I
+	FIELD f_0381341 lastViewDistance I
+	FIELD f_0064474 entityRenderCooldown I
+	FIELD f_2712659 entityCount I
+	FIELD f_3679655 renderedEntityCount I
+	FIELD f_6191710 culledEntityCount I
+	FIELD f_9555474 occlusionQueryBuffer Ljava/nio/IntBuffer;
+	FIELD f_9658682 chunkCount I
+	FIELD f_8636472 invisibleChunkCount I
+	FIELD f_8633296 occludedChunkCount I
+	FIELD f_0985532 compiledChunkCount I
+	FIELD f_6504228 emptyChunkCount I
+	FIELD f_0391517 chunksInCurrentLayer Ljava/util/List;
+	FIELD f_1596986 chunkRenderers [Lnet/minecraft/unmapped/C_2433962;
+	FIELD f_3320356 prevCameraX D
+	FIELD f_1619923 prevCameraY D
+	FIELD f_4269846 prevCameraZ D
+	FIELD f_6975940 miningProgress F
+	FIELD f_5393198 cullStep I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3385278;)V
+		ARG 1 minecraft
+		ARG 2 textureManager
+	METHOD m_4170973 renderStars ()V
+	METHOD m_5865103 setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD m_4374098 reload ()V
+	METHOD m_1380727 renderEntities (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_1633510;F)V
+		ARG 1 cameraPos
+		ARG 2 culler
+		ARG 3 tickDelta
+	METHOD m_1641258 getChunkDebugInfo ()Ljava/lang/String;
+	METHOD m_3655971 getEntityDebugInfo ()Ljava/lang/String;
+	METHOD m_9346630 sortChunks (III)V
+		ARG 1 cameraX
+		ARG 2 cameraY
+		ARG 3 cameraZ
+	METHOD m_8682700 render (Lnet/minecraft/unmapped/C_5009044;ID)I
+		ARG 1 camera
+		ARG 2 layer
+		ARG 3 tickDelta
+	METHOD m_2198590 checkOcclusionQueries (II)V
+		ARG 1 from
+		ARG 2 to
+	METHOD m_9251865 renderChunks (IIID)I
+		ARG 1 from
+		ARG 2 to
+		ARG 3 layer
+		ARG 4 tickDelta
+	METHOD m_6291103 renderLastChunks (ID)V
+		ARG 1 layer
+		ARG 2 tickDelta
+	METHOD m_0940976 tick ()V
+	METHOD m_1621863 renderSky (F)V
+		ARG 1 tickDelta
+	METHOD m_8060190 renderClouds (F)V
+		ARG 1 tickDelta
+	METHOD m_8428282 renderFancyClouds (F)V
+		ARG 1 tickDelta
+	METHOD m_7785939 compileChunks (Lnet/minecraft/unmapped/C_5009044;Z)Z
+		ARG 1 camera
+		ARG 2 force
+	METHOD m_6067428 renderMiningProgress (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_5853518;ILnet/minecraft/unmapped/C_2750078;F)V
+		ARG 1 camera
+		ARG 2 hit
+		ARG 4 itemInHand
+		ARG 5 tickDelta
+	METHOD m_4049049 renderBlockOutline (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_5853518;ILnet/minecraft/unmapped/C_2750078;F)V
+		ARG 1 camera
+		ARG 2 hit
+		ARG 4 itemInHand
+		ARG 5 tickDelta
+	METHOD m_3614850 renderOutline (Lnet/minecraft/unmapped/C_1414550;)V
+		ARG 1 shape
+	METHOD m_6084899 markDirty (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD m_4361284 cullChunks (Lnet/minecraft/unmapped/C_1633510;F)V
+		ARG 1 culler
+		ARG 2 tickDelta

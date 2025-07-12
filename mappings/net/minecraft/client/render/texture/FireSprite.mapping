@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_5897181 net/minecraft/client/render/texture/FireSprite
+	FIELD f_6274011 current [F
+	FIELD f_5170750 next [F

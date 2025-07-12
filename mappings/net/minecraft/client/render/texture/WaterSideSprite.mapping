@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_0384965 net/minecraft/client/render/texture/WaterSideSprite
+	FIELD f_1247368 current [F
+	FIELD f_8657575 next [F
+	FIELD f_5349548 heat [F
+	FIELD f_9615750 heatDelta [F
+	FIELD f_9443818 ticks I

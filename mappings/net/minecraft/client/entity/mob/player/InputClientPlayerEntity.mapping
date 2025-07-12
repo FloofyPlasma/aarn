@@ -1,0 +1,17 @@
+CLASS net/minecraft/unmapped/C_5367636 net/minecraft/client/entity/mob/player/InputClientPlayerEntity
+	FIELD f_3990690 input Lnet/minecraft/unmapped/C_4045198;
+	FIELD f_3252474 minecraft Lnet/minecraft/client/Minecraft;
+	METHOD m_7687283 releaseAllKeys ()V
+	METHOD m_0753693 handleKeyEvent (IZ)V
+		ARG 1 key
+		ARG 2 state
+	METHOD m_0001281 getDisplayArmorProtection ()I
+	METHOD m_4544869 sendChat (Ljava/lang/String;)V
+		ARG 1 content
+	METHOD m_3456363 beforeTick ()V
+	METHOD m_5635366 attack (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 target
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3172064;)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session

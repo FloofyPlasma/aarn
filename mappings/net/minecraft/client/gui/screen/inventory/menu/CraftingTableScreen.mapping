@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_0387400 net/minecraft/client/gui/screen/inventory/menu/CraftingTableScreen
+	FIELD f_8048323 menu Lnet/minecraft/unmapped/C_0873063;
+	METHOD <init> (Lnet/minecraft/unmapped/C_4286596;)V
+		ARG 1 playerInventory

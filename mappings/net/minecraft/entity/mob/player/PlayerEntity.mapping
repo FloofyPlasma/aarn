@@ -1,0 +1,39 @@
+CLASS net/minecraft/unmapped/C_5009044 net/minecraft/entity/mob/player/PlayerEntity
+	FIELD f_0693100 inventory Lnet/minecraft/unmapped/C_4286596;
+	FIELD f_0461191 userType B
+	FIELD f_0696867 score I
+	FIELD f_6287347 lastBob F
+	FIELD f_6789338 bob F
+	FIELD f_7373843 swingArm Z
+	FIELD f_3906653 swingArmTicks I
+	FIELD f_5971582 name Ljava/lang/String;
+	FIELD f_5666560 damageSpill I
+	METHOD m_1441378 onEntityCollision (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_6898692 dropItem (Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 item
+	METHOD m_1776845 dropItem (Lnet/minecraft/unmapped/C_2750078;Z)V
+		ARG 1 item
+		ARG 2 dead
+	METHOD m_8347472 spawnItem (Lnet/minecraft/unmapped/C_3050136;)V
+		ARG 1 item
+	METHOD m_0404633 getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
+		ARG 1 block
+	METHOD m_8092094 canMineBlock (Lnet/minecraft/unmapped/C_3635204;)Z
+		ARG 1 block
+	METHOD m_0732230 openChestMenu (Lnet/minecraft/unmapped/C_4390289;)V
+		ARG 1 inventory
+	METHOD m_8950914 pickUp (Lnet/minecraft/unmapped/C_6385858;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD m_4396911 openFurnaceMenu (Lnet/minecraft/unmapped/C_1196485;)V
+		ARG 1 furnace
+	METHOD m_7291476 openSignEditor (Lnet/minecraft/unmapped/C_8215726;)V
+		ARG 1 sign
+	METHOD m_4777054 interact (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 target
+	METHOD m_8873804 getItemInHand ()Lnet/minecraft/unmapped/C_2750078;
+	METHOD m_3907584 clearItemInHand ()V
+	METHOD m_2752266 swingArm ()V
+	METHOD m_1893105 openCraftingMenu ()V
+	METHOD m_9334300 getScore ()I

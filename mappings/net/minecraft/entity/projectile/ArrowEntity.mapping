@@ -1,0 +1,19 @@
+CLASS net/minecraft/unmapped/C_3688914 net/minecraft/entity/projectile/ArrowEntity
+	FIELD f_3744780 blockX I
+	FIELD f_4277044 blockY I
+	FIELD f_1693022 blockZ I
+	FIELD f_9657143 block I
+	FIELD f_5824838 inGround Z
+	FIELD f_8538462 shake I
+	FIELD f_5166309 shooter Lnet/minecraft/unmapped/C_1013763;
+	FIELD f_3880455 inBlockTicks I
+	FIELD f_5445180 inAirTicks I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 world
+		ARG 2 shooter
+	METHOD m_8813677 shoot (DDDFF)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+		ARG 7 power
+		ARG 8 variance

@@ -1,0 +1,58 @@
+CLASS net/minecraft/unmapped/C_5283200 net/minecraft/client/render/world/RenderChunk
+	FIELD f_1045625 world Lnet/minecraft/unmapped/C_3906126;
+	FIELD f_6923294 glList I
+	FIELD f_6896073 TESSELATOR Lnet/minecraft/unmapped/C_2334550;
+	FIELD f_5922577 updateCounter I
+	FIELD f_7537396 originX I
+	FIELD f_1919969 originY I
+	FIELD f_9635507 originZ I
+	FIELD f_2412601 sizeX I
+	FIELD f_5060052 sizeY I
+	FIELD f_2483070 sizeZ I
+	FIELD f_5848480 renderX I
+	FIELD f_8981329 renderY I
+	FIELD f_7360554 renderZ I
+	FIELD f_9650107 renderOffsetX I
+	FIELD f_2032274 renderOffsetY I
+	FIELD f_6549507 renderOffsetZ I
+	FIELD f_0382305 visible Z
+	FIELD f_6592967 empty [Z
+	FIELD f_7625670 centerX I
+	FIELD f_7813575 centerY I
+	FIELD f_4852204 centerZ I
+	FIELD f_4136253 radius F
+	FIELD f_9266175 dirty Z
+	FIELD f_5052955 bounds Lnet/minecraft/unmapped/C_1414550;
+	FIELD f_7274514 id I
+	FIELD f_7961176 occlusionVisible Z
+	FIELD f_7738966 occlusionQueryPending Z
+	FIELD f_7656535 occlusionQuery I
+	FIELD f_4574406 hasSkyLight Z
+	FIELD f_8843907 compiled Z
+	FIELD f_3957331 renderableBlockEntities Ljava/util/List;
+	FIELD f_1904622 blockEntitiesToBeRendered Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Ljava/util/List;IIIII)V
+		ARG 1 world
+		ARG 2 blockEntitiesToBeRendered
+		ARG 3 originX
+		ARG 4 originY
+		ARG 5 originZ
+		ARG 6 size
+		ARG 7 glList
+	METHOD m_5964482 setOrigin (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_3425669 glTranslate ()V
+	METHOD m_0330444 compile ()V
+	METHOD m_9608130 squaredDistanceToCenter (Lnet/minecraft/unmapped/C_6385858;)F
+		ARG 1 camera
+	METHOD m_0499834 reset ()V
+	METHOD m_6088480 delete ()V
+	METHOD m_1829228 getGlList (I)I
+		ARG 1 layer
+	METHOD m_5092852 cull (Lnet/minecraft/unmapped/C_1633510;)V
+		ARG 1 culler
+	METHOD m_7170652 renderOcclusionTest ()V
+	METHOD m_0524223 isEmpty ()Z
+	METHOD m_2772530 markDirty ()V

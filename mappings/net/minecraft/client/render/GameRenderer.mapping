@@ -1,0 +1,50 @@
+CLASS net/minecraft/unmapped/C_4824661 net/minecraft/client/render/GameRenderer
+	FIELD f_8246436 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_5637768 renderDistance F
+	FIELD f_1035939 itemInHandRenderer Lnet/minecraft/unmapped/C_2751481;
+	FIELD f_5619257 ticks I
+	FIELD f_2468143 targetEntity Lnet/minecraft/unmapped/C_6385858;
+	FIELD f_6102821 lastActiveTime J
+	FIELD f_8687356 random Ljava/util/Random;
+	FIELD f_4117573 floatBuffer Ljava/nio/FloatBuffer;
+	FIELD f_4627807 fogRed F
+	FIELD f_1498815 fogGreen F
+	FIELD f_4930127 fogBlue F
+	FIELD f_9824963 lastFogBrightness F
+	FIELD f_6791677 fogBrightness F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD m_2304048 tick ()V
+	METHOD m_1900644 pick (F)V
+		ARG 1 tickDelta
+	METHOD m_1970655 getFov (F)F
+		ARG 1 tickDelta
+	METHOD m_3843665 applyHurtCam (F)V
+		ARG 1 tickDelta
+	METHOD m_3610985 applyViewBobbing (F)V
+		ARG 1 tickDelta
+	METHOD m_2103011 transformCamera (F)V
+		ARG 1 tickDelta
+	METHOD m_5868212 setupCamera (FI)V
+		ARG 1 tickDelta
+		ARG 2 anaglyphRenderPass
+	METHOD m_3540861 renderItemInHand (FI)V
+		ARG 1 tickDelta
+		ARG 2 anaglyphRenderPass
+	METHOD m_6032859 render (F)V
+		ARG 1 tickDelta
+	METHOD m_4593502 renderWorld (F)V
+		ARG 1 tickDelta
+	METHOD m_7081282 tickRain ()V
+	METHOD m_4946406 setupGuiState ()V
+	METHOD m_5635244 setupClearColor (F)V
+		ARG 1 tickDelta
+	METHOD m_1114865 setupFog (I)V
+		ARG 1 type
+	METHOD m_3807657 getBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 1 f1
+		ARG 2 f2
+		ARG 3 f3
+		ARG 4 f4
+	METHOD m_3466212 renderRain (F)V
+		ARG 1 tickDelta

@@ -1,0 +1,35 @@
+CLASS net/minecraft/unmapped/C_0611937 net/minecraft/world/gen/noise/ImprovedNoise
+	FIELD f_3721058 permutations [I
+	FIELD f_9098504 offsetX D
+	FIELD f_6604140 offsetY D
+	FIELD f_2617120 offsetZ D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD m_9172372 noise (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_2882229 lerp (DDD)D
+		ARG 1 delta
+		ARG 3 min
+		ARG 5 max
+	METHOD m_2595755 gradientDot (IDDD)D
+		ARG 1 hash
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD m_9636077 getValue (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD m_8499841 add ([DDDDIIIDDDD)V
+		ARG 1 values
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 sizeX
+		ARG 9 sizeY
+		ARG 10 sizeZ
+		ARG 11 scaleX
+		ARG 13 scaleY
+		ARG 15 scaleZ
+		ARG 17 noiseScale

@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_9532309 net/minecraft/block/LeverBlock
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD m_2542941 canSurviveOrBreak (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

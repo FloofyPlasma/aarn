@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_1350810 net/minecraft/client/render/texture/LavaSprite
+	FIELD f_8300376 current [F
+	FIELD f_0115449 next [F
+	FIELD f_8901516 heat [F
+	FIELD f_2310438 heatDelta [F

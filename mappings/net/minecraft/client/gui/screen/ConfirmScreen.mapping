@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_5441464 net/minecraft/client/gui/screen/ConfirmScreen
+	FIELD f_1969779 listener Lnet/minecraft/unmapped/C_0786431;
+	FIELD f_7126495 title Ljava/lang/String;
+	FIELD f_9395337 description Ljava/lang/String;
+	FIELD f_5708195 id I
+	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 parent
+		ARG 2 title
+		ARG 3 description
+		ARG 4 id

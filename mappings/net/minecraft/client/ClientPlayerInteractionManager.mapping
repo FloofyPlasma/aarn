@@ -1,0 +1,42 @@
+CLASS net/minecraft/unmapped/C_4237166 net/minecraft/client/ClientPlayerInteractionManager
+	FIELD f_0680678 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_8646153 creative Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD m_1565789 initWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD m_1681170 startMiningBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD m_9248676 finishMiningBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD m_2484873 tickBlockMining (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD m_1666640 stopMiningBlock ()V
+	METHOD m_2475269 render (F)V
+		ARG 1 tickDelta
+	METHOD m_5235168 getReach ()F
+	METHOD m_7531392 initPlayer (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD m_8517616 tick ()V
+	METHOD m_4103218 hasStatusBars ()Z
+	METHOD m_5484011 adjustPlayer (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD m_0257155 useBlock (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2750078;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemInHand
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD m_8774636 createPlayer (Lnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 world

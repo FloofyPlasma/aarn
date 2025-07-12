@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_8688622 net/minecraft/client/render/world/DirtyChunkSorter
+	FIELD f_9491045 camera Lnet/minecraft/unmapped/C_5009044;
+	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 camera
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_5324911 net/minecraft/client/gui/screen/ChatScreen
+	FIELD f_9286714 lastChatMessage Ljava/lang/String;
+	FIELD f_1449132 ticks I

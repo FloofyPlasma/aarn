@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_3419581 net/minecraft/entity/mob/PathFinderMobEntity
+	FIELD f_1141703 path Lnet/minecraft/unmapped/C_7641996;
+	FIELD f_8101227 walkTarget Lnet/minecraft/unmapped/C_6385858;
+	FIELD f_3611045 stoppedMoving Z
+	METHOD m_4604691 targetInSight (Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 target
+		ARG 2 distance
+	METHOD m_4465324 getPathfindingFavor (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_3715716 findTarget ()Lnet/minecraft/unmapped/C_6385858;

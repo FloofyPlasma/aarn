@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_8425960 net/minecraft/client/render/ProgressRenderer
+	FIELD f_1486409 stage Ljava/lang/String;
+	FIELD f_4801953 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_8259792 title Ljava/lang/String;
+	FIELD f_8961735 lastTime J
+	FIELD f_6911213 noAbort Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD m_6435809 progressStart (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD m_4655768 start (Ljava/lang/String;)V
+		ARG 1 title

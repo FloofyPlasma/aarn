@@ -1,0 +1,25 @@
+CLASS net/minecraft/unmapped/C_2627205 net/minecraft/world/WorldView
+	METHOD m_9052708 getBlock (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_8183909 getBlockMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_7904701 getMaterial (III)Lnet/minecraft/unmapped/C_8554894;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_3624759 isSolidBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_0209603 getBlockEntity (III)Lnet/minecraft/unmapped/C_2074023;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_6019688 getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

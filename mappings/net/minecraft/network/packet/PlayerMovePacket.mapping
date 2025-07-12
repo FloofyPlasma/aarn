@@ -1,0 +1,33 @@
+CLASS net/minecraft/unmapped/C_8837730 net/minecraft/network/packet/PlayerMovePacket
+	FIELD f_9050789 x D
+	FIELD f_9264577 minY D
+	FIELD f_9101465 z D
+	FIELD f_3672987 y D
+	FIELD f_9058329 yaw F
+	FIELD f_3796521 pitch F
+	FIELD f_5588516 onGround Z
+	FIELD f_7075376 hasPos Z
+	FIELD f_1797803 hasAngles Z
+	METHOD <init> (Z)V
+		ARG 1 onGround
+	CLASS C_4004004 Position
+		METHOD <init> (DDDDZ)V
+			ARG 1 x
+			ARG 3 minY
+			ARG 5 y
+			ARG 7 z
+			ARG 9 onGround
+	CLASS C_7170474 Angles
+		METHOD <init> (FFZ)V
+			ARG 1 yaw
+			ARG 2 pitch
+			ARG 3 onGround
+	CLASS C_8094787 PositionAndAngles
+		METHOD <init> (DDDDFFZ)V
+			ARG 1 x
+			ARG 3 minY
+			ARG 5 y
+			ARG 7 z
+			ARG 9 yaw
+			ARG 10 pitch
+			ARG 11 onGround

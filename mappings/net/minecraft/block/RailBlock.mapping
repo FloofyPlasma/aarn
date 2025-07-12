@@ -1,0 +1,46 @@
+CLASS net/minecraft/unmapped/C_2624096 net/minecraft/block/RailBlock
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD m_8857420 updateShape (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	CLASS C_6469655 RailNode
+		FIELD f_3751458 world Lnet/minecraft/unmapped/C_3906126;
+		FIELD f_0839724 x I
+		FIELD f_3274601 y I
+		FIELD f_5291952 z I
+		FIELD f_3391096 metadata I
+		FIELD f_2246648 connections Ljava/util/List;
+		METHOD <init> (Lnet/minecraft/unmapped/C_2624096;Lnet/minecraft/unmapped/C_3906126;III)V
+			ARG 2 world
+			ARG 3 x
+			ARG 4 y
+			ARG 5 z
+		METHOD m_7355016 updateConnections ()V
+		METHOD m_9925565 removeSoftConnections ()V
+		METHOD m_3979670 couldConnectTo (III)Z
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
+		METHOD m_3853459 getNeighborRail (Lnet/minecraft/unmapped/C_8032589;)Lnet/minecraft/unmapped/C_2624096$C_6469655;
+			ARG 1 pos
+		METHOD m_7338887 connectsTo (Lnet/minecraft/unmapped/C_2624096$C_6469655;)Z
+			ARG 1 rail
+		METHOD m_7748237 hasConnection (III)Z
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
+		METHOD m_8298039 countConnections ()I
+		METHOD m_4360534 canConnectTo (Lnet/minecraft/unmapped/C_2624096$C_6469655;)Z
+			ARG 1 rail
+		METHOD m_0466753 addConnection (Lnet/minecraft/unmapped/C_2624096$C_6469655;)V
+			ARG 1 rail
+		METHOD m_5833537 hasNeighborRail (III)Z
+			ARG 1 x
+			ARG 2 y
+			ARG 3 z
+		METHOD m_1945172 updateState (Z)V
+			ARG 1 powered

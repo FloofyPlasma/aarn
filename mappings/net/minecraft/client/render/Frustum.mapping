@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_7090558 net/minecraft/client/render/Frustum
+	FIELD f_2612704 INSTANCE Lnet/minecraft/unmapped/C_7090558;
+	FIELD f_7621316 projectionBuffer Ljava/nio/FloatBuffer;
+	FIELD f_9810620 modelBuffer Ljava/nio/FloatBuffer;
+	FIELD f_3488338 clipBuffer Ljava/nio/FloatBuffer;
+	METHOD m_4206509 getInstance ()Lnet/minecraft/unmapped/C_4712589;
+	METHOD m_8654552 normalize ([[FI)V
+		ARG 1 frustum
+		ARG 2 face
+	METHOD m_9847149 compute ()V

@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_4590573 net/minecraft/client/render/model/entity/HumanoidModel
+	FIELD f_8264903 head Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_0482062 hat Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_4987141 body Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_3263805 rightArm Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_1484436 leftArm Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_0273006 rightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_3448905 leftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_7902626 itemInLeftHand Z
+	FIELD f_6277591 itemInRightHand Z
+	FIELD f_1046828 sneaking Z
+	METHOD <init> (F)V
+		ARG 1 reduction
+	METHOD <init> (FF)V
+		ARG 1 reduction
+		ARG 2 pivotPoint

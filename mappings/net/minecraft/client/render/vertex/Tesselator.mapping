@@ -1,0 +1,82 @@
+CLASS net/minecraft/unmapped/C_2334550 net/minecraft/client/render/vertex/Tesselator
+	FIELD f_8397920 TRIANGLE_MODE Z
+	FIELD f_5779661 USE_VBO Z
+	FIELD f_8094244 byteBuffer Ljava/nio/ByteBuffer;
+	FIELD f_3818975 intBuffer Ljava/nio/IntBuffer;
+	FIELD f_0731382 floatBuffer Ljava/nio/FloatBuffer;
+	FIELD f_8611150 vertexBuffer [I
+	FIELD f_2619375 vertexCount I
+	FIELD f_1689112 u D
+	FIELD f_7046269 v D
+	FIELD f_1275074 color I
+	FIELD f_2402650 colored Z
+	FIELD f_4774726 textured Z
+	FIELD f_4067275 hasNormals Z
+	FIELD f_9540616 index I
+	FIELD f_0607093 nextVertexCount I
+	FIELD f_5362588 uncolored Z
+	FIELD f_8653612 drawMode I
+	FIELD f_3746509 offsetX D
+	FIELD f_9483879 offsetY D
+	FIELD f_7871692 offsetZ D
+	FIELD f_2673089 normals I
+	FIELD f_9148274 INSTANCE Lnet/minecraft/unmapped/C_2334550;
+	FIELD f_7890003 tesselating Z
+	FIELD f_0711814 useVbo Z
+	FIELD f_0834114 vboBuffer Ljava/nio/IntBuffer;
+	FIELD f_1988919 vbo I
+	FIELD f_0106020 vboCount I
+	FIELD f_6934185 size I
+	METHOD <init> (I)V
+		ARG 1 size
+	METHOD m_9115048 end ()V
+	METHOD m_1972655 clear ()V
+	METHOD m_9321627 begin ()V
+	METHOD m_1698326 begin (I)V
+		ARG 1 drawMode
+	METHOD m_9586176 texture (DD)V
+		ARG 1 u
+		ARG 3 v
+	METHOD m_0870881 color (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD m_9399758 color (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD m_4474110 color (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD m_3815405 color (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD m_7710685 vertex (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 u
+		ARG 9 v
+	METHOD m_6740062 vertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_2290737 color (I)V
+		ARG 1 rgb
+	METHOD m_6994600 uncolored ()V
+	METHOD m_7254078 normal (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m_5453131 offset (DDD)V
+		ARG 1 offsetX
+		ARG 3 offsetY
+		ARG 5 offsetZ
+	METHOD m_9861873 addOffset (FFF)V
+		ARG 1 offsetX
+		ARG 2 offsetY
+		ARG 3 offsetZ

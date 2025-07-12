@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_4939758 net/minecraft/client/network/handler/ClientNetworkHandler
+	FIELD f_2460848 disconnected Z
+	FIELD f_5760561 connection Lnet/minecraft/unmapped/C_2354122;
+	FIELD f_4434955 message Ljava/lang/String;
+	FIELD f_2729847 minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f_8688599 world Lnet/minecraft/unmapped/C_8817873;
+	FIELD f_6009275 started Z
+	FIELD f_1927218 random Ljava/util/Random;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 address
+		ARG 3 port
+	METHOD m_7332346 tick ()V
+	METHOD m_7541002 sendPacket (Lnet/minecraft/unmapped/C_4844124;)V
+		ARG 1 packet
+	METHOD m_2815478 disconnect ()V

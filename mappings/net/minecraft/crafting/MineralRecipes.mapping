@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_6851947 net/minecraft/crafting/MineralRecipes
+	FIELD f_1708881 recipes [[Ljava/lang/Object;
+	METHOD m_1277241 register (Lnet/minecraft/unmapped/C_2154975;)V
+		ARG 1 manager

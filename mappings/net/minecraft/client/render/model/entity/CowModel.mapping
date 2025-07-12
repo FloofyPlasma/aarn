@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_6211737 net/minecraft/client/render/model/entity/CowModel
+	FIELD f_7245088 udder Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_6866443 leftHorn Lnet/minecraft/unmapped/C_0289174;
+	FIELD f_5826972 rightHorn Lnet/minecraft/unmapped/C_0289174;

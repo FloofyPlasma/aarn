@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_2101178 net/minecraft/world/gen/feature/ClayPatchFeature
+	FIELD f_2272449 clay I
+	FIELD f_3156385 size I
+	METHOD <init> (I)V
+		ARG 1 size

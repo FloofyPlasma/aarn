@@ -1,0 +1,20 @@
+CLASS net/minecraft/unmapped/C_7261559 net/minecraft/block/StairsBlock
+	FIELD f_7571790 baseBlock Lnet/minecraft/unmapped/C_3635204;
+	METHOD <init> (ILnet/minecraft/unmapped/C_3635204;)V
+		ARG 1 id
+		ARG 2 baseBlock
+	METHOD m_9335379 updateShape (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_6365493 isSolidBlock (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m_8056792 isStairsBlock (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

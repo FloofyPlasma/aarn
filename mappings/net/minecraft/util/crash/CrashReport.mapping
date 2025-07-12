@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_5269767 net/minecraft/util/crash/CrashReport
+	FIELD f_4765047 description Ljava/lang/String;
+	FIELD f_1347728 exception Ljava/lang/Throwable;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 description
+		ARG 2 exception

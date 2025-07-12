@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_1893966 net/minecraft/client/render/entity/SheepRenderer
+	METHOD <init> (Lnet/minecraft/unmapped/C_3239917;Lnet/minecraft/unmapped/C_3239917;F)V
+		ARG 1 model
+		ARG 2 furModel
+		ARG 3 shadowSize

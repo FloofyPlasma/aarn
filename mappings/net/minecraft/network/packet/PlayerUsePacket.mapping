@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_0732654 net/minecraft/network/packet/PlayerUsePacket
+	FIELD f_7736860 x I
+	FIELD f_1896520 y I
+	FIELD f_4299384 z I
+	FIELD f_9669182 face I
+	FIELD f_8317894 item I
+	METHOD <init> (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+		ARG 5 item

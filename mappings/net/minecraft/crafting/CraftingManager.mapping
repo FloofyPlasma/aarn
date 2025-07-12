@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_2154975 net/minecraft/crafting/CraftingManager
+	FIELD f_7970637 INSTANCE Lnet/minecraft/unmapped/C_2154975;
+	FIELD f_3670264 recipes Ljava/util/List;
+	METHOD m_1803911 getInstance ()Lnet/minecraft/unmapped/C_2154975;
+	METHOD m_5947380 registerShaped (Lnet/minecraft/unmapped/C_2750078;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 args
+	METHOD m_5439592 getResult ([I)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 inventory
+	CLASS 7900111 7900111
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

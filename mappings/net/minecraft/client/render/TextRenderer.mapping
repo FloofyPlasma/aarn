@@ -1,0 +1,27 @@
+CLASS net/minecraft/unmapped/C_4766485 net/minecraft/client/render/TextRenderer
+	FIELD f_4822011 characterWidths [I
+	FIELD f_6728583 boundTexture I
+	FIELD f_5774068 boundPage I
+	FIELD f_2974032 pageBuffer Ljava/nio/IntBuffer;
+	METHOD <init> (Lnet/minecraft/unmapped/C_7688744;Ljava/lang/String;Lnet/minecraft/unmapped/C_3385278;)V
+		ARG 1 options
+		ARG 2 fontPath
+		ARG 3 textureManager
+	METHOD m_7732698 drawWithShadow (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD m_8070213 draw (Ljava/lang/String;III)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD m_3272628 drawLayer (Ljava/lang/String;IIIZ)V
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+		ARG 5 shadow
+	METHOD m_3908105 getWidth (Ljava/lang/String;)I
+		ARG 1 text
