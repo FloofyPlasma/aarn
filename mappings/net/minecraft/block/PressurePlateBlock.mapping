@@ -1,1 +1,9 @@
 CLASS net/minecraft/unmapped/C_5602753 net/minecraft/block/PressurePlateBlock
+	FIELD a rule Lnet/minecraft/unmapped/C_7629809;
+	METHOD <init> (IILnet/minecraft/unmapped/C_7629809;)V
+		ARG 3 rule
+	METHOD h updateOutputState (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

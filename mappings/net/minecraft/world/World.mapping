@@ -14,6 +14,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a setBlockWithMetadataQuietly (IIIII)Z
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
+	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
@@ -21,6 +22,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V
+	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD d setBlock (IIII)Z
 	METHOD g updateNeighbors (IIII)V
 	METHOD h notifyBlockChanged (III)V
