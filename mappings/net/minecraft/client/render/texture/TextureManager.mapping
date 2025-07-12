@@ -4,4 +4,5 @@ CLASS net/minecraft/unmapped/C_3385278 net/minecraft/client/render/texture/Textu
 	METHOD a tick ()V
 	METHOD a load (Ljava/lang/String;)I
 	METHOD a addSprite (Lnet/minecraft/unmapped/C_3544790;)V
+	METHOD b reload ()V
 	METHOD b bind (I)V

@@ -1,4 +1,12 @@
 CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
+	FIELD A file Ljava/io/File;
+	FIELD a musicVolume F
+	FIELD b soundVolume F
+	FIELD c mouseSensitiivity F
+	FIELD d invertMouseY Z
+	FIELD e viewDistance I
+	FIELD f viewBobbing Z
+	FIELD g anaglyph Z
 	FIELD h fpsLimit Z
 	FIELD i fancyGraphics Z
 	FIELD j forwardKey Lnet/minecraft/unmapped/C_5027199;
@@ -12,14 +20,24 @@ CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 	FIELD r fogKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD s sneakKey Lnet/minecraft/unmapped/C_5027199;
 	FIELD t keyBindings [Lnet/minecraft/unmapped/C_5027199;
+	FIELD u minecraft Lnet/minecraft/client/Minecraft;
 	FIELD w difficulty I
 	FIELD x debugEnabled Z
+	FIELD y RENDER_DISTANCE_SETTINGS [Ljava/lang/String;
+	FIELD z DIFFICULTY_SETTINGS [Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
 		ARG 1 minecraft
 		ARG 2 dir
+	METHOD a load ()V
 	METHOD a getKeyNameFromBinding (I)Ljava/lang/String;
+		ARG 1 keyBinding
 	METHOD a setValue (IF)V
 	METHOD a setKeyBinding (II)V
+		ARG 1 keyBinding
+		ARG 2 keyCode
+	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 1 s
+	METHOD b save ()V
 	METHOD b setValue (II)V
 	METHOD c getValueFloat (I)F
 	METHOD d translateValue (I)Ljava/lang/String;

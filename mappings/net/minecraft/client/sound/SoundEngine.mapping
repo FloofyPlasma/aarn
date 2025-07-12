@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_3624347 net/minecraft/client/sound/SoundEngine
+	METHOD a volumeChanged ()V
 	METHOD a play (Ljava/lang/String;FF)V
 	METHOD a playRecord (Ljava/lang/String;FFFFF)V
 	METHOD a loadSound (Ljava/lang/String;Ljava/io/File;)V
