@@ -7,4 +7,5 @@ CLASS net/minecraft/unmapped/C_8032589 net/minecraft/util/math/Vec3i
 		ARG 2 y
 		ARG 3 z
 	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 obj
 	METHOD hashCode hashCode ()I

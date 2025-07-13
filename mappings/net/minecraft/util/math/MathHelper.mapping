@@ -1,9 +1,23 @@
 CLASS net/minecraft/unmapped/C_7185906 net/minecraft/util/math/MathHelper
+	FIELD a SINE_TABLE [F
+		COMMENT a table of sine values in the range [0, 2pi] with steps of 2pi / 65536
 	METHOD a sqrt (D)F
+		ARG 0 x
 	METHOD a absMax (DD)D
+		ARG 0 a
+		ARG 2 b
 	METHOD a sin (F)F
+		ARG 0 x
 	METHOD a floorDiv (II)I
+		ARG 0 a
+		ARG 1 b
 	METHOD b floor (D)I
+		ARG 0 x
 	METHOD b cos (F)F
+		ARG 0 x
 	METHOD c sqrt (F)F
-	METHOD d fkiir (F)I
+		ARG 0 x
+	METHOD d floor (F)I
+		ARG 0 x
+	METHOD e abs (F)F
+		ARG 0 x
