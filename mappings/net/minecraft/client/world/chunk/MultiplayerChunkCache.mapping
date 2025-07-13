@@ -1,3 +1,5 @@
 CLASS net/minecraft/unmapped/C_2616453 net/minecraft/client/world/chunk/MultiplayerChunkCache
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world
+	METHOD c unloadChunk (II)V
+	METHOD d loadChunk (II)Lnet/minecraft/unmapped/C_6755599;

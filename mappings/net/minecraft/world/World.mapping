@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	FIELD c ticks J
+	FIELD e ambientDarkness I
 	FIELD h suppressBlockUpdates Z
 	FIELD l difficulty I
 	FIELD n random Ljava/util/Random;
@@ -7,6 +8,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	FIELD p spawnPointY I
 	FIELD q spawnPointZ I
 	FIELD r fresh Z
+	FIELD s eventListeners Ljava/util/List;
 	FIELD y isMultiplayer Z
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
 		ARG 1 dir
@@ -20,12 +22,23 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a resetSpawnPoint ()V
 	METHOD a getClosestPlayer (DDDD)Lnet/minecraft/unmapped/C_5009044;
 	METHOD a playSound (DDDLjava/lang/String;FF)V
+	METHOD a calculateAmbientDarkness (F)I
 	METHOD a clickSave (I)Z
 	METHOD a setBlockQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
 	METHOD a setBlockWithMetadataQuietly (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 metadata
 	METHOD a packChunkData (IIIIII[B)V
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD a setTime (J)V
+	METHOD a createChunkCache (Ljava/io/File;)Lnet/minecraft/unmapped/C_9484672;
 	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
@@ -34,29 +47,51 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 entity
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
+	METHOD a doScheduledTicks (Z)Z
+		ARG 1 flush
 	METHOD b getSkyColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD b getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V
 	METHOD b notifyBlockChanged (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
 	METHOD b removeEventListener (Lnet/minecraft/unmapped/C_2782822;)V
+	METHOD b onEntityAdded (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
 	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD c tickEntities ()V
+	METHOD c setBlockMetadataQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
+	METHOD c onEntityRemoved (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
 	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;
 	METHOD d getCloudColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD d getSurfaceHeight (II)I
 	METHOD d setBlock (IIII)Z
 	METHOD d removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
 	METHOD e doLightUpdates ()Z
 	METHOD e getFogColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD f addEntityAlways (Lnet/minecraft/unmapped/C_6385858;)V
 	METHOD g tick ()V
 	METHOD g updateNeighbors (IIII)V
+	METHOD h tickChunks ()V
 	METHOD h notifyBlockChanged (III)V
 	METHOD h scheduleTick (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
 	METHOD i getEntities ()Ljava/util/List;
 	METHOD i hasSkyAccess (III)Z
 	METHOD j simulateForABit ()V
