@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_4658369 net/minecraft/world/gen/feature/VeinFeature
+	FIELD a blockId I
+	FIELD b size I
 	METHOD <init> (II)V
 		ARG 1 block
 		ARG 2 size
