@@ -2,3 +2,4 @@ CLASS net/minecraft/unmapped/C_6205974 net/minecraft/world/gen/noise/PerlinNoise
 	METHOD <init> (Ljava/util/Random;I)V
 		ARG 1 random
 		ARG 2 levels
+	METHOD a getNoise ([DDDDIIIDDD)[D
