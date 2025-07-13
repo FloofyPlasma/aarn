@@ -3,5 +3,7 @@ CLASS net/minecraft/unmapped/C_2426381 net/minecraft/entity/mob/animal/ChickenEn
 	FIELD c maxWingDeviation F
 	FIELD d prevMaxWingDeviation F
 	FIELD e prevFlapProgress F
+	FIELD h flapSpeed F
+	FIELD i eggLayTime I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
 		ARG 1 world

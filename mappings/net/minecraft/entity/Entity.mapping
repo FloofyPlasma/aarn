@@ -103,6 +103,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
 		ARG 1 player
 	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
+		ARG 2 i
 	METHOD a isSubmergedIn (Lnet/minecraft/unmapped/C_8554894;)Z
 		COMMENT checks if this entity is submerged in the given fluid, meaning the fluid covers its eyes
 		ARG 1 liquid

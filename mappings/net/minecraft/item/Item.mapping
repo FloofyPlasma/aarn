@@ -29,6 +29,7 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD aB SNOWBALL Lnet/minecraft/unmapped/C_4030632;
 	FIELD aC BOAT Lnet/minecraft/unmapped/C_4030632;
 	FIELD aD LEATHER Lnet/minecraft/unmapped/C_4030632;
+	FIELD aE MILK_BUCKET Lnet/minecraft/unmapped/C_4030632;
 	FIELD aF BRICK Lnet/minecraft/unmapped/C_4030632;
 	FIELD aG CLAY Lnet/minecraft/unmapped/C_4030632;
 	FIELD aH REEDS Lnet/minecraft/unmapped/C_4030632;
@@ -37,6 +38,7 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD aK SLIMEBALL Lnet/minecraft/unmapped/C_4030632;
 	FIELD aL CHEST_MINECART Lnet/minecraft/unmapped/C_4030632;
 	FIELD aM FURNACE_MINECART Lnet/minecraft/unmapped/C_4030632;
+	FIELD aN EGG Lnet/minecraft/unmapped/C_4030632;
 	FIELD aO COMPASS Lnet/minecraft/unmapped/C_4030632;
 	FIELD aP FISHING_ROD Lnet/minecraft/unmapped/C_4030632;
 	FIELD aQ RECORD_13 Lnet/minecraft/unmapped/C_4030632;
