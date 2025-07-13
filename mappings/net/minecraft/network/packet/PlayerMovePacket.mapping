@@ -5,6 +5,7 @@ CLASS net/minecraft/unmapped/C_8837730 net/minecraft/network/packet/PlayerMovePa
 	FIELD d y D
 	FIELD e yaw F
 	FIELD f pitch F
+	FIELD g onGround Z
 	FIELD h hasPos Z
 	FIELD i hasAngles Z
 	METHOD <init> (Z)V

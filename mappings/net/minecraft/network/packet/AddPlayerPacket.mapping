@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_5314135 net/minecraft/network/packet/AddPlayerPacket
 	FIELD a id I
+	FIELD b name Ljava/lang/String;
 	FIELD c x I
 	FIELD d y I
 	FIELD e z I

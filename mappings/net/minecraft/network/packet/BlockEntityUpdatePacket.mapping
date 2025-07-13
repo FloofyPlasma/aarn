@@ -2,6 +2,7 @@ CLASS net/minecraft/unmapped/C_8748575 net/minecraft/network/packet/BlockEntityU
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
+	FIELD e nbt Lnet/minecraft/unmapped/C_2800860;
 	METHOD <init> (IIILnet/minecraft/unmapped/C_2074023;)V
 		ARG 1 x
 		ARG 2 y

@@ -6,3 +6,4 @@ CLASS net/minecraft/unmapped/C_1111347 net/minecraft/network/packet/WorldChunkPa
 	FIELD e height I
 	FIELD f widthZ I
 	FIELD g data [B
+	FIELD h compressedSize I
