@@ -1,9 +1,18 @@
 CLASS net/minecraft/unmapped/C_1693934 net/minecraft/entity/decoration/PaintingEntity
 	FIELD a dir I
 	FIELD b motive Lnet/minecraft/unmapped/C_3470312;
+	FIELD c validationCooldown I
+	FIELD d xPos I
+	FIELD e yPos I
+	FIELD f zPos I
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;IIII)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 dir
+	METHOD b setDirection (I)V
+		ARG 1 dir
+	METHOD c getPositionOrOffset (I)F
+		ARG 1 length
+	METHOD i isPosValid ()Z
