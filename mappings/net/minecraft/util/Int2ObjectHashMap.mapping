@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_3837238 net/minecraft/util/Int2ObjectHashMap
+	METHOD a clear ()V
 	METHOD a get (I)Ljava/lang/Object;
 	METHOD a put (ILjava/lang/Object;)V
 	METHOD b remove (I)Ljava/lang/Object;
