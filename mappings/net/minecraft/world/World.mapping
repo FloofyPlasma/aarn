@@ -45,6 +45,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
 	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;Z)Lnet/minecraft/unmapped/C_5853518;
 	METHOD a canBuildIn (Lnet/minecraft/unmapped/C_1414550;)Z
 	METHOD a containsMaterial (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
 	METHOD a applyLiquidDrag (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;Lnet/minecraft/unmapped/C_6385858;)Z

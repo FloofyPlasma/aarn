@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_1324542 net/minecraft/item/PickaxeItem
+	FIELD aX EFFECTIVE_BLOCKS [Lnet/minecraft/unmapped/C_3635204;
+	FIELD aY tier I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tier

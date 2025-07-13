@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_0267988 net/minecraft/item/BucketItem
+	FIELD a liquid I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 liquid

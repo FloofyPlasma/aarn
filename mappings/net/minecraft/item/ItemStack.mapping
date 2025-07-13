@@ -26,17 +26,35 @@ CLASS net/minecraft/unmapped/C_2750078 net/minecraft/item/ItemStack
 		ARG 2 size
 	METHOD a getItem ()Lnet/minecraft/unmapped/C_4030632;
 	METHOD a split (I)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 amount
 	METHOD a mineBlock (IIII)V
 	METHOD a attackEntity (Lnet/minecraft/unmapped/C_1013763;)V
 	METHOD a writeNbt (Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_2800860;
+		ARG 1 nbt
 	METHOD a getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
+		ARG 1 block
 	METHOD a startUsing (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_5009044;)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 world
+		ARG 2 player
 	METHOD a onRemoved (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
 	METHOD a use (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_3906126;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 face
 	METHOD a getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
+		ARG 1 target
 	METHOD b getSprite ()I
 	METHOD b damageAndBreak (I)V
 	METHOD b interact (Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 entity
+	METHOD b readNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
 	METHOD b canEffectivelyMine (Lnet/minecraft/unmapped/C_3635204;)Z
+		ARG 1 block
 	METHOD c getMaxSize ()I
 	METHOD d getMaxDamage ()I
+	METHOD e copy ()Lnet/minecraft/unmapped/C_2750078;

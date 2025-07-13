@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_5434245 net/minecraft/item/SwordItem
+	FIELD a attackDamage I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tier

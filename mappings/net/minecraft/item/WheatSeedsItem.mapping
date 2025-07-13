@@ -1,4 +1,5 @@
 CLASS net/minecraft/unmapped/C_0878570 net/minecraft/item/WheatSeedsItem
+	FIELD a plantBlock I
 	METHOD <init> (II)V
 		ARG 1 item
 		ARG 2 plantBlock
