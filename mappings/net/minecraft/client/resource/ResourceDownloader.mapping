@@ -1,6 +1,13 @@
 CLASS net/minecraft/unmapped/C_0139979 net/minecraft/client/resource/ResourceDownloader
+	FIELD a workingDirectory Ljava/io/File;
+	FIELD b client Lnet/minecraft/client/Minecraft;
+	FIELD c cancelled Z
 	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
 		ARG 1 gameDir
 		ARG 2 minecraft
+	METHOD a readToFile (Ljava/net/URL;Ljava/io/File;J)V
+		ARG 1 fileURL
+		ARG 2 output
+		ARG 3 unused
 	METHOD b cancel ()V
 	METHOD run run ()V
