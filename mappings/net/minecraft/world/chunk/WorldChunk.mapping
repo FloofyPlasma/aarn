@@ -1,8 +1,25 @@
 CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 	FIELD a hasSkyLight Z
 	FIELD b blockIds [B
+		COMMENT the block id at each position in this chunk
 	FIELD c loaded Z
+		COMMENT true if this chunk is currently loaded into the world
+	FIELD d world Lnet/minecraft/unmapped/C_3906126;
+	FIELD e blockMetadata Lnet/minecraft/unmapped/C_2758065;
 	FIELD f skyLight Lnet/minecraft/unmapped/C_2758065;
+	FIELD g blockLight Lnet/minecraft/unmapped/C_2758065;
+	FIELD h heightMap [B
+	FIELD i lowestHeight I
+	FIELD j chunkX I
+	FIELD k chunkZ I
+	FIELD l blockEntities Ljava/util/Map;
+	FIELD m entities [Ljava/util/List;
+	FIELD n terrainPopulated Z
+	FIELD o dirty Z
+		COMMENT used to check if this chunk has changes that need to be saved to disk
+	FIELD r hasEntities Z
+		COMMENT true if this chunk contains entities - used to decide how often to save this chunk to disk
+	FIELD s lastSaveTime J
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;II)V
 		ARG 1 world
 		ARG 2 chunkX
@@ -12,25 +29,112 @@ CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 		ARG 2 blocks
 		ARG 3 chunkX
 		ARG 4 chunkZ
+	METHOD a isAt (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
 	METHOD a getBlockAt (III)I
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
 	METHOD a setBlockAt (IIII)Z
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+		ARG 4 blockId
 	METHOD a setBlockWithMetadataAt (IIIII)Z
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+		ARG 4 blockId
+		ARG 5 metadata
 	METHOD a setBlockEntityAt (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+		ARG 4 blockEntity
 	METHOD a getRandomForSlime (J)Ljava/util/Random;
+		ARG 1 seed
 	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;Ljava/util/List;)V
+		ARG 1 type
+		ARG 2 box
+		ARG 3 entities
+	METHOD a addBlockEntity (Lnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 blockEntity
 	METHOD a getLightAt (Lnet/minecraft/unmapped/C_5863046;III)I
+		ARG 1 type
+		ARG 2 localX
+		ARG 3 y
+		ARG 4 localZ
 	METHOD a setLightAt (Lnet/minecraft/unmapped/C_5863046;IIII)V
+		ARG 1 type
+		ARG 2 localX
+		ARG 3 y
+		ARG 4 localZ
+		ARG 5 light
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
 	METHOD a removeEntity (Lnet/minecraft/unmapped/C_6385858;I)V
+		ARG 1 entity
+		ARG 2 chunkY
 	METHOD a getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;Ljava/util/List;)V
+		ARG 1 exclude
+		ARG 2 box
+		ARG 3 entities
+	METHOD a shouldSave (Z)Z
+		ARG 1 saveEntities
 	METHOD a packChunkData ([BIIIIIII)I
+		ARG 1 data
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+		ARG 8 size
+	METHOD b populateHeightmap ()V
 	METHOD b getHeight (II)I
+		ARG 1 localX
+		ARG 2 localZ
 	METHOD b getBlockMetadataAt (III)I
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
 	METHOD b setBlockMetadataAt (IIII)V
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+		ARG 4 metadata
 	METHOD b removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD c populateSkylight ()V
+	METHOD c queueLightUpdate (II)V
+		ARG 1 localX
+		ARG 2 localZ
 	METHOD c hasSkyAccessAt (III)Z
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
 	METHOD c getLightAt (IIII)I
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
+		ARG 4 ambientDarkness
+	METHOD d load ()V
 	METHOD d getBlockEntityAt (III)Lnet/minecraft/unmapped/C_2074023;
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
 	METHOD e unload ()V
 	METHOD e removeBlockEntityAt (III)V
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ
 	METHOD f markDirty ()V
+	METHOD f checkSkylight (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 maxY
+	METHOD g resetLightAt (III)V
+		ARG 1 localX
+		ARG 2 y
+		ARG 3 localZ

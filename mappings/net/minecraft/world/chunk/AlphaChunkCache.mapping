@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_8593406 net/minecraft/world/chunk/AlphaChunkCache
+	FIELD c world Lnet/minecraft/unmapped/C_3906126;
+	FIELD d storage Lnet/minecraft/unmapped/C_2286002;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2286002;)V
 		ARG 1 world
 		ARG 2 storage
