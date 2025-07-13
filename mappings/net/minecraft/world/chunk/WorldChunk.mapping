@@ -1,5 +1,7 @@
 CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 	FIELD a hasSkyLight Z
+	FIELD c loaded Z
+	FIELD f skyLight Lnet/minecraft/unmapped/C_2758065;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;II)V
 		ARG 1 world
 		ARG 2 chunkX
@@ -10,3 +12,4 @@ CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 		ARG 3 chunkX
 		ARG 4 chunkZ
 	METHOD a setBlockWithMetadataAt (IIIII)Z
+	METHOD e unload ()V
