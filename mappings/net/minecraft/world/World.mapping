@@ -24,6 +24,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a playSound (DDDLjava/lang/String;FF)V
 	METHOD a calculateAmbientDarkness (F)I
 	METHOD a clickSave (I)Z
+	METHOD a getChunk (II)Lnet/minecraft/unmapped/C_6755599;
 	METHOD a setBlockQuietly (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -61,6 +62,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
 	METHOD a doScheduledTicks (Z)Z
 		ARG 1 flush
+	METHOD b isSunny ()Z
 	METHOD b getSkyColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD b getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
 	METHOD b setBlockMetadata (IIII)V

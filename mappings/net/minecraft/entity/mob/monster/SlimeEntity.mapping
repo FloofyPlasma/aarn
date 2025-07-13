@@ -1,3 +1,7 @@
 CLASS net/minecraft/unmapped/C_5371184 net/minecraft/entity/mob/monster/SlimeEntity
 	FIELD a targetStretch F
 	FIELD b lastStretch F
+	FIELD c size I
+	FIELD d ticksUntilNextJump I
+	METHOD c setSize (I)V
+		ARG 1 size

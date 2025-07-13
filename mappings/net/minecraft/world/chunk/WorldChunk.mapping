@@ -12,4 +12,5 @@ CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 		ARG 3 chunkX
 		ARG 4 chunkZ
 	METHOD a setBlockWithMetadataAt (IIIII)Z
+	METHOD a getRandomForSlime (J)Ljava/util/Random;
 	METHOD e unload ()V
