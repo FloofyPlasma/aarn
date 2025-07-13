@@ -1,4 +1,16 @@
 CLASS net/minecraft/unmapped/C_3006620 net/minecraft/world/chunk/storage/AlphaChunkStorage
+	FIELD a file Ljava/io/File;
+	FIELD b make Z
 	METHOD <init> (Ljava/io/File;Z)V
 		ARG 1 dir
 		ARG 2 make
+	METHOD a getChunkFile (II)Ljava/io/File;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a loadChunkFromNbt (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2800860;)Lnet/minecraft/unmapped/C_6755599;
+		ARG 0 world
+		ARG 1 nbt
+	METHOD a saveChunkToNbt (Lnet/minecraft/unmapped/C_6755599;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 chunk
+		ARG 2 world
+		ARG 3 nbt

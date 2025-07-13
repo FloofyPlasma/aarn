@@ -1,6 +1,13 @@
 CLASS net/minecraft/unmapped/C_2286002 net/minecraft/world/chunk/storage/ChunkStorage
 	METHOD a tick ()V
 	METHOD a loadChunk (Lnet/minecraft/unmapped/C_3906126;II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
 	METHOD a saveChunk (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6755599;)V
+		ARG 1 world
+		ARG 2 chunk
 	METHOD b save ()V
 	METHOD b saveEntities (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6755599;)V
+		ARG 1 world
+		ARG 2 chunk

@@ -4,6 +4,7 @@ CLASS net/minecraft/unmapped/C_2758065 net/minecraft/world/chunk/ChunkNibbleStor
 		ARG 1 size
 	METHOD <init> ([B)V
 		ARG 1 data
+	METHOD a hasData ()Z
 	METHOD a get (III)I
 		ARG 1 x
 		ARG 2 y
