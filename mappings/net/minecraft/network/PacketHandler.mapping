@@ -1,5 +1,7 @@
 CLASS net/minecraft/unmapped/C_4443804 net/minecraft/network/PacketHandler
 	METHOD a onDisconnect (Ljava/lang/String;)V
+	METHOD a handlePlayerUse (Lnet/minecraft/unmapped/C_0732654;)V
+		ARG 1 packet
 	METHOD a handleAddEntity (Lnet/minecraft/unmapped/C_1019530;)V
 		ARG 1 packet
 	METHOD a handleWorldChunk (Lnet/minecraft/unmapped/C_1111347;)V
@@ -28,6 +30,8 @@ CLASS net/minecraft/unmapped/C_4443804 net/minecraft/network/PacketHandler
 		ARG 1 packet
 	METHOD a handleInventory (Lnet/minecraft/unmapped/C_6489668;)V
 		ARG 1 packet
+	METHOD a handlePlayerHandAction (Lnet/minecraft/unmapped/C_7790186;)V
+		ARG 1 packet
 	METHOD a handleEntityAnimation (Lnet/minecraft/unmapped/C_7964332;)V
 		ARG 1 packet
 	METHOD a handleItemPickup (Lnet/minecraft/unmapped/C_8710490;)V
@@ -39,6 +43,7 @@ CLASS net/minecraft/unmapped/C_4443804 net/minecraft/network/PacketHandler
 	METHOD a handlePlayerMove (Lnet/minecraft/unmapped/C_8837730;)V
 		ARG 1 packet
 	METHOD a handleSelectSlot (Lnet/minecraft/unmapped/C_9200019;)V
+		ARG 1 packet
 	METHOD a handleChatMessage (Lnet/minecraft/unmapped/C_9572077;)V
 		ARG 1 packet
 	METHOD a handleHandshake (Lnet/minecraft/unmapped/C_9595287;)V
@@ -46,4 +51,6 @@ CLASS net/minecraft/unmapped/C_4443804 net/minecraft/network/PacketHandler
 	METHOD a handleLogin (Lnet/minecraft/unmapped/C_9614477;)V
 		ARG 1 packet
 	METHOD a handleEntityTeleport (Lnet/minecraft/unmapped/C_9814383;)V
+		ARG 1 packet
+	METHOD b handleUnknownPacket (Lnet/minecraft/unmapped/C_4844124;)V
 		ARG 1 packet

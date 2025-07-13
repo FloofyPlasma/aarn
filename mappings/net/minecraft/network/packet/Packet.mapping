@@ -1,1 +1,6 @@
 CLASS net/minecraft/unmapped/C_4844124 net/minecraft/network/packet/Packet
+	FIELD j hasBlockData Z
+	METHOD a getSize ()I
+	METHOD a handle (Lnet/minecraft/unmapped/C_4443804;)V
+	METHOD a serialize (Lnet/minecraft/unmapped/C_4844124;Ljava/io/DataOutputStream;)V
+	METHOD b deserialize (Ljava/io/DataInputStream;)Lnet/minecraft/unmapped/C_4844124;
