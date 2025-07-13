@@ -7,6 +7,7 @@ CLASS net/minecraft/unmapped/C_2800860 net/minecraft/nbt/NbtCompound
 	METHOD a put (Ljava/lang/String;Lnet/minecraft/unmapped/C_3984704;)V
 	METHOD a putShort (Ljava/lang/String;S)V
 	METHOD a putBoolean (Ljava/lang/String;Z)V
+	METHOD b contains (Ljava/lang/String;)Z
 	METHOD c getByte (Ljava/lang/String;)B
 	METHOD d getShort (Ljava/lang/String;)S
 	METHOD e getInt (Ljava/lang/String;)I

@@ -20,4 +20,5 @@ CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
 	METHOD c add (DDD)Lnet/minecraft/unmapped/C_0336319;
 	METHOD c distanceTo (Lnet/minecraft/unmapped/C_0336319;)D
 	METHOD c intermediateWithZ (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+	METHOD d squaredDistanceTo (DDD)D
 	METHOD toString toString ()Ljava/lang/String;

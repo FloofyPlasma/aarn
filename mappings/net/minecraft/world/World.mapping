@@ -44,6 +44,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
 	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+	METHOD a canBuildIn (Lnet/minecraft/unmapped/C_1414550;)Z
 	METHOD a containsMaterial (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
 	METHOD a applyLiquidDrag (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD a addEventListener (Lnet/minecraft/unmapped/C_2782822;)V
@@ -51,9 +52,12 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 		ARG 1 entity
+	METHOD a getClosestPlayer (Lnet/minecraft/unmapped/C_6385858;D)Lnet/minecraft/unmapped/C_5009044;
 	METHOD a explode (Lnet/minecraft/unmapped/C_6385858;DDDF)V
+	METHOD a findPath (Lnet/minecraft/unmapped/C_6385858;IIIF)Lnet/minecraft/unmapped/C_7641996;
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
 	METHOD a getCollisions (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+	METHOD a findPath (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_6385858;F)Lnet/minecraft/unmapped/C_7641996;
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
 	METHOD a doScheduledTicks (Z)Z
 		ARG 1 flush
