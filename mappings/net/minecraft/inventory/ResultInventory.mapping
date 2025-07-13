@@ -1,1 +1,2 @@
 CLASS net/minecraft/unmapped/C_6095546 net/minecraft/inventory/ResultInventory
+	FIELD a stacks [Lnet/minecraft/unmapped/C_2750078;
