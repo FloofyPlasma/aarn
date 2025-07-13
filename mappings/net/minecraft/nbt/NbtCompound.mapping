@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_2800860 net/minecraft/nbt/NbtCompound
 	METHOD a putByte (Ljava/lang/String;B)V
+	METHOD a putDouble (Ljava/lang/String;D)V
 	METHOD a putFloat (Ljava/lang/String;F)V
 	METHOD a putInt (Ljava/lang/String;I)V
 	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
@@ -13,6 +14,7 @@ CLASS net/minecraft/unmapped/C_2800860 net/minecraft/nbt/NbtCompound
 	METHOD e getInt (Ljava/lang/String;)I
 	METHOD f getLong (Ljava/lang/String;)J
 	METHOD g getFLoat (Ljava/lang/String;)F
+	METHOD h getDouble (Ljava/lang/String;)D
 	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD k getCompound (Ljava/lang/String;)Lnet/minecraft/unmapped/C_2800860;
 	METHOD l getList (Ljava/lang/String;)Lnet/minecraft/unmapped/C_1011144;
