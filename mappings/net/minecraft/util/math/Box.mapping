@@ -14,6 +14,7 @@ CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
 		ARG 11 maxZ
 	METHOD a resetCache ()V
 	METHOD a grow (DDD)Lnet/minecraft/unmapped/C_1414550;
+	METHOD a of (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
 	METHOD a clip (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
 	METHOD a intersects (Lnet/minecraft/unmapped/C_1414550;)Z
 	METHOD b expand (DDD)Lnet/minecraft/unmapped/C_1414550;

@@ -7,6 +7,7 @@ CLASS net/minecraft/unmapped/C_4030632 net/minecraft/item/Item
 	FIELD aF BRICK Lnet/minecraft/unmapped/C_4030632;
 	FIELD aG CLAY Lnet/minecraft/unmapped/C_4030632;
 	FIELD aH REEDS Lnet/minecraft/unmapped/C_4030632;
+	FIELD aK SLIMEBALL Lnet/minecraft/unmapped/C_4030632;
 	FIELD aO COMPASS Lnet/minecraft/unmapped/C_4030632;
 	FIELD aQ RECORD_13 Lnet/minecraft/unmapped/C_4030632;
 	FIELD aS id I

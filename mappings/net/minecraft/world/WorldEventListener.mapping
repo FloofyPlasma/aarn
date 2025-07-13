@@ -1,1 +1,42 @@
 CLASS net/minecraft/unmapped/C_2782822 net/minecraft/world/WorldEventListener
+	METHOD a onBlockChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a onBlockEntityChanged (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 pitch
+		ARG 9 volume
+	METHOD a onRecordRemoved (Ljava/lang/String;III)V
+		ARG 1 record
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onEntityAdded (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD b onRegionChanged (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD b onEntityRemoved (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD m_0940976 onAmbientDarknessChanged ()V

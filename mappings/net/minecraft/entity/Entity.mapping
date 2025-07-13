@@ -53,6 +53,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD a getBrightness (F)F
 		ARG 1 tickDelta
 	METHOD a setDimensions (FF)V
+	METHOD a isWithinViewDistanceOf (Lnet/minecraft/unmapped/C_0336319;)Z
 	METHOD a writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
 		ARG 1 nbt
 	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
@@ -65,6 +66,7 @@ CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
 	METHOD c refreshPositionAndAngles (DDDFF)V
 	METHOD c setRotaion (FF)V
 	METHOD c_ hasCollision ()Z
+	METHOD d getSquaredDistanceTo (DDD)D
 	METHOD d updateLocalPlayerCamera (FF)V
 	METHOD d getDistanceTo (Lnet/minecraft/unmapped/C_6385858;)F
 	METHOD e_ tick ()V

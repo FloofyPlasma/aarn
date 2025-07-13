@@ -1,15 +1,89 @@
 CLASS net/minecraft/unmapped/C_1044273 net/minecraft/client/render/world/WorldRenderer
+	FIELD A darkSkyGlList I
+	FIELD B chunkGridMinX I
+	FIELD C chunkGridMinY I
+	FIELD D chunkGridMinZ I
+	FIELD E chunkGridMaxX I
+	FIELD F chunkGridMaxY I
+	FIELD G chunkGridMaxZ I
+	FIELD H viewDistance I
+	FIELD I entityRenderCooldown I
+	FIELD J entityCount I
+	FIELD K globalEntityCount I
+	FIELD L culledEntityCount I
+	FIELD M chunkCount I
+	FIELD N invisibleChunkCount I
+	FIELD O glArbOccludedChunkCount I
+	FIELD P compiledChunkCount I
+	FIELD Q solidChunkCount I
+	FIELD R renderList Ljava/util/List;
+	FIELD S renderStages [Lnet/minecraft/unmapped/C_2433962;
+	FIELD a globalBlockEntities Ljava/util/List;
+	FIELD c occlusionBuffer Ljava/nio/IntBuffer;
+	FIELD f cameraX D
+	FIELD g cameraY D
+	FIELD h cameraZ D
+	FIELD j frustumUpdateIndex I
+	FIELD k world Lnet/minecraft/unmapped/C_3906126;
+	FIELD l textureManager Lnet/minecraft/unmapped/C_3385278;
+	FIELD m pendingChunks Ljava/util/List;
+	FIELD n compiledChunks [Lnet/minecraft/unmapped/C_5283200;
+	FIELD o chunkStorage [Lnet/minecraft/unmapped/C_5283200;
+	FIELD p chunkGridSizeX I
+	FIELD q chunkGridSizeY I
+	FIELD r chunkGridSizeZ I
+	FIELD s translucentGlList I
+	FIELD t minecraft Lnet/minecraft/client/Minecraft;
+	FIELD u blockRenderer Lnet/minecraft/unmapped/C_3466301;
+	FIELD v arbOcclusionBuffer Ljava/nio/IntBuffer;
+	FIELD w glArbOcclusion Z
+	FIELD x ticks I
+	FIELD y starsGlList I
+	FIELD z lightSkyGlList I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3385278;)V
 		ARG 1 minecraft
 		ARG 2 textureManager
 	METHOD a renderSky (F)V
+		ARG 1 tickDelta
 	METHOD a render (ID)V
+		ARG 1 renderStage
+		ARG 2 tickDelta
+	METHOD a queryGlArbOcclusion (II)V
+		ARG 1 from
+		ARG 2 to
+	METHOD a render (IIID)I
+		ARG 1 renderStartIndex
+		ARG 2 chunksToRender
+		ARG 3 renderStage
+		ARG 4 tickDelta
+	METHOD a markDirty (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
 	METHOD a renderEntities (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_1633510;F)V
+		ARG 1 pos
+		ARG 2 culler
+		ARG 3 tickDelta
+	METHOD a renderOutline (Lnet/minecraft/unmapped/C_1414550;)V
 	METHOD a updateFrustums (Lnet/minecraft/unmapped/C_1633510;F)V
+		ARG 1 culler
+		ARG 2 tickDelta
 	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
 	METHOD a render (Lnet/minecraft/unmapped/C_5009044;ID)I
 	METHOD b getChunkDebugInfo ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
+		ARG 1 tickDelta
+	METHOD b updateRenderBoundaries (III)V
+		ARG 1 cameraX
+		ARG 2 cameraY
+		ARG 3 cameraZ
 	METHOD b renderBlockOutline (Lnet/minecraft/unmapped/C_5009044;Lnet/minecraft/unmapped/C_5853518;ILnet/minecraft/unmapped/C_2750078;F)V
 	METHOD c getEntityDebugInfo ()Ljava/lang/String;
+	METHOD c renderFancyClouds (F)V
+		ARG 1 tickDelta
 	METHOD d tick ()V
+	METHOD f renderStars ()V

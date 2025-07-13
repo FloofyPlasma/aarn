@@ -30,6 +30,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
 	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+	METHOD a addEventListener (Lnet/minecraft/unmapped/C_2782822;)V
 	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
@@ -41,9 +42,11 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD b setBlockWithMetadata (IIIII)Z
 	METHOD b notifyRegionChanged (IIIIII)V
 	METHOD b notifyBlockChanged (IIILnet/minecraft/unmapped/C_2074023;)V
+	METHOD b removeEventListener (Lnet/minecraft/unmapped/C_2782822;)V
 	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD c tickEntities ()V
 	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;
+	METHOD d getCloudColor (F)Lnet/minecraft/unmapped/C_0336319;
 	METHOD d getSurfaceHeight (II)I
 	METHOD d setBlock (IIII)Z
 	METHOD d removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
@@ -54,6 +57,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD g updateNeighbors (IIII)V
 	METHOD h notifyBlockChanged (III)V
 	METHOD h scheduleTick (IIII)V
+	METHOD i getEntities ()Ljava/util/List;
 	METHOD i hasSkyAccess (III)Z
 	METHOD j simulateForABit ()V
 	METHOD j getRawBrightness (III)I
