@@ -150,7 +150,7 @@ task downloadIntermediary(type: Download) {
 
 task downloadIntermediaryV2(type: Download) {
 	group = buildMappingGroup
-	def url = "https://floofyplasma.github.io/aabric-libraries/aabric-experimental/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
+	def url = "https://floofyplasma.github.io/aabric-libraries/aabric/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 
@@ -637,7 +637,7 @@ check.dependsOn javadocLint
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId "aabric-experimental"
+			groupId "aabric"
 			artifactId "aarn"
 			version yarnVersion
 
