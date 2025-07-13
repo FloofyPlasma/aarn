@@ -1,1 +1,4 @@
 CLASS net/minecraft/unmapped/C_0384965 net/minecraft/client/render/texture/WaterSideSprite
+	FIELD g image0 [F
+	FIELD h image1 [F
+	FIELD k ticks I

@@ -1,1 +1,4 @@
 CLASS net/minecraft/unmapped/C_4048548 net/minecraft/client/render/texture/LavaSideSprite
+	FIELD g image0 [F
+	FIELD h image1 [F
+	FIELD k ticks I

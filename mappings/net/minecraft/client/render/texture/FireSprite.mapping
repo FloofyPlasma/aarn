@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_5897181 net/minecraft/client/render/texture/FireSprite
+	FIELD g image0 [F
+	FIELD h image1 [F

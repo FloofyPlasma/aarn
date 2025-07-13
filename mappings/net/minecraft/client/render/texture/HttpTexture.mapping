@@ -1,4 +1,8 @@
 CLASS net/minecraft/unmapped/C_3540933 net/minecraft/client/render/texture/HttpTexture
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD b requestCount I
+	FIELD c removedCount I
+	FIELD d uploaded Z
 	METHOD <init> (Ljava/lang/String;Lnet/minecraft/unmapped/C_5556060;)V
 		ARG 1 url
 		ARG 2 processor

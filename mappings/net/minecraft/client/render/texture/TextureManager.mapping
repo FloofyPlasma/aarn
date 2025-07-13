@@ -1,10 +1,36 @@
 CLASS net/minecraft/unmapped/C_3385278 net/minecraft/client/render/texture/TextureManager
+	FIELD b textures Ljava/util/HashMap;
+	FIELD c boundTextures Ljava/util/HashMap;
+	FIELD d intBuffer Ljava/nio/IntBuffer;
+	FIELD e buffer Ljava/nio/ByteBuffer;
+	FIELD f sprites Ljava/util/List;
+	FIELD g httpTextures Ljava/util/Map;
+	FIELD h options Lnet/minecraft/unmapped/C_7688744;
+	FIELD i blur Z
 	METHOD <init> (Lnet/minecraft/unmapped/C_7688744;)V
 		ARG 1 options
 	METHOD a tick ()V
+	METHOD a remove (I)V
+		ARG 1 texture
 	METHOD a bind (Ljava/awt/image/BufferedImage;)I
+		ARG 1 image
+	METHOD a bind (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 image
+		ARG 2 texture
 	METHOD a load (Ljava/lang/String;)I
+		ARG 1 path
 	METHOD a bindHttpTexture (Ljava/lang/String;Ljava/lang/String;)I
+		ARG 1 path
+		ARG 2 defaultPath
+	METHOD a getHttpTexture (Ljava/lang/String;Lnet/minecraft/unmapped/C_5556060;)Lnet/minecraft/unmapped/C_3540933;
+		ARG 1 path
+		ARG 2 processor
 	METHOD a addSprite (Lnet/minecraft/unmapped/C_3544790;)V
+		ARG 1 sprite
 	METHOD b reload ()V
 	METHOD b bind (I)V
+		ARG 1 texture
+	METHOD b rescale (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 image
+	METHOD b removeHttpTexture (Ljava/lang/String;)V
+		ARG 1 path

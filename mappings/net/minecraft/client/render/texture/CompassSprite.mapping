@@ -1,3 +1,7 @@
 CLASS net/minecraft/unmapped/C_0226190 net/minecraft/client/render/texture/CompassSprite
+	FIELD i minecraft Lnet/minecraft/client/Minecraft;
+	FIELD j image [I
+	FIELD k angle D
+	FIELD l angleDelta D
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
