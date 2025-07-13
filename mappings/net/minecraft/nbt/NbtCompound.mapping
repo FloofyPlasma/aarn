@@ -1,13 +1,19 @@
 CLASS net/minecraft/unmapped/C_2800860 net/minecraft/nbt/NbtCompound
 	METHOD a putByte (Ljava/lang/String;B)V
+	METHOD a putFloat (Ljava/lang/String;F)V
 	METHOD a putInt (Ljava/lang/String;I)V
 	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a putCompound (Ljava/lang/String;Lnet/minecraft/unmapped/C_2800860;)V
 	METHOD a put (Ljava/lang/String;Lnet/minecraft/unmapped/C_3984704;)V
 	METHOD a putShort (Ljava/lang/String;S)V
+	METHOD a putBoolean (Ljava/lang/String;Z)V
 	METHOD c getByte (Ljava/lang/String;)B
 	METHOD d getShort (Ljava/lang/String;)S
 	METHOD e getInt (Ljava/lang/String;)I
 	METHOD f getLong (Ljava/lang/String;)J
+	METHOD g getFLoat (Ljava/lang/String;)F
 	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k getCompound (Ljava/lang/String;)Lnet/minecraft/unmapped/C_2800860;
 	METHOD l getList (Ljava/lang/String;)Lnet/minecraft/unmapped/C_1011144;
+	METHOD m getBoolean (Ljava/lang/String;)Z
 	METHOD toString toString ()Ljava/lang/String;

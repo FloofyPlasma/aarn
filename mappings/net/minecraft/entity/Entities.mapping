@@ -1,3 +1,22 @@
 CLASS net/minecraft/unmapped/C_5102005 net/minecraft/entity/Entities
+	FIELD a KEY_TO_TYPE Ljava/util/Map;
+	FIELD b TYPE_TO_KEY Ljava/util/Map;
+	FIELD c ID_TO_TYPE Ljava/util/Map;
+	FIELD d TYPE_TO_ID Ljava/util/Map;
 	METHOD a create (ILnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_6385858;
+		ARG 0 id
+		ARG 1 world
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 0 type
+		ARG 1 key
+		ARG 2 id
 	METHOD a createSilently (Ljava/lang/String;Lnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_6385858;
+		ARG 0 key
+		ARG 1 world
+	METHOD a create (Lnet/minecraft/unmapped/C_2800860;Lnet/minecraft/unmapped/C_3906126;)Lnet/minecraft/unmapped/C_6385858;
+		ARG 0 nbt
+		ARG 1 world
+	METHOD a getId (Lnet/minecraft/unmapped/C_6385858;)I
+		ARG 0 entity
+	METHOD b getKey (Lnet/minecraft/unmapped/C_6385858;)Ljava/lang/String;
+		ARG 0 entity

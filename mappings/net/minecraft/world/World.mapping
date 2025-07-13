@@ -36,6 +36,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 4 blockId
 		ARG 5 metadata
 	METHOD a packChunkData (IIIIII[B)V
+	METHOD a canReplace (IIIIZ)Z
 	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD a setTime (J)V
 	METHOD a createChunkCache (Ljava/io/File;)Lnet/minecraft/unmapped/C_9484672;
@@ -43,12 +44,16 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a onRecordRemoved (Ljava/lang/String;III)V
 	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+	METHOD a containsMaterial (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
+	METHOD a applyLiquidDrag (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;Lnet/minecraft/unmapped/C_6385858;)Z
 	METHOD a addEventListener (Lnet/minecraft/unmapped/C_2782822;)V
 	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
 	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
 	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
 		ARG 1 entity
+	METHOD a explode (Lnet/minecraft/unmapped/C_6385858;DDDF)V
 	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
+	METHOD a getCollisions (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
 	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
 	METHOD a doScheduledTicks (Z)Z
 		ARG 1 flush
@@ -62,6 +67,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 blockEntity
+	METHOD b containsLiquid (Lnet/minecraft/unmapped/C_1414550;)Z
 	METHOD b removeEventListener (Lnet/minecraft/unmapped/C_2782822;)V
 	METHOD b onEntityAdded (Lnet/minecraft/unmapped/C_6385858;)V
 		ARG 1 entity
@@ -72,6 +78,7 @@ CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 metadata
+	METHOD c containsFireSource (Lnet/minecraft/unmapped/C_1414550;)Z
 	METHOD c onEntityRemoved (Lnet/minecraft/unmapped/C_6385858;)V
 		ARG 1 entity
 	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;

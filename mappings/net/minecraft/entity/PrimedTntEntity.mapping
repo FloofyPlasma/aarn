@@ -5,3 +5,4 @@ CLASS net/minecraft/unmapped/C_5584362 net/minecraft/entity/PrimedTntEntity
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD i explode ()V
