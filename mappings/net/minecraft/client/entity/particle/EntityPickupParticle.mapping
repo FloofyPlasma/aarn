@@ -1,0 +1,13 @@
+CLASS net/minecraft/unmapped/C_2698111 net/minecraft/client/entity/particle/EntityPickupParticle
+	FIELD a entity Lnet/minecraft/unmapped/C_6385858;
+		COMMENT the entity being picked up - this could be an item, arrow
+	FIELD o collector Lnet/minecraft/unmapped/C_6385858;
+		COMMENT the collector that is picking up the entity
+	FIELD p age I
+	FIELD q maxAge I
+	FIELD r yOffset F
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_6385858;F)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 collector
+		ARG 4 offsetY

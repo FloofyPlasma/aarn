@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_1826831 net/minecraft/entity/mob/monster/CreeperEntity
+	FIELD a currentFuseTime I
+	FIELD b lastFuseTime I
+	METHOD b getFusetime (F)F

@@ -1,0 +1,32 @@
+CLASS net/minecraft/unmapped/C_3837238 net/minecraft/util/Int2ObjectHashMap
+	FIELD a notes [Lnet/minecraft/unmapped/C_6094996;
+	FIELD b size I
+	FIELD c threshold I
+	FIELD d loadFactor F
+	FIELD e modCount I
+	METHOD a clear ()V
+	METHOD a get (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD a idex (II)I
+		ARG 0 hash
+		ARG 1 cap
+	METHOD a insertNode (IILjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 3 value
+		ARG 4 index
+	METHOD a put (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a addAll ([Lnet/minecraft/unmapped/C_6094996;)V
+		ARG 1 noes
+	METHOD b remove (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD c removeNode (I)Lnet/minecraft/unmapped/C_6094996;
+		ARG 1 key
+	METHOD d syntheticGetHash (I)I
+		ARG 0 i
+	METHOD e hash (I)I
+		ARG 0 key
+	METHOD f resize (I)V
+		ARG 1 size

@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_4584288 net/minecraft/item/PlaceableItem
+	FIELD a block I
+	METHOD <init> (ILnet/minecraft/unmapped/C_3635204;)V
+		ARG 1 id
+		ARG 2 block

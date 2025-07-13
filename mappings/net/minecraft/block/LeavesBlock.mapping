@@ -1,0 +1,15 @@
+CLASS net/minecraft/unmapped/C_0559439 net/minecraft/block/LeavesBlock
+	FIELD b spriteIndex I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD a setFancyGraphics (Z)V
+		ARG 1 fancyGraphics
+	METHOD f (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+	METHOD g (Lnet/minecraft/unmapped/C_3906126;IIII)I
+		ARG 1 world
+	METHOD h (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+	METHOD i (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world

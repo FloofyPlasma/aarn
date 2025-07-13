@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_5752680 net/minecraft/client/gui/screen/inventory/menu/ChestScreen
+	FIELD j bottom Lnet/minecraft/unmapped/C_4390289;
+	FIELD l top Lnet/minecraft/unmapped/C_4390289;
+	FIELD m rows I
+	METHOD <init> (Lnet/minecraft/unmapped/C_4390289;Lnet/minecraft/unmapped/C_4390289;)V
+		ARG 1 playerInventory
+		ARG 2 inventory

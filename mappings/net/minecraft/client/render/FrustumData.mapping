@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_4712589 net/minecraft/client/render/FrustumData
+	FIELD a frustum [[F
+	FIELD b projectionMatrix [F
+	FIELD c modelMatrix [F
+	FIELD d clipMatrix [F

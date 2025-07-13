@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_5196988 net/minecraft/item/ArmorItem
+	FIELD a durability I
+	FIELD aX slot I
+	FIELD aY protection I
+	FIELD aZ materialId I
+	FIELD ba BASE_PROTECTION [I
+	FIELD bb BASE_DURABILITY [I
+	METHOD <init> (IIII)V
+		ARG 1 id
+		ARG 2 durability
+		ARG 3 materialId
+		ARG 4 slot

@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_6259709 net/minecraft/item/DoorItem
+	FIELD a material Lnet/minecraft/unmapped/C_8554894;
+	METHOD <init> (ILnet/minecraft/unmapped/C_8554894;)V
+		ARG 1 id
+		ARG 2 material

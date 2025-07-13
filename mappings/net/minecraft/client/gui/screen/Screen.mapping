@@ -1,0 +1,45 @@
+CLASS net/minecraft/unmapped/C_0786431 net/minecraft/client/gui/screen/Screen
+	FIELD a lastClickedButton Lnet/minecraft/unmapped/C_2621421;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c width I
+	FIELD d height I
+	FIELD e buttons Ljava/util/List;
+	FIELD f passEvents Z
+	FIELD g textRenderer Lnet/minecraft/unmapped/C_4766485;
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+		ARG 1 chr
+		ARG 2 key
+	METHOD a renderBackground (I)V
+		ARG 1 offset
+	METHOD a render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 tickDelta
+	METHOD a mouseClicked (III)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 mouseButton
+	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
+	METHOD a buttonClicked (Lnet/minecraft/unmapped/C_2621421;)V
+		ARG 1 button
+	METHOD a confirmResult (ZI)V
+		ARG 1 result
+		ARG 2 id
+	METHOD b isPauseScreen ()Z
+	METHOD b drawBackgroundTexture (I)V
+		ARG 1 offset
+	METHOD b mouseReleased (III)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 mouseButton
+	METHOD c getClipboard ()Ljava/lang/String;
+	METHOD d handleInputs ()V
+	METHOD e handleMouse ()V
+	METHOD f handleKeyboard ()V
+	METHOD g tick ()V
+	METHOD h removed ()V
+	METHOD i renderBackground ()V

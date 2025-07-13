@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_2178068 net/minecraft/inventory/CraftingInventory
+	FIELD a stacks [Lnet/minecraft/unmapped/C_2750078;
+	FIELD b width I
+	FIELD c menu Lnet/minecraft/unmapped/C_7699185;
+	METHOD <init> (Lnet/minecraft/unmapped/C_7699185;II)V
+		ARG 1 menu
+		ARG 2 width
+		ARG 3 height
+	METHOD <init> (Lnet/minecraft/unmapped/C_7699185;[Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 menu
+		ARG 2 items

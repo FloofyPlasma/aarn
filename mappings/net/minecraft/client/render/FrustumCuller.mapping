@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_6516244 net/minecraft/client/render/FrustumCuller
+	FIELD a frustum Lnet/minecraft/unmapped/C_4712589;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D

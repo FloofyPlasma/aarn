@@ -1,0 +1,18 @@
+CLASS net/minecraft/unmapped/C_0870622 net/minecraft/world/LightUpdate
+	FIELD a type Lnet/minecraft/unmapped/C_5863046;
+	FIELD b minX I
+	FIELD c minY I
+	FIELD d minZ I
+	FIELD e maxX I
+	FIELD f maxY I
+	FIELD g maxZ I
+	METHOD <init> (Lnet/minecraft/unmapped/C_5863046;IIIIII)V
+		ARG 1 type
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD a run (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world

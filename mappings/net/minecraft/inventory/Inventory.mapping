@@ -1,0 +1,13 @@
+CLASS net/minecraft/unmapped/C_4390289 net/minecraft/inventory/Inventory
+	METHOD a removeStack (II)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 slot
+		ARG 2 amount
+	METHOD a setStack (ILnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD c getSize ()I
+	METHOD c getStack (I)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 slot
+	METHOD d getInventoryName ()Ljava/lang/String;
+	METHOD e getMaxStackSize ()I
+	METHOD j_ markDirty ()V

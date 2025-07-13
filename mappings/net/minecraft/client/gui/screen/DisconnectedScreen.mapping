@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_0182523 net/minecraft/client/gui/screen/DisconnectedScreen
+	FIELD a name Ljava/lang/String;
+	FIELD h reason Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 title
+		ARG 2 reason

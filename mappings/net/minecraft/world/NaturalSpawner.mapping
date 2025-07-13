@@ -1,0 +1,19 @@
+CLASS net/minecraft/unmapped/C_9377562 net/minecraft/world/NaturalSpawner
+	FIELD a cap I
+	FIELD b baseType Ljava/lang/Class;
+	FIELD c types [Ljava/lang/Class;
+	FIELD d mobSpawningChunks Ljava/util/Set;
+		COMMENT this keeps track of chunks that allow mob spawning. mob spawning can occur within
+		COMMENT a 15x15 grid of chunks around players. the ring of chunks around that are lazy chunks,
+		COMMENT which do not allow mob spawning, but to contribute to the mob cap
+	METHOD <init> (ILjava/lang/Class;[Ljava/lang/Class;)V
+		ARG 1 cap
+		ARG 2 baseType
+		ARG 3 types
+	METHOD a (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a getRandomPosInChunk (Lnet/minecraft/unmapped/C_3906126;II)Lnet/minecraft/unmapped/C_8032589;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a tick (Lnet/minecraft/unmapped/C_3906126;ILnet/minecraft/unmapped/C_7918626;)I
+		ARG 1 world

@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_1017062 net/minecraft/client/gui/screen/GameMenuScreen
+	FIELD a optionsButtonId I
+	FIELD h ticks I

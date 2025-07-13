@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_69 net/minecraft/src/World
-	METHOD b init (Ljava/io/File;Ljava/lang/String;)V

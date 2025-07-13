@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_4509280 net/minecraft/network/packet/BlockUpdatePacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d blockId I
+	FIELD e metadata I

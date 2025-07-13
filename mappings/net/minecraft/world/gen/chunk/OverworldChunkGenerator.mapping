@@ -1,0 +1,30 @@
+CLASS net/minecraft/unmapped/C_4078372 net/minecraft/world/gen/chunk/OverworldChunkGenerator
+	FIELD a scaleNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD b depthNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD c forestNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD d mainNoiseBuffer [D
+	FIELD e minLimitNoiseBuffer [D
+	FIELD f maxLimitNoiseBuffer [D
+	FIELD g getNoise [D
+	FIELD h depthNoiseBuffer [D
+	FIELD j random Ljava/util/Random;
+	FIELD k minLimitPerlinNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD l maxLimitPerlinNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD m mainPerlinNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD o surfaceNoise Lnet/minecraft/unmapped/C_6205974;
+	FIELD p world Lnet/minecraft/unmapped/C_3906126;
+	FIELD q heightmap [D
+	FIELD u cave Lnet/minecraft/unmapped/C_6329603;
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generate (II[B)V
+	METHOD a populateHeightmap ([DIIIIII)[D
+		ARG 1 heightmap
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 width
+		ARG 6 height
+		ARG 7 depth
+	METHOD b generateBiomes (II[B)V

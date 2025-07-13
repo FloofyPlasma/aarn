@@ -1,0 +1,18 @@
+CLASS net/minecraft/unmapped/C_7146036 net/minecraft/block/RedstoneTorchBlock
+	FIELD a lit Z
+	FIELD b RECENT_TOGGLES Ljava/util/List;
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 sprite
+		ARG 3 lit
+	METHOD a shouldBurnOut (Lnet/minecraft/unmapped/C_3906126;IIIZ)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 logToggle
+	METHOD h hasNeighborSignal (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

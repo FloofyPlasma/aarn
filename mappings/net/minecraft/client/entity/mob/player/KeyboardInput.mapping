@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_0639491 net/minecraft/client/entity/mob/player/KeyboardInput
+	FIELD g options Lnet/minecraft/unmapped/C_7688744;
+	METHOD <init> (Lnet/minecraft/unmapped/C_7688744;)V
+		ARG 1 options

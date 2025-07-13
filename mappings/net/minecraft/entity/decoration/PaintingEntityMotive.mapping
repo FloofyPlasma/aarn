@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_3470312 net/minecraft/entity/decoration/PaintingEntityMotive
+	FIELD A height I
+	FIELD B widthOffset I
+	FIELD C heightOffset I
+	FIELD y name Ljava/lang/String;
+	FIELD z width I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 name
+		ARG 4 width
+		ARG 5 height
+	METHOD values values ()[Lnet/minecraft/unmapped/C_3470312;

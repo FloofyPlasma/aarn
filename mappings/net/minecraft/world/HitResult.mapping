@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_5853518 net/minecraft/world/HitResult
+	FIELD a type I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e face I
+	FIELD f offset Lnet/minecraft/unmapped/C_0336319;
+	FIELD g entity Lnet/minecraft/unmapped/C_6385858;
+	METHOD <init> (IIIILnet/minecraft/unmapped/C_0336319;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+		ARG 5 facePos
+	METHOD <init> (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity

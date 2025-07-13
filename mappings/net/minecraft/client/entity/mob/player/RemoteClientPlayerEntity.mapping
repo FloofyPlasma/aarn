@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_1309851 net/minecraft/client/entity/mob/player/RemoteClientPlayerEntity
+	FIELD bg steps I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Ljava/lang/String;)V
+		ARG 1 world
+		ARG 2 name

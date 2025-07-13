@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_8754653 net/minecraft/network/packet/AddMobPacket
+	FIELD a id I
+	FIELD b type B
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f yaw B
+	FIELD g pitch B
+	METHOD <init> (Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 entity

@@ -1,0 +1,77 @@
+CLASS net/minecraft/unmapped/C_2334550 net/minecraft/client/render/vertex/Tesselator
+	FIELD B size I
+	FIELD a INSTANCE Lnet/minecraft/unmapped/C_2334550;
+	FIELD d byteBuffer Ljava/nio/ByteBuffer;
+	FIELD e intBuffer Ljava/nio/IntBuffer;
+	FIELD f floatBuffer Ljava/nio/FloatBuffer;
+	FIELD g buffer [I
+	FIELD h vertexCount I
+	FIELD i u D
+	FIELD j v D
+	FIELD k color I
+	FIELD l colored Z
+	FIELD m textured Z
+	FIELD n hasNormals Z
+	FIELD o index I
+	FIELD p nextVertexCount I
+	FIELD q uncolored Z
+	FIELD r drawMode I
+	FIELD s offsetX D
+	FIELD t offsetY D
+	FIELD u offsetZ D
+	FIELD v normals I
+	FIELD w tessellating Z
+	METHOD <init> (I)V
+		ARG 1 size
+	METHOD a end ()V
+	METHOD a texture (DD)V
+		ARG 1 u
+		ARG 3 v
+	METHOD a vertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a vertex (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 u
+		ARG 9 v
+	METHOD a color (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a start (I)V
+		ARG 1 drawMode
+	METHOD a color (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a color (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD b start ()V
+		COMMENT start with default draw mode {@link org.lwjgl.opengl.GL11#GL_QUADS GL_QUADS}
+	METHOD b offset (DDD)V
+		ARG 1 offsetX
+		ARG 3 offsetY
+		ARG 5 offsetZ
+	METHOD b normal (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b color (I)V
+		ARG 1 rgb
+	METHOD c uncolored ()V
+	METHOD c addOffset (FFF)V
+		ARG 1 offsetX
+		ARG 2 offsetY
+		ARG 3 offsetZ
+	METHOD d clear ()V

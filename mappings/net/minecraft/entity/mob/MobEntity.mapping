@@ -1,0 +1,93 @@
+CLASS net/minecraft/unmapped/C_1013763 net/minecraft/entity/mob/MobEntity
+	FIELD A damageAmount F
+	FIELD C lastHandSwingProgress F
+	FIELD D handSwingProgress F
+	FIELD E health I
+	FIELD F prevHealth I
+	FIELD G hurtTime I
+	FIELD H hurtAnimationTicks I
+	FIELD I knockbackVelocity F
+	FIELD J deathTime I
+	FIELD K attackTime I
+	FIELD L prevCameraPitch F
+	FIELD M cameraPitch F
+	FIELD N killed Z
+	FIELD Q prevHandSwingAmount F
+	FIELD R handSwingAmount F
+	FIELD S handSwing F
+	FIELD U despawnTicks I
+	FIELD V sidewaysSpeed F
+	FIELD W forwardSpeed F
+	FIELD X randomYaw F
+	FIELD Y jumping Z
+	FIELD Z initialPitch F
+	FIELD a produceSoundProbability I
+		COMMENT the number is initially set to -soundInterval, after this interval each tick the probability of making a sound will go up with 1 promille
+	FIELD aa targetSpeed F
+	FIELD b bodyTrackingIncrements I
+	FIELD c serverX D
+	FIELD d serverY D
+	FIELD e serverZ D
+	FIELD f serverYaw D
+	FIELD g serverPitch D
+	FIELD h target Lnet/minecraft/unmapped/C_6385858;
+		COMMENT the entity that is currently being targeted by the entity
+	FIELD i targetTime I
+		COMMENT how many ticks an entity should be targetted for
+	FIELD j defaultMaxHealth I
+	FIELD k randomLargeSeed F
+	FIELD m randomSmallSeed F
+	FIELD n bodyYaw F
+	FIELD o prevBodyYaw F
+	FIELD p prevStepBobbingAmount F
+	FIELD q stepBobbingAmount F
+	FIELD r distanceTravelled F
+	FIELD s prevDistanceTravelled F
+	FIELD u texture Ljava/lang/String;
+		COMMENT the path to the texture of the Entity
+	FIELD w halfCircleDegrees F
+	FIELD x livingEntityType Ljava/lang/String;
+		COMMENT is only set not to null if the entity is humanoid
+	FIELD z mobValue I
+	METHOD A isClimbing ()Z
+	METHOD C jump ()V
+	METHOD a isValidSpawnPosition ()Z
+		COMMENT checks collision and spawn environment to see if a position is a valid spawn point
+	METHOD a rayTrace (DF)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 distance
+		ARG 3 tickDelta
+	METHOD a applyKnockback (Lnet/minecraft/unmapped/C_6385858;IDD)V
+		ARG 1 attacker
+		ARG 2 amount
+		ARG 3 dx
+		ARG 5 dz
+	METHOD b getSoundInterval ()I
+		COMMENT how many ticks (at least) will the entity wait between producing sounds
+	METHOD b moveEntityWithVelocity (FF)V
+		ARG 1 sidewaysVelocity
+		ARG 2 forwardVelocity
+	METHOD b getRotation (FFF)F
+		COMMENT gets the new rotation. this uses current position and next position along with a max rotation to not get any funcky effects
+		ARG 1 currentRotation
+		ARG 2 nextRotation
+		ARG 3 maxIncrement
+	METHOD b heal (I)V
+		ARG 1 amount
+	METHOD b onKilled (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD b turnHeadAtEntity (Lnet/minecraft/unmapped/C_6385858;F)V
+	METHOD b_ tickDespawn ()V
+	METHOD c getSound ()Ljava/lang/String;
+	METHOD c canSee (Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 entity
+	METHOD d getHurtSound ()Ljava/lang/String;
+	METHOD d getHandSwingProcess (F)F
+		ARG 1 tickDelta
+	METHOD e getDeathSound ()Ljava/lang/String;
+	METHOD e lerpPosition (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD f getSoundVolume ()F
+	METHOD f getCamerarotation (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 modifier
+	METHOD g getDroppedItem ()I
+	METHOD j tickAi ()V
+	METHOD z doSpawnEffects ()V

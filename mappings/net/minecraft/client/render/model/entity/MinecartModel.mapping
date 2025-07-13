@@ -1,0 +1,2 @@
+CLASS net/minecraft/unmapped/C_4839087 net/minecraft/client/render/model/entity/MinecartModel
+	FIELD a parts [Lnet/minecraft/unmapped/C_0289174;

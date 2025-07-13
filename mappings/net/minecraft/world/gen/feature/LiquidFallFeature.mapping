@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_7961743 net/minecraft/world/gen/feature/LiquidFallFeature
+	FIELD a liquidId I
+	METHOD <init> (I)V
+		ARG 1 liquid

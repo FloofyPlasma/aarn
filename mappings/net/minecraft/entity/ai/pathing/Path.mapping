@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_7641996 net/minecraft/entity/ai/pathing/Path
+	FIELD a length I
+	FIELD b nodes [Lnet/minecraft/unmapped/C_7694617;
+	FIELD c currentIndex I
+	METHOD <init> ([Lnet/minecraft/unmapped/C_7694617;)V
+		ARG 1 nodes
+	METHOD a advance ()V
+	METHOD a getPos (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_0336319;
+	METHOD b isDone ()Z

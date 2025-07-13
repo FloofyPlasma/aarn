@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_8592380 net/minecraft/client/render/platform/MemoryTracker
+	METHOD a releaseLists ()V
+	METHOD a getLists (I)I
+		ARG 0 s
+	METHOD a genTextures (Ljava/nio/IntBuffer;)V
+		ARG 0 lists
+	METHOD b createByteBuffer (I)Ljava/nio/ByteBuffer;
+		ARG 0 capacity
+	METHOD c createIntBuffer (I)Ljava/nio/IntBuffer;
+		ARG 0 capacity
+	METHOD d createFloatBuffer (I)Ljava/nio/FloatBuffer;
+		ARG 0 capacity

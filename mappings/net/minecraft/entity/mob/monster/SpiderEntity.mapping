@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_2923961 net/minecraft/entity/mob/monster/SpiderEntity
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world

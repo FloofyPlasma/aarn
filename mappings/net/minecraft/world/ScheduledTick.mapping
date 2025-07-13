@@ -1,0 +1,20 @@
+CLASS net/minecraft/unmapped/C_6605607 net/minecraft/world/ScheduledTick
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d blockId I
+	FIELD e time J
+	FIELD f idCounter J
+	FIELD g id J
+	METHOD <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD a setTime (J)Lnet/minecraft/unmapped/C_6605607;
+		ARG 1 time
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+		ARG 1 o
+	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	METHOD hashCode hashCode ()I

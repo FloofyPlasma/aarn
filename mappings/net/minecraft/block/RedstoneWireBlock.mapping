@@ -1,0 +1,26 @@
+CLASS net/minecraft/unmapped/C_2689622 net/minecraft/block/RedstoneWireBlock
+	FIELD a shouldSignal Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD b shouldConnectTo (Lnet/minecraft/unmapped/C_2627205;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g getHighestWirePower (Lnet/minecraft/unmapped/C_3906126;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 wirePower
+	METHOD h updatePower (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i updateNeighborsOfWire (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

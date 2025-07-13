@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_5027796 net/minecraft/client/render/entity/GiantRenderer
+	FIELD f size F
+	METHOD <init> (Lnet/minecraft/unmapped/C_3239917;FF)V
+		ARG 1 model
+		ARG 2 shadowSize
+		ARG 3 scale

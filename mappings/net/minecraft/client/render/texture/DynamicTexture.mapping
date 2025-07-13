@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_3544790 net/minecraft/client/render/texture/DynamicTexture
+	FIELD a buffer [B
+	FIELD b sprite I
+	FIELD c anaglyph Z
+	FIELD e resolution I
+	FIELD f type I
+	METHOD <init> (I)V
+		ARG 1 sprite
+	METHOD a tick ()V
+	METHOD a bind (Lnet/minecraft/unmapped/C_3385278;)V
+		ARG 1 textureManager

@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_1633510 net/minecraft/client/render/Culler
+	METHOD a set (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a isVisible (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 box

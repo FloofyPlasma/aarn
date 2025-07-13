@@ -1,0 +1,86 @@
+CLASS net/minecraft/unmapped/C_1414550 net/minecraft/util/math/Box
+	COMMENT
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g CACHE Ljava/util/List;
+	FIELD h nextCacheindex I
+	METHOD <init> (DDDDDD)V
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD a resetCache ()V
+	METHOD a grow (DDD)Lnet/minecraft/unmapped/C_1414550;
+		COMMENT create a new {@code Box} that grows by the given amounts. postive amounts lead to
+		COMMENT increases in the maximum values, while negative amounts lead to decreases in the
+		COMMENT minimum values. this ensures the new {@code Box} is always bigger (unless the amounts
+		COMMENT are given all {@code 0})
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD a of (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
+		ARG 0 minX
+		ARG 2 minY
+		ARG 4 minZ
+		ARG 6 maxX
+		ARG 8 maxY
+		ARG 10 maxZ
+	METHOD a containsYZ (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD a clip (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 from
+		ARG 2 to
+	METHOD a intersects (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 box
+	METHOD a intersectX (Lnet/minecraft/unmapped/C_1414550;D)D
+		ARG 1 box
+		ARG 2 limit
+	METHOD b getAverageSideLenth ()D
+	METHOD b expand (DDD)Lnet/minecraft/unmapped/C_1414550;
+		COMMENT create a new {@code Box} that is expanded by the given amounts. the minimum and maximum
+		COMMENT values are decreased and increased respectively by the amounts given. this means the
+		COMMENT new {@code Box} will be bigger by twice the amounts given on each axis
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD b ofCache (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
+		ARG 0 minX
+		ARG 2 minY
+		ARG 4 minZ
+		ARG 6 maxX
+		ARG 8 maxY
+		ARG 10 maxZ
+	METHOD b containsXZ (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD b setMoved (Lnet/minecraft/unmapped/C_1414550;)V
+		ARG 1 box
+	METHOD b intersectY (Lnet/minecraft/unmapped/C_1414550;D)D
+		ARG 1 box
+		ARG 2 limit
+	METHOD c copy ()Lnet/minecraft/unmapped/C_1414550;
+	METHOD c move (DDD)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD c set (DDDDDD)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD c containsXY (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD c intersectZ (Lnet/minecraft/unmapped/C_1414550;D)D
+		ARG 1 box
+		ARG 2 limit
+	METHOD d setMoved (DDD)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz

@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_6674892 net/minecraft/client/render/model/block/entity/SignModel
+	FIELD a board Lnet/minecraft/unmapped/C_0289174;
+	FIELD b pole Lnet/minecraft/unmapped/C_0289174;
+	METHOD a render ()V

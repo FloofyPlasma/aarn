@@ -1,0 +1,40 @@
+CLASS net/minecraft/unmapped/C_8905061 net/minecraft/client/entity/particle/Particle
+	FIELD b miscTexColumn I
+	FIELD c randomUOffset F
+	FIELD d randomVOffset F
+	FIELD f lifetime I
+	FIELD g scale F
+	FIELD h gravity F
+	FIELD i red F
+	FIELD j green F
+	FIELD k blue F
+	FIELD l currentX D
+		COMMENT linear interpolation between the previous and current X position of the particle
+		COMMENT currently being renderered
+	FIELD m currentY D
+		COMMENT linear interpolation between the previous and current Y position of the particle
+		COMMENT currently being renderered
+	FIELD n currentZ D
+		COMMENT linear interpolation between the previous and current Z position of the particle
+		COMMENT currently being renderered
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD a render (Lnet/minecraft/unmapped/C_2334550;FFFFFF)V
+		ARG 1 bufferBuilder
+		ARG 2 tickDelta
+		ARG 3 dx
+		ARG 4 dy
+		ARG 5 dz
+		ARG 6 forwards
+		ARG 7 sideways
+	METHOD b multiplyVelocity (F)Lnet/minecraft/unmapped/C_8905061;
+		ARG 1 value
+	METHOD c getTextureType ()I
+	METHOD d multiplyScale (F)Lnet/minecraft/unmapped/C_8905061;
+		ARG 1 value

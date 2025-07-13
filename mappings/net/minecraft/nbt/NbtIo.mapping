@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_8135468 net/minecraft/nbt/NbtIo
+	METHOD a read (Ljava/io/DataInput;)Lnet/minecraft/unmapped/C_2800860;
+		ARG 0 input
+	METHOD a readCompressed (Ljava/io/InputStream;)Lnet/minecraft/unmapped/C_2800860;
+		ARG 0 is
+	METHOD a write (Lnet/minecraft/unmapped/C_2800860;Ljava/io/DataOutput;)V
+		ARG 0 nbt
+		ARG 1 output
+	METHOD a writeCompressed (Lnet/minecraft/unmapped/C_2800860;Ljava/io/OutputStream;)V
+		ARG 0 nbt
+		ARG 1 os

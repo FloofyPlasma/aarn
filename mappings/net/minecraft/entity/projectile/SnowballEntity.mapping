@@ -1,0 +1,19 @@
+CLASS net/minecraft/unmapped/C_5687818 net/minecraft/entity/projectile/SnowballEntity
+	FIELD a shake I
+	FIELD b blockX I
+	FIELD c blockY I
+	FIELD d blockZ I
+	FIELD e blockId I
+	FIELD f inGround Z
+	FIELD g thrower Lnet/minecraft/unmapped/C_1013763;
+	FIELD h inBlockTicks I
+	FIELD i inAirTicks I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_1013763;)V
+		ARG 1 world
+		ARG 2 thrower
+	METHOD a setVelocity (DDDFF)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+		ARG 7 scale
+		ARG 8 noise

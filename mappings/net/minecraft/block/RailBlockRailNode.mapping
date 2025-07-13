@@ -1,0 +1,37 @@
+CLASS net/minecraft/unmapped/C_6469655 net/minecraft/block/RailBlockRailNode
+	FIELD b world Lnet/minecraft/unmapped/C_3906126;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f metadata I
+	FIELD g connections Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/unmapped/C_2624096;Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a updateConnections ()V
+	METHOD a shouldConnectTo (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getNeighborRail (Lnet/minecraft/unmapped/C_8032589;)Lnet/minecraft/unmapped/C_6469655;
+		ARG 1 pos
+	METHOD a updateState (Z)V
+		ARG 1 powered
+	METHOD b cleanupConnections ()V
+	METHOD b isConnected (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isConnected (Lnet/minecraft/unmapped/C_6469655;)Z
+		ARG 1 rail
+	METHOD c countConnections ()I
+	METHOD c hasNeighborRail (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnect (Lnet/minecraft/unmapped/C_6469655;)Z
+		ARG 1 rail
+	METHOD d addRailConnection (Lnet/minecraft/unmapped/C_6469655;)V
+		ARG 1 rail

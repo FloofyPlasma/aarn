@@ -1,0 +1,20 @@
+CLASS net/minecraft/unmapped/C_7790186 net/minecraft/network/packet/PlayerHandActionPacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d face I
+		COMMENT the face of the block on which the interaction takes place
+	FIELD e action I
+		COMMENT the type of interaction. this can be one of the following:
+		COMMENT <br> 0: start mining block
+		COMMENT <br> 1: stop mining block
+		COMMENT <br> 2: finish mining block
+		COMMENT <br> 3: drop stack
+		COMMENT <br> 4: drop item
+		COMMENT <br> 5: stop using item
+	METHOD <init> (IIIII)V
+		ARG 1 action
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face

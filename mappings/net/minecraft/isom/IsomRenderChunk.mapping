@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_2941751 net/minecraft/isom/IsomRenderChunk
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;II)V
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ

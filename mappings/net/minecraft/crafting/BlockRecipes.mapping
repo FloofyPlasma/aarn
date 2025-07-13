@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_6008755 net/minecraft/crafting/BlockRecipes
+	METHOD a register (Lnet/minecraft/unmapped/C_2154975;)V
+		ARG 1 manager

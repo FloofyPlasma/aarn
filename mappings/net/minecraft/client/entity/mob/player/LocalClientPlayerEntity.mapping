@@ -1,0 +1,14 @@
+CLASS net/minecraft/unmapped/C_1388208 net/minecraft/client/entity/mob/player/LocalClientPlayerEntity
+	FIELD bg networkHandler Lnet/minecraft/unmapped/C_4939758;
+	FIELD bi lastX D
+	FIELD bj lastMinY D
+	FIELD bk lastY D
+	FIELD bl lastZ D
+	FIELD bm lastYaw F
+	FIELD bn lastPitch F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_3172064;Lnet/minecraft/unmapped/C_4939758;)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 networkHandler
+	METHOD J updateMovement ()V

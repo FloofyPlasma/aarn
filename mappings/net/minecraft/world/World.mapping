@@ -1,0 +1,398 @@
+CLASS net/minecraft/unmapped/C_3906126 net/minecraft/world/World
+	FIELD A entitiesToRemove Ljava/util/List;
+	FIELD B scheduledTicksInOrder Ljava/util/TreeSet;
+	FIELD C scheduledTicks Ljava/util/Set;
+	FIELD F cloudColor J
+	FIELD G initTimeMillis J
+	FIELD H chunkSource Lnet/minecraft/unmapped/C_9484672;
+	FIELD J collisions Ljava/util/ArrayList;
+	FIELD K tickingChunks Ljava/util/Set;
+	FIELD L ambientSoundCooldown I
+	FIELD M entitiesInArea Ljava/util/List;
+	FIELD a entities Ljava/util/List;
+	FIELD b blockEntities Ljava/util/List;
+	FIELD c ticks J
+	FIELD d snowWorld Z
+	FIELD e ambientDarkness I
+	FIELD f randomTickLCG I
+	FIELD g randomTickLCGIncrement I
+	FIELD h suppressBlockUpdates Z
+	FIELD j lastSaveTime I
+	FIELD k players Ljava/util/List;
+	FIELD l difficulty I
+		COMMENT the world's difficulty setting. the possible values are as follows:
+		COMMENT <br>0: peaceful
+		COMMENT <br>1: easy
+		COMMENT <br>2: normal
+		COMMENT <br>3: hard
+	FIELD n random Ljava/util/Random;
+	FIELD o spawnPointX I
+	FIELD p spawnPointY I
+	FIELD q spawnPointZ I
+	FIELD r fresh Z
+	FIELD s eventListeners Ljava/util/List;
+	FIELD t dir Ljava/io/File;
+	FIELD u seed J
+	FIELD v sizeOnDisk J
+	FIELD w saveName Ljava/lang/String;
+	FIELD x isSearchingSpawnPoint Z
+	FIELD y isMultiplayer Z
+	FIELD z removedBlockEntities Ljava/util/List;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 dir
+		ARG 2 saveName
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 dir
+		ARG 2 saveName
+		ARG 3 seed
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 saveName
+	METHOD a resetSpawnPoint ()V
+	METHOD a getClosestPlayer (DDDD)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 range
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 sound
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a calculateAmbientDarkness (F)I
+		ARG 1 tickDelta
+	METHOD a clickSave (I)Z
+		ARG 1 button
+	METHOD a getChunk (II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 x
+		ARG 2 z
+	METHOD a setBlockQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD a setBlockWithMetadataQuietly (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 metadata
+	METHOD a isAreaLoaded (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a packChunkData (IIIIII[B)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 widthX
+		ARG 5 height
+		ARG 6 widthZ
+		ARG 7 data
+	METHOD a canReplace (IIIIZ)Z
+	METHOD a setBlockEntity (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD a getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 useNeighborLight
+	METHOD a setTime (J)V
+		ARG 1 time
+	METHOD a createChunkCache (Ljava/io/File;)Lnet/minecraft/unmapped/C_9484672;
+	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 type
+		ARG 2 bounds
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 type
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ
+	METHOD a onRecordRemoved (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a loadEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 from
+		ARG 2 to
+	METHOD a rayTrace (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;Z)Lnet/minecraft/unmapped/C_5853518;
+	METHOD a getBlockDensity (Lnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_1414550;)F
+		ARG 1 pos
+		ARG 2 bounds
+	METHOD a canBuildIn (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 box
+	METHOD a containsMaterial (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
+		ARG 1 bounds
+		ARG 2 material
+	METHOD a applyLiquidDrag (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 bounds
+		ARG 2 material
+		ARG 3 entity
+	METHOD a addEventListener (Lnet/minecraft/unmapped/C_2782822;)V
+		ARG 1 listener
+	METHOD a addPlayer (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD a getLight (Lnet/minecraft/unmapped/C_5863046;III)I
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a updateLight (Lnet/minecraft/unmapped/C_5863046;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 level
+	METHOD a checkLight (Lnet/minecraft/unmapped/C_5863046;IIIIII)V
+		ARG 1 type
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD a checkLight (Lnet/minecraft/unmapped/C_5863046;IIIIIIZ)V
+		ARG 1 type
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)Z
+		ARG 1 entity
+	METHOD a getClosestPlayer (Lnet/minecraft/unmapped/C_6385858;D)Lnet/minecraft/unmapped/C_5009044;
+		ARG 1 entity
+		ARG 2 range
+	METHOD a explode (Lnet/minecraft/unmapped/C_6385858;DDDF)V
+	METHOD a findPath (Lnet/minecraft/unmapped/C_6385858;IIIF)Lnet/minecraft/unmapped/C_7641996;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 range
+	METHOD a playSound (Lnet/minecraft/unmapped/C_6385858;Ljava/lang/String;FF)V
+		ARG 1 source
+		ARG 2 sound
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a getCollisions (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 shape
+	METHOD a findPath (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_6385858;F)Lnet/minecraft/unmapped/C_7641996;
+		ARG 1 entity
+		ARG 2 target
+		ARG 3 range
+	METHOD a waitIfSaving (Lnet/minecraft/unmapped/C_7918626;)V
+		ARG 1 progressListener
+	METHOD a doScheduledTicks (Z)Z
+		ARG 1 flush
+			COMMENT flush all secheduled ticks, rather than just hte ones for this tick
+	METHOD a save (ZLnet/minecraft/unmapped/C_7918626;)V
+		ARG 1 saveEntities
+		ARG 2 progressListener
+	METHOD b isSunny ()Z
+	METHOD b getSkyColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD b getChunkAt (II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD b setBlockMetadata (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
+	METHOD b setBlockWithMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 metadata
+	METHOD b notifyRegionChanged (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD b notifyBlockChanged (IIILnet/minecraft/unmapped/C_2074023;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockEntity
+	METHOD b getEntityCount (Ljava/lang/Class;)I
+		ARG 1 type
+	METHOD b unloadEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD b containsLiquid (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 bounds
+	METHOD b containsLiquid (Lnet/minecraft/unmapped/C_1414550;Lnet/minecraft/unmapped/C_8554894;)Z
+		ARG 1 bounds
+		ARG 2 material
+	METHOD b removeEventListener (Lnet/minecraft/unmapped/C_2782822;)V
+		ARG 1 listener
+	METHOD b setLight (Lnet/minecraft/unmapped/C_5863046;IIII)V
+		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 light
+	METHOD b onEntityAdded (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD b getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;)Ljava/util/List;
+		ARG 1 exclude
+		ARG 2 box
+	METHOD c tickEntities ()V
+	METHOD c getTimeOfDay (F)F
+		ARG 1 tickDelta
+	METHOD c getHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD c setBlockMetadataQuietly (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 metadata
+	METHOD c containsFireSource (Lnet/minecraft/unmapped/C_1414550;)Z
+		ARG 1 bounds
+	METHOD c onEntityRemoved (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD d getEntitiesDebugInfo ()Ljava/lang/String;
+	METHOD d getCloudColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD d getSurfaceHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD d isChunkLoaded (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD d removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD e doLightUpdates ()Z
+	METHOD e getFogColor (F)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 tickDelta
+	METHOD e onBlockChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD e updateEntity (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD f initAmbientDarkness ()V
+	METHOD f getStarBrightness (F)F
+		ARG 1 tickDelta
+	METHOD f checkLight (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 minY
+		ARG 4 maxY
+	METHOD f addEntityAlways (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD g tick ()V
+	METHOD g getSurfaceBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD g updateNeighbors (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD h tickChunks ()V
+	METHOD h isChunkLoadedAt (II)Z
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD h notifyBlockChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h scheduleTick (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD i getEntities ()Ljava/util/List;
+	METHOD i hasSkyAccess (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i extinguishFire (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD j simulateForABit ()V
+	METHOD j getRawBrightness (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j hasDirectSignal (IIII)Z
+		COMMENT returns whether the block at the given position is emitting a direct regstone signal in the given direction
+		COMMENT this roughly equates to what colloquially known as 'hard' or 'stone' power
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: the directions in redstone signal related methods are backwards, so this method
+		COMMENT checks for the signal emitted in the direction <i>opposite</i> of the one given
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dir
+	METHOD k disconnect ()V
+	METHOD k hasSkyLight (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k hasSignal (IIII)Z
+		COMMENT returns whether the block at the given position is emitting a redstone signal in the given direction.
+		COMMENT this roughly equates to what is colloquially know nas 'soft' or 'weak' power
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: directions in redstone signal related to methods are backwards, so this method
+		COMMENT checks for the signal emitted in the direction <i>opposite</i> of the one given
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dir
+	METHOD l checkSessionLock ()V
+	METHOD l removeBlockEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD l neighborChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 neighborBlockId
+	METHOD m saveData ()V
+	METHOD m doRandomDisplayTicks (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD n hasDirectNeighborSignal (III)Z
+		COMMENT returns whether the given position is receiving a direct redstone signal from neighboring blocks
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD o hasNeighborSignal (III)Z
+		COMMENT returns whether the given position is receiving a redstone signal from neighboring blocks
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

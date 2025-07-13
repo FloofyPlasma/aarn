@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_6331926 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuSlot
+	METHOD <init> (Lnet/minecraft/unmapped/C_7542541;Lnet/minecraft/unmapped/C_4390289;III)V
+		ARG 1 menuScreen
+		ARG 2 inventory
+		ARG 3 id
+		ARG 4 x
+		ARG 5 y

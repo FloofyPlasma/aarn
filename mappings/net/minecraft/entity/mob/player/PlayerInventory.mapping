@@ -1,0 +1,38 @@
+CLASS net/minecraft/unmapped/C_4286596 net/minecraft/entity/mob/player/PlayerInventory
+	FIELD a inventorySlots [Lnet/minecraft/unmapped/C_2750078;
+	FIELD b armorSlots [Lnet/minecraft/unmapped/C_2750078;
+	FIELD d selectedSlot I
+	FIELD e cursorStack Lnet/minecraft/unmapped/C_2750078;
+	FIELD f dirty Z
+	FIELD g player Lnet/minecraft/unmapped/C_5009044;
+	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD a getMainHandStack ()Lnet/minecraft/unmapped/C_2750078;
+	METHOD a scrollInHotbar (I)V
+		ARG 1 scroll
+	METHOD a writeNbt (Lnet/minecraft/unmapped/C_1011144;)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 list
+	METHOD a insertStack (Lnet/minecraft/unmapped/C_2750078;)Z
+		ARG 1 stack
+	METHOD a getMiningSpeed (Lnet/minecraft/unmapped/C_3635204;)F
+		ARG 1 block
+	METHOD a getAttackDamage (Lnet/minecraft/unmapped/C_6385858;)I
+		ARG 1 target
+	METHOD b tickItems ()V
+	METHOD b consumeOne (I)Z
+		ARG 1 itemId
+	METHOD b putStackInInventory (II)I
+	METHOD b readNbt (Lnet/minecraft/unmapped/C_1011144;)V
+		ARG 1 list
+	METHOD b canToolBreak (Lnet/minecraft/unmapped/C_3635204;)Z
+		ARG 1 block
+	METHOD d getArmor (I)Lnet/minecraft/unmapped/C_2750078;
+		ARG 1 slot
+	METHOD e damageArmor (I)V
+		ARG 1 damage
+	METHOD f getArmorProtectionValue ()I
+	METHOD f indexOfItem (I)I
+		ARG 1 itemId
+	METHOD g dropAll ()V
+	METHOD g indexOfItemStack (I)I
+	METHOD j getEmptySlot ()I

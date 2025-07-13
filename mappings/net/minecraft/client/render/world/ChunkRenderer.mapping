@@ -1,0 +1,25 @@
+CLASS net/minecraft/unmapped/C_2433962 net/minecraft/client/render/world/ChunkRenderer
+	FIELD a regionX I
+	FIELD b regionY I
+	FIELD c regionZ I
+	FIELD d cameraX F
+	FIELD e cameraY F
+	FIELD f cameraZ F
+	FIELD g glList Ljava/nio/IntBuffer;
+	FIELD h renderingLeft Z
+	FIELD i doNotFlipGlList Z
+	METHOD a render ()V
+	METHOD a addNewIdToGlList (I)V
+		ARG 1 id
+	METHOD a checkMatch (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setPositions (IIIDDD)V
+		ARG 1 regionX
+		ARG 2 regionY
+		ARG 3 regionZ
+		ARG 4 cameraX
+		ARG 6 cameraY
+		ARG 8 cameraZ
+	METHOD b reset ()V

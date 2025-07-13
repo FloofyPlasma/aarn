@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_4378169 net/minecraft/network/packet/EntityPickupPacket
+	FIELD a id I
+	FIELD b collectorId I

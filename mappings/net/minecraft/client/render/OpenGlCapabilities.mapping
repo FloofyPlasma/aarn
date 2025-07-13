@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_4076851 net/minecraft/client/render/OpenGlCapabilities
+	FIELD a ACTIVE Z
+	METHOD a glArbOcclusionQuery ()Z

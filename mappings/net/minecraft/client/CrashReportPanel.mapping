@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_5147087 net/minecraft/client/CrashReportPanel
+	METHOD <init> (Lnet/minecraft/unmapped/C_5269767;)V
+		ARG 1 report

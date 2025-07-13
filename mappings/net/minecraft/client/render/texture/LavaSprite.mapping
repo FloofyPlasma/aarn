@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_1350810 net/minecraft/client/render/texture/LavaSprite
+	FIELD g image0 [F
+	FIELD h image1 [F

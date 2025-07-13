@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_8906619 net/minecraft/item/ToolItem
+	FIELD aX effectiveBlocks [Lnet/minecraft/unmapped/C_3635204;
+	FIELD aY miningSpeed F
+	FIELD aZ attackSpeed I
+	METHOD <init> (III[Lnet/minecraft/unmapped/C_3635204;)V
+		ARG 1 id
+		ARG 2 attackDamage
+		ARG 3 tier
+		ARG 4 effectiveBlocks

@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_2012603 net/minecraft/network/packet/BlocksUpdatePacket
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c positions [S
+	FIELD d blockIds [B
+	FIELD e blockMetadata [B
+	FIELD f blockChangeCount I

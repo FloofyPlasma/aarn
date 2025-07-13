@@ -1,0 +1,12 @@
+CLASS net/minecraft/unmapped/C_4561926 net/minecraft/network/packet/AddItemPacket
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e velocityX B
+	FIELD f velocityY B
+	FIELD g velocityZ B
+	FIELD h itemId I
+	FIELD i stackSize I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3050136;)V
+		ARG 1 item

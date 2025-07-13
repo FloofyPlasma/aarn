@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_2339776 net/minecraft/entity/mob/animal/SheepEntity
+	FIELD a isSheared Z
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world

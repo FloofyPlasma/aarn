@@ -1,0 +1,14 @@
+CLASS net/minecraft/unmapped/C_7192378 net/minecraft/inventory/slot/InventorySlot
+	FIELD a slot I
+	FIELD b inventory Lnet/minecraft/unmapped/C_4390289;
+	METHOD <init> (Lnet/minecraft/unmapped/C_4390289;I)V
+		ARG 1 inventory
+		ARG 2 id
+	METHOD a onStackRemovedByPlayer ()V
+	METHOD a canSetStack (Lnet/minecraft/unmapped/C_2750078;)Z
+		ARG 1 stack
+	METHOD b getStack ()Lnet/minecraft/unmapped/C_2750078;
+	METHOD b setStack (Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 stack
+	METHOD c getTexture ()I
+	METHOD d makeDirty ()V

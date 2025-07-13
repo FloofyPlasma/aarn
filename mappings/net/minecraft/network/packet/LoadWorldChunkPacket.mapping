@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_4136842 net/minecraft/network/packet/LoadWorldChunkPacket
+	FIELD a chunkX I
+	FIELD b chunkY I
+	FIELD c chunkZ Z

@@ -1,0 +1,36 @@
+CLASS net/minecraft/unmapped/C_2354122 net/minecraft/network/Connection
+	FIELD a LOC Ljava/lang/Object;
+	FIELD b READ_THREAD_COUNTER I
+	FIELD c WRITE_THREAD_COUNTER I
+	FIELD d lock Ljava/lang/Object;
+	FIELD e socket Ljava/net/Socket;
+	FIELD f input Ljava/io/DataInputStream;
+	FIELD g output Ljava/io/DataOutputStream;
+	FIELD h open Z
+	FIELD i readQueue Ljava/util/List;
+	FIELD j sendQueue Ljava/util/List;
+	FIELD k blockDataSendQueue Ljava/util/List;
+		COMMENT the send queue for packets containing block (entity) data
+	FIELD l listener Lnet/minecraft/unmapped/C_4443804;
+	FIELD m closed Z
+	FIELD n writer Ljava/lang/Thread;
+	FIELD o reader Ljava/lang/Thread;
+	FIELD p disconnected Z
+	FIELD q disconnectReason Ljava/lang/String;
+	FIELD r timeoutTimer I
+	FIELD s sendQueueSize I
+	FIELD t blockDataDelay I
+		COMMENT delay before this connection can send block data packets
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lnet/minecraft/unmapped/C_4443804;)V
+		ARG 1 socket
+		ARG 2 name
+		ARG 3 listener
+	METHOD a tick ()V
+	METHOD a onConnectionCrashed (Ljava/lang/Exception;)V
+		ARG 1 exception
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD a send (Lnet/minecraft/unmapped/C_4844124;)V
+		ARG 1 packet
+	METHOD b write ()V
+	METHOD c read ()V

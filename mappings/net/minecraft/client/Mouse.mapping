@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_9846877 net/minecraft/client/Mouse
+	FIELD a x I
+	FIELD b y I
+	FIELD c component Ljava/awt/Component;
+	FIELD d cursor Lorg/lwjgl/input/Cursor;
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 component
+	METHOD a grab ()V
+	METHOD b release ()V
+	METHOD c tick ()V

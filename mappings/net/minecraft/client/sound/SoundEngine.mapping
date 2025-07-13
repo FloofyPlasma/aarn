@@ -1,0 +1,46 @@
+CLASS net/minecraft/unmapped/C_3624347 net/minecraft/client/sound/SoundEngine
+	FIELD a system Lpaulscode/sound/SoundSystem;
+	FIELD b sounds Lnet/minecraft/unmapped/C_4560329;
+	FIELD c records Lnet/minecraft/unmapped/C_4560329;
+	FIELD d music Lnet/minecraft/unmapped/C_4560329;
+	FIELD e nextSoundEventIndex I
+	FIELD f options Lnet/minecraft/unmapped/C_7688744;
+	FIELD g started Z
+	FIELD h random Ljava/util/Random;
+	FIELD i musicCooldown I
+	METHOD a volumeChanged ()V
+	METHOD a play (Ljava/lang/String;FF)V
+		ARG 1 id
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD a playRecord (Ljava/lang/String;FFFFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD a loadSound (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 path
+		ARG 2 dir
+	METHOD a tickListener (Lnet/minecraft/unmapped/C_1013763;F)V
+		ARG 1 listener
+		ARG 2 tickDelta
+	METHOD a load (Lnet/minecraft/unmapped/C_7688744;)V
+		ARG 1 options
+	METHOD b close ()V
+	METHOD b play (Ljava/lang/String;FFFFF)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD b loadRecord (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 path
+		ARG 2 dir
+	METHOD c tickMusic ()V
+	METHOD c loadMusic (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 path
+		ARG 2 dir
+	METHOD d start ()V

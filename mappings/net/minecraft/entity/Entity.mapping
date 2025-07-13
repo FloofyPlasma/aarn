@@ -1,0 +1,202 @@
+CLASS net/minecraft/unmapped/C_6385858 net/minecraft/entity/Entity
+	FIELD aA removed Z
+	FIELD aB eyeHeight F
+	FIELD aC width F
+	FIELD aD height F
+	FIELD aE prevHorizontalSpeed F
+	FIELD aF horizontalVelocity F
+	FIELD aH fallDistance F
+	FIELD a networkIdCounter I
+		COMMENT a number that uniquely identifies this entity. it is used for server-client communication
+	FIELD aI prevTickX D
+	FIELD aJ prevTickY D
+	FIELD aK prevTickZ D
+	FIELD aL eyeHeightSneakoffset F
+	FIELD aM stepHeight F
+	FIELD aN noClip Z
+	FIELD aO pushSpeedReduction F
+	FIELD aQ random Ljava/util/Random;
+	FIELD aR time I
+	FIELD aS fireResistance I
+	FIELD aT onFireTimer I
+		COMMENT the number of ticks left for which this entity will be on fire
+	FIELD aV inWater Z
+		COMMENT true if this entity's hitbox is colliding with any water fluid blocks
+	FIELD aW maxHealth I
+	FIELD aY skin Ljava/lang/String;
+	FIELD aZ isLoaded Z
+	FIELD ab networkId I
+	FIELD ac viewDistanceScaling D
+	FIELD ad blocksBuilding Z
+	FIELD ae rider Lnet/minecraft/unmapped/C_6385858;
+	FIELD af vehicle Lnet/minecraft/unmapped/C_6385858;
+	FIELD ag world Lnet/minecraft/unmapped/C_3906126;
+	FIELD ah prevX D
+	FIELD ai prevY D
+	FIELD aj prevZ D
+	FIELD ak x D
+	FIELD al y D
+	FIELD am z D
+	FIELD an velocityX D
+	FIELD ao velocityY D
+	FIELD ap velocityZ D
+	FIELD aq yaw F
+	FIELD ar pitch F
+	FIELD as prevYaw F
+	FIELD at prevPitch F
+	FIELD au shape Lnet/minecraft/unmapped/C_1414550;
+	FIELD av onGround Z
+	FIELD aw collidingHorizontally Z
+	FIELD ax collidingVertically Z
+	FIELD ay colliding Z
+	FIELD az immovable Z
+	FIELD b distanceOnNextBlock I
+	FIELD ba chunkX I
+	FIELD bb chunkY I
+	FIELD bc chunkZ I
+	FIELD bd packetX I
+	FIELD be packeyY I
+	FIELD bf packetZ I
+	FIELD c inFirstDick Z
+		COMMENT true if the entity is in the first tick of its existence
+	FIELD d ridingEntityPitchDelta D
+	FIELD e ridingEntityYawDelta D
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD B isAlive ()Z
+	METHOD E tickVoid ()V
+	METHOD F remove ()V
+	METHOD G isInLava ()Z
+	METHOD H getTypeId ()Ljava/lang/String;
+	METHOD I isInWall ()Z
+	METHOD a isWithinViewDistance (D)Z
+		ARG 1 distance
+	METHOD a setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a updatePositionAndAngles (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+		ARG 9 steps
+	METHOD a getBrightness (F)F
+		ARG 1 tickDelta
+	METHOD a setDimensions (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a updateVelocity (FFF)V
+		ARG 1 sideways
+		ARG 2 forward
+		ARG 3 factor
+	METHOD a applyFireDamage (I)V
+		ARG 1 amount
+	METHOD a dropItem (IIF)Lnet/minecraft/unmapped/C_3050136;
+	METHOD a isWithinViewDistanceOf (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 pos
+	METHOD a writeCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD a setWorld (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD a interact (Lnet/minecraft/unmapped/C_5009044;)Z
+		ARG 1 player
+	METHOD a damage (Lnet/minecraft/unmapped/C_6385858;I)Z
+		ARG 2 i
+	METHOD a isSubmergedIn (Lnet/minecraft/unmapped/C_8554894;)Z
+		COMMENT checks if this entity is submerged in the given fluid, meaning the fluid covers its eyes
+		ARG 1 liquid
+	METHOD a toNbtList ([D)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 values
+	METHOD a toNbtList ([F)Lnet/minecraft/unmapped/C_1011144;
+		ARG 1 values
+	METHOD b canMove (DDD)Z
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD b teleport (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD b dropItem (II)Lnet/minecraft/unmapped/C_3050136;
+		ARG 1 id
+		ARG 2 amount
+	METHOD b readCustomNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD b onPlayerCollision (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player
+	METHOD b onKillEntity (Lnet/minecraft/unmapped/C_6385858;I)V
+		ARG 1 entity
+		ARG 2 score
+	METHOD b_ getCollisionAngainstShape (Lnet/minecraft/unmapped/C_6385858;)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 other
+	METHOD c move (DDD)V
+		ARG 1 dx
+		ARG 3 dy
+		ARG 5 dz
+	METHOD c refreshPositionAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD c applyFallDamage (F)V
+		ARG 1 distance
+	METHOD c setRotaion (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD c writeNbtNoRider (Lnet/minecraft/unmapped/C_2800860;)Z
+		ARG 1 nbt
+	METHOD c_ hasCollision ()Z
+	METHOD d getSquaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d updateLocalPlayerCamera (FF)V
+		COMMENT called by @see GameRenderer#render(float, long) every frame when not spectating an entity
+		COMMENT this is only ever called on the local player entity
+		COMMENT this causes the local player entity's prevPitch/Yaw to always be the same as its pitch/yaw
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD d writeEntityNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD d getDistanceTo (Lnet/minecraft/unmapped/C_6385858;)F
+		ARG 1 entity
+	METHOD d_ isPushable ()Z
+	METHOD e getDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e readEntityNbt (Lnet/minecraft/unmapped/C_2800860;)V
+		ARG 1 nbt
+	METHOD e getSquaredDistanceTo (Lnet/minecraft/unmapped/C_6385858;)D
+		ARG 1 entity
+	METHOD e_ tick ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD f addVelocity (DDD)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+	METHOD f push (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD f_ getCollisionShape ()Lnet/minecraft/unmapped/C_1414550;
+	METHOD g startRiding (Lnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 entity
+	METHOD g_ checkWaterCollisions ()Z
+	METHOD h getMountHeight ()D
+		COMMENT return the height at which other entities sit when riding this entity
+	METHOD h_ yShadowOrigin ()F
+	METHOD hashCode hashCode ()I
+	METHOD i_ updateRiderPosition ()V
+	METHOD o isSneaking ()Z
+	METHOD p tickRiding ()V
+	METHOD q postSpawn ()V
+	METHOD s getEyeHeight ()F
+	METHOD v getRideHeight ()D
+		COMMENT return the height offset of this entity when riding another entity
+	METHOD x getTexture ()Ljava/lang/String;
+	METHOD y baseTick ()V

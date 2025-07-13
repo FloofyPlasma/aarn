@@ -1,0 +1,383 @@
+CLASS net/minecraft/unmapped/C_3635204 net/minecraft/block/Block
+	FIELD A BEDROCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD B FLOWING_WATER Lnet/minecraft/unmapped/C_3635204;
+	FIELD C WATER Lnet/minecraft/unmapped/C_3635204;
+	FIELD D FLOWING_LAVA Lnet/minecraft/unmapped/C_3635204;
+	FIELD E LAVA Lnet/minecraft/unmapped/C_3635204;
+	FIELD F SAND Lnet/minecraft/unmapped/C_3635204;
+	FIELD G GRAVEL Lnet/minecraft/unmapped/C_3635204;
+	FIELD H GOLD_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD I IRON_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD J COAL_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD K LOG Lnet/minecraft/unmapped/C_3635204;
+	FIELD L LEAVES Lnet/minecraft/unmapped/C_0559439;
+	FIELD M SPONGE Lnet/minecraft/unmapped/C_3635204;
+	FIELD N GLASS Lnet/minecraft/unmapped/C_3635204;
+	FIELD O LAPIS_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD P LAPIS_BLOCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD Q DISPENSER Lnet/minecraft/unmapped/C_3635204;
+	FIELD R SANDSTONE Lnet/minecraft/unmapped/C_3635204;
+	FIELD S NOTEBLOCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD T BED Lnet/minecraft/unmapped/C_3635204;
+	FIELD U WEB Lnet/minecraft/unmapped/C_3635204;
+	FIELD V DETECTOR_RAIL Lnet/minecraft/unmapped/C_3635204;
+	FIELD Y TALLGRASS Lnet/minecraft/unmapped/C_3635204;
+	FIELD Z DEADBUSH Lnet/minecraft/unmapped/C_3635204;
+	FIELD aA WHEAT Lnet/minecraft/unmapped/C_3635204;
+	FIELD aB FARMLAND Lnet/minecraft/unmapped/C_3635204;
+	FIELD aC FURNACE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aD LIT_FURNACE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aE STANDING_SIGN Lnet/minecraft/unmapped/C_3635204;
+	FIELD aF WOODEN_DOOR Lnet/minecraft/unmapped/C_3635204;
+	FIELD aG LADDER Lnet/minecraft/unmapped/C_3635204;
+	FIELD aH RAIL Lnet/minecraft/unmapped/C_3635204;
+	FIELD aI STONE_STAIRS Lnet/minecraft/unmapped/C_3635204;
+	FIELD aJ WALL_SIGN Lnet/minecraft/unmapped/C_3635204;
+	FIELD aK LEVER Lnet/minecraft/unmapped/C_3635204;
+	FIELD aL STONE_PRESSURE_PLATE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aM IRON_DOOR Lnet/minecraft/unmapped/C_3635204;
+	FIELD aN WOODEN_PRESSURE_PLATE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aO REDSTONE_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aP LIT_REDSTONE_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aQ UNLIT_REDSTONE_TORCH Lnet/minecraft/unmapped/C_3635204;
+	FIELD aR REDSTONE_TORCH Lnet/minecraft/unmapped/C_3635204;
+	FIELD aS STONE_BUTTON Lnet/minecraft/unmapped/C_3635204;
+	FIELD aT SNOW_LAYER Lnet/minecraft/unmapped/C_3635204;
+	FIELD aU ICE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aV SNOW Lnet/minecraft/unmapped/C_3635204;
+	FIELD aW CACTUS Lnet/minecraft/unmapped/C_3635204;
+	FIELD aX CLAY Lnet/minecraft/unmapped/C_3635204;
+	FIELD aY REEDS Lnet/minecraft/unmapped/C_3635204;
+	FIELD aZ JUKEBOX Lnet/minecraft/unmapped/C_3635204;
+	FIELD ac WOOL Lnet/minecraft/unmapped/C_3635204;
+	FIELD ae YELLOW_FLOWER Lnet/minecraft/unmapped/C_1124552;
+	FIELD af RED_FLOWER Lnet/minecraft/unmapped/C_1124552;
+	FIELD ag BROWN_MUSHROOM Lnet/minecraft/unmapped/C_1124552;
+	FIELD ah RED_MUSHROOM Lnet/minecraft/unmapped/C_1124552;
+	FIELD ai GOLD_BLOCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD aj IRON_BLOCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD ak DOUBLE_STONE_SLAB Lnet/minecraft/unmapped/C_3635204;
+	FIELD al STONE_SLAB Lnet/minecraft/unmapped/C_3635204;
+	FIELD am BRICKS Lnet/minecraft/unmapped/C_3635204;
+	FIELD an TNT Lnet/minecraft/unmapped/C_3635204;
+	FIELD ao BOOKSHELF Lnet/minecraft/unmapped/C_3635204;
+	FIELD ap MOSSY_COBBLESTONE Lnet/minecraft/unmapped/C_3635204;
+	FIELD aq OBSIDIAN Lnet/minecraft/unmapped/C_3635204;
+	FIELD ar TORCH Lnet/minecraft/unmapped/C_3635204;
+	FIELD as FIRE Lnet/minecraft/unmapped/C_9764049;
+	FIELD at MOB_SPAWNER Lnet/minecraft/unmapped/C_3635204;
+	FIELD au OAK_STAIRS Lnet/minecraft/unmapped/C_3635204;
+	FIELD av CHEST Lnet/minecraft/unmapped/C_3635204;
+	FIELD aw REDSTONE_WIRE Lnet/minecraft/unmapped/C_3635204;
+	FIELD ax DIAMOND_ORE Lnet/minecraft/unmapped/C_3635204;
+	FIELD ay DIAMOND_BLOCK Lnet/minecraft/unmapped/C_3635204;
+	FIELD az CRAFTING_TABLE Lnet/minecraft/unmapped/C_3635204;
+	FIELD ba FENCE Lnet/minecraft/unmapped/C_3635204;
+	FIELD bb sprite I
+	FIELD bc id I
+	FIELD bd miningSpeed F
+	FIELD be resistance F
+	FIELD bf minX D
+	FIELD bg minY D
+	FIELD bh minZ D
+	FIELD bi maxX D
+	FIELD bj maxY D
+	FIELD bk maxZ D
+	FIELD bl sound Lnet/minecraft/unmapped/C_5846486;
+	FIELD bm gravity F
+	FIELD bn material Lnet/minecraft/unmapped/C_8554894;
+	FIELD bo slipperiness F
+	FIELD e ORE_SOUND Lnet/minecraft/unmapped/C_5846486;
+	FIELD f WOOD_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD g GRAVEL_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD h GRASS_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD i STONE_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD j METAL_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD k GLASS_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD l CLOTH_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD m SAND_SOUNDS Lnet/minecraft/unmapped/C_5846486;
+	FIELD n BY_ID [Lnet/minecraft/unmapped/C_3635204;
+	FIELD o TICKS_RANDOMLY [Z
+	FIELD p IS_OPAQUE [Z
+	FIELD q HAS_BLOCK_ENTITY [Z
+	FIELD r OPACITIES [I
+	FIELD s IS_TRANSLUCENT [Z
+	FIELD t LIGHT [I
+	FIELD u STONE Lnet/minecraft/unmapped/C_3635204;
+	FIELD v GRASS Lnet/minecraft/unmapped/C_0823907;
+	FIELD w DIRT Lnet/minecraft/unmapped/C_3635204;
+	FIELD x COBBLESTONE Lnet/minecraft/unmapped/C_3635204;
+	FIELD y PLANKS Lnet/minecraft/unmapped/C_3635204;
+	FIELD z SAPLING Lnet/minecraft/unmapped/C_3635204;
+	METHOD <init> (IILnet/minecraft/unmapped/C_8554894;)V
+		ARG 1 id
+		ARG 2 sprite
+		ARG 3 material
+	METHOD <init> (ILnet/minecraft/unmapped/C_8554894;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a getTickRate ()I
+	METHOD a setLight (F)Lnet/minecraft/unmapped/C_3635204;
+		COMMENT sets this block's light level
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: this method sould only be used during the block's creation before it is registered
+		ARG 1 light
+	METHOD a setShape (FFFFFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a getSprite (I)I
+		ARG 1 face
+	METHOD a getSprite (II)I
+		ARG 1 face
+		ARG 2 metadata
+	METHOD a getDropItem (ILjava/util/Random;)I
+		ARG 1 metadata
+		ARG 2 random
+	METHOD a hasCollision (IZ)Z
+		ARG 1 metadata
+		ARG 2 allowLiquids
+	METHOD a getBaseDropCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a isWithinPlaneYZ (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD a updateShape (Lnet/minecraft/unmapped/C_2627205;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getSprite (Lnet/minecraft/unmapped/C_2627205;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a canSurvive (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a neighborChanged (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		COMMENT performs a block update. this method is called when a neighboring block has updated
+		COMMENT (i.e. placed, broken, or otherwise changed state).
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 neighborBlockId
+	METHOD a dropItems (Lnet/minecraft/unmapped/C_3906126;IIIIF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 metadata
+		ARG 6 luck
+	METHOD a tick (Lnet/minecraft/unmapped/C_3906126;IIILjava/util/Random;)V
+		COMMENT performes a scheduled tick. blocks that want to perform some action after a delay
+		COMMENT can tell the world to schedule the update, which is then executed by calling this method
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a rayTrace (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_0336319;Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_5853518;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 start
+		ARG 6 end
+	METHOD a addCollisions (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_1414550;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 shape
+		ARG 6 collisions
+	METHOD a use (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD a onSteppedOn (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD a applyMaterialDrag (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_0336319;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+		ARG 6 velocity
+	METHOD a getMiningSpeed (Lnet/minecraft/unmapped/C_5009044;)F
+		ARG 1 player
+	METHOD a setSound (Lnet/minecraft/unmapped/C_5846486;)Lnet/minecraft/unmapped/C_3635204;
+		COMMENT sets this block's sound type
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: this method sould only be used during the block's creation before it is registered
+		ARG 1 sounds
+	METHOD a getBlastResistance (Lnet/minecraft/unmapped/C_6385858;)F
+		COMMENT returns this block's blast resistance for the given entity
+		ARG 1 entity
+	METHOD a_ afterMinedByPlayer (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 metadata
+	METHOD b isOpaqueCube ()Z
+	METHOD b setResistance (F)Lnet/minecraft/unmapped/C_3635204;
+		COMMENT sets this block's resistance
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: this method sould only be used during the block's creation before it is registered
+		ARG 1 resistance
+	METHOD b isWithinPlaneXZ (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD b hasSignal (Lnet/minecraft/unmapped/C_2627205;IIII)Z
+		COMMENT returns whether this block is emitting a redstone signal in the given direction.
+		COMMENT this roughly equates to what is colloquially known as 'soft' or 'weak' power
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: directions in redstone signal related methods are backwards, so blocks should
+		COMMENT check for the signal emitted in the direction <i>opposite</i> of the one given
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD b onRemoved (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b onBroken (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 metadata
+	METHOD b randomDisplayTick (Lnet/minecraft/unmapped/C_3906126;IIILjava/util/Random;)V
+		COMMENT performes a random display tick. random display ticks are mostly used to spawn particles
+		COMMENT around a block. the client does 1000 random display tick attempts within a radius of
+		COMMENT 16 blocks of the player at each tick
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD b startMining (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD b onEntityCollision (Lnet/minecraft/unmapped/C_3906126;IIILnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD b setTicksRandomly (Z)V
+		ARG 1 ticksRandomly
+	METHOD b_ dropItems (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 metadata
+	METHOD c isFullCube ()Z
+	METHOD c setStrength (F)Lnet/minecraft/unmapped/C_3635204;
+		COMMENT sets this block's ming speed and updates its resistance if needed
+		COMMENT a block's resistance cannot be less than 5 times its mining speed
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: this method sould only be used during the block's creation before it is registered
+		ARG 1 strength
+	METHOD c isWithinPlaneXY (Lnet/minecraft/unmapped/C_0336319;)Z
+		ARG 1 vec
+	METHOD c getLightLevel (Lnet/minecraft/unmapped/C_2627205;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c shouldRenderFace (Lnet/minecraft/unmapped/C_2627205;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD c onExploded (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c hasDirectSignal (Lnet/minecraft/unmapped/C_3906126;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD d isSignalSource ()Z
+		COMMENT returns whether this block is capable of emitting a redstone signal
+	METHOD d setOpacity (I)Lnet/minecraft/unmapped/C_3635204;
+		COMMENT sets this block's light opacity
+		COMMENT
+		COMMENT <p>
+		COMMENT NOTE: this method sould only be used during the block's creation before it is registered
+		ARG 1 opacity
+	METHOD d getColor (Lnet/minecraft/unmapped/C_2627205;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getCollisionShape (Lnet/minecraft/unmapped/C_3906126;III)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d updateMetadataOnPlaced (Lnet/minecraft/unmapped/C_3906126;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 metadata
+	METHOD e resetShape ()V
+	METHOD e onAdded (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f getRenderType ()I
+		COMMENT returns this block's render type. the possible values are as follows:
+		COMMENT <br>-1: none
+		COMMENT <br>1: liquid
+		COMMENT <br>2: animated block entity
+		COMMENT <br>3: block model
+	METHOD f getOutlineShape (Lnet/minecraft/unmapped/C_3906126;III)Lnet/minecraft/unmapped/C_1414550;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getRenderLayer ()I
+		COMMENT returns this block's render layer. the possible values are as follows:
+		COMMENT <br>0: solid
+		COMMENT <br>1: mipped cutout
+		COMMENT <br>2: cutout
+		COMMENT <br>3: translucent
+	METHOD g isSupported (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h hasCollision ()Z
+	METHOD i isTranslucent ()Z

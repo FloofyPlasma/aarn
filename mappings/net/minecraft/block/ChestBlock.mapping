@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_9072802 net/minecraft/block/ChestBlock
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD h isDoubleChest (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

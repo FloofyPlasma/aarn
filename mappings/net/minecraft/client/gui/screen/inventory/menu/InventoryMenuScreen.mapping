@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_7542541 net/minecraft/client/gui/screen/inventory/menu/InventoryMenuScreen
+	FIELD a backgroundWidth I
+	FIELD h backgroundHeight I
+	FIELD i menu Ljava/util/List;
+	FIELD j itemRenderer Lnet/minecraft/unmapped/C_4917405;
+	METHOD a drawBackground (F)V
+	METHOD a getHoveredSlot (II)Lnet/minecraft/unmapped/C_7192378;
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a drawSlot (Lnet/minecraft/unmapped/C_6331926;)V
+	METHOD j drawForeground ()V

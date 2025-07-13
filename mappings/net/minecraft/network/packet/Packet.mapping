@@ -1,0 +1,23 @@
+CLASS net/minecraft/unmapped/C_4844124 net/minecraft/network/packet/Packet
+	FIELD a ID_TO_TYPE Ljava/util/Map;
+	FIELD b TYPE_TO_ID Ljava/util/Map;
+	FIELD j hasBlockData Z
+		COMMENT true if this packet contains block (entity) data
+	METHOD a getSize ()I
+	METHOD a creat (I)Lnet/minecraft/unmapped/C_4844124;
+		ARG 0 id
+	METHOD a register (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 type
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 input
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 output
+	METHOD a handle (Lnet/minecraft/unmapped/C_4443804;)V
+		ARG 1 packet
+	METHOD a serialize (Lnet/minecraft/unmapped/C_4844124;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 output
+	METHOD b getId ()I
+	METHOD b deserialize (Ljava/io/DataInputStream;)Lnet/minecraft/unmapped/C_4844124;
+		ARG 0 input

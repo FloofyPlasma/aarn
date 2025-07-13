@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_4331994 net/minecraft/client/gui/screen/JoinMultiplayerScreen
+	FIELD a parent Lnet/minecraft/unmapped/C_0786431;
+	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;)V
+		ARG 1 parent

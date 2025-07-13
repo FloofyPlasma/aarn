@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_1774538
+	FIELD a LINUX Lnet/minecraft/unmapped/C_1774538;
+	FIELD b SOLARIS Lnet/minecraft/unmapped/C_1774538;
+	FIELD c WINDOWS Lnet/minecraft/unmapped/C_1774538;
+	FIELD d MACOS Lnet/minecraft/unmapped/C_1774538;
+	FIELD e UNKNOWN Lnet/minecraft/unmapped/C_1774538;

@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_2250623 net/minecraft/nbt/NbtDouble
+	FIELD a value D
+	METHOD <init> (D)V
+		ARG 1 value
+	METHOD toString toString ()Ljava/lang/String;

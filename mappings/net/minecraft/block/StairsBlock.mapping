@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_7261559 net/minecraft/block/StairsBlock
+	FIELD a baseBlock Lnet/minecraft/unmapped/C_3635204;
+	METHOD <init> (ILnet/minecraft/unmapped/C_3635204;)V
+		ARG 1 id
+		ARG 2 baseBlock
+	METHOD h (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+	METHOD i (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world
+	METHOD j (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 1 world

@@ -1,0 +1,8 @@
+CLASS net/minecraft/unmapped/C_9526661 net/minecraft/client/gui/screen/options/ControlsOptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD h parent Lnet/minecraft/unmapped/C_0786431;
+	FIELD i options Lnet/minecraft/unmapped/C_7688744;
+	FIELD j selectedKeyBinding I
+	METHOD <init> (Lnet/minecraft/unmapped/C_0786431;Lnet/minecraft/unmapped/C_7688744;)V
+		ARG 1 parent
+		ARG 2 options

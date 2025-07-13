@@ -1,0 +1,8 @@
+CLASS net/minecraft/unmapped/C_0309511 net/minecraft/client/gui/screen/TitleScreen
+	FIELD a logo [Ljava/lang/String;
+	FIELD h RANDOM Ljava/util/Random;
+	FIELD i letterBlocks [[Lnet/minecraft/unmapped/C_4312231;
+	FIELD j ticks F
+	FIELD l splashText Ljava/lang/String;
+	METHOD a renderLogo (F)V
+		ARG 1 tickDelta

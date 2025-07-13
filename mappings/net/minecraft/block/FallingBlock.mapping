@@ -1,0 +1,15 @@
+CLASS net/minecraft/unmapped/C_3724278 net/minecraft/block/FallingBlock
+	FIELD a fallImmediately Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 sprite
+	METHOD a_ canFallThrough (Lnet/minecraft/unmapped/C_3906126;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h tryFall (Lnet/minecraft/unmapped/C_3906126;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

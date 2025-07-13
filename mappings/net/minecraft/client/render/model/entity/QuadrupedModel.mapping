@@ -1,0 +1,10 @@
+CLASS net/minecraft/unmapped/C_1207477 net/minecraft/client/render/model/entity/QuadrupedModel
+	FIELD d head Lnet/minecraft/unmapped/C_0289174;
+	FIELD e body Lnet/minecraft/unmapped/C_0289174;
+	FIELD f backRightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD g backLeftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD h frontLeftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD i frontRightLeg Lnet/minecraft/unmapped/C_0289174;
+	METHOD <init> (IF)V
+		ARG 1 pivotPoint
+		ARG 2 reduction

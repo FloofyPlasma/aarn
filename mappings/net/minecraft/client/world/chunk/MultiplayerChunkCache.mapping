@@ -1,0 +1,13 @@
+CLASS net/minecraft/unmapped/C_2616453 net/minecraft/client/world/chunk/MultiplayerChunkCache
+	FIELD a empty Lnet/minecraft/unmapped/C_6755599;
+	FIELD b chunksByPos Ljava/util/Map;
+	FIELD c chunks Ljava/util/List;
+	FIELD d world Lnet/minecraft/unmapped/C_3906126;
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world
+	METHOD c unloadChunk (II)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD d loadChunk (II)Lnet/minecraft/unmapped/C_6755599;
+		ARG 1 chunkX
+		ARG 2 chunkZ

@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_5756990 net/minecraft/client/render/entity/PaintingRenderer
+	FIELD d random Ljava/util/Random;
+	METHOD a transformRenderPosition (Lnet/minecraft/unmapped/C_1693934;FF)V
+		ARG 1 painting
+	METHOD a renderPainting (Lnet/minecraft/unmapped/C_1693934;IIII)V
+		ARG 1 painting

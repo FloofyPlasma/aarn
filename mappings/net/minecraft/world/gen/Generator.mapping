@@ -1,0 +1,16 @@
+CLASS net/minecraft/unmapped/C_6329603 net/minecraft/world/gen/Generator
+	FIELD a range I
+	FIELD b random Ljava/util/Random;
+	METHOD a place (Lnet/minecraft/unmapped/C_3906126;IIII[B)V
+		ARG 1 world
+		ARG 2 chunkX
+		ARG 3 chunkZ
+		ARG 4 centerChunkX
+		ARG 5 centerChunkZ
+		ARG 6 blockIds
+	METHOD a place (Lnet/minecraft/unmapped/C_4078372;Lnet/minecraft/unmapped/C_3906126;II[B)V
+		ARG 1 generator
+		ARG 2 world
+		ARG 3 centerChunkX
+		ARG 4 centerChunkZ
+		ARG 5 blockIds

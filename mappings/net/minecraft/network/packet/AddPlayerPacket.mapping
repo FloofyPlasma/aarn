@@ -1,0 +1,11 @@
+CLASS net/minecraft/unmapped/C_5314135 net/minecraft/network/packet/AddPlayerPacket
+	FIELD a id I
+	FIELD b name Ljava/lang/String;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f yaw B
+	FIELD g pitch B
+	FIELD h heldItemId I
+	METHOD <init> (Lnet/minecraft/unmapped/C_5009044;)V
+		ARG 1 player

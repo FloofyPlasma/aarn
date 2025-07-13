@@ -1,0 +1,33 @@
+CLASS net/minecraft/unmapped/C_8817873 net/minecraft/client/world/MultiplayerWorld
+	FIELD A networkHandler Lnet/minecraft/unmapped/C_4939758;
+	FIELD B chunkCache Lnet/minecraft/unmapped/C_2616453;
+	FIELD D entitiesByNetworkId Lnet/minecraft/unmapped/C_3837238;
+	FIELD E forcedEntities Ljava/util/Set;
+	FIELD F pendingEntities Ljava/util/Set;
+	FIELD z scheduledBlockChanges Ljava/util/LinkedList;
+	METHOD <init> (Lnet/minecraft/unmapped/C_4939758;)V
+		ARG 1 networkHandler
+	METHOD a updateChunk (IIZ)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 load
+	METHOD a addEntity (ILnet/minecraft/unmapped/C_6385858;)V
+		ARG 1 networkId
+		ARG 2 entity
+	METHOD b getEntity (I)Lnet/minecraft/unmapped/C_6385858;
+		ARG 1 networkId
+	METHOD c removeEntity (I)Lnet/minecraft/unmapped/C_6385858;
+		ARG 1 networkId
+	METHOD c setBlockWithMetadataFromPacket (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+		ARG 5 metadata
+	METHOD c clearScheduledBlockChanges (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ

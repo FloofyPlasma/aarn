@@ -1,0 +1,22 @@
+CLASS net/minecraft/unmapped/C_7694617 net/minecraft/entity/ai/pathing/PathNode
+	FIELD b y I
+	FIELD c z I
+	FIELD d hash I
+	FIELD e heapIndex I
+	FIELD f distanceFromStart F
+	FIELD f_3575590 x I
+	FIELD g distanceToTarget F
+	FIELD h weight F
+	FIELD i prev Lnet/minecraft/unmapped/C_7694617;
+	FIELD j visited Z
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	METHOD hashCode hashCode ()I
+	METHOD m_3762096 isInHeap ()Z
+	METHOD m_6408222 distanceTo (Lnet/minecraft/unmapped/C_7694617;)F
+		ARG 1 other
+	METHOD toString toString ()Ljava/lang/String;

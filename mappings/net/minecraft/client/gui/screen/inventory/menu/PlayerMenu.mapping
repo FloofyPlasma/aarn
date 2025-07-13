@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_9404371 net/minecraft/client/gui/screen/inventory/menu/PlayerMenu
+	METHOD <init> ([Lnet/minecraft/unmapped/C_2750078;)V
+		ARG 1 items

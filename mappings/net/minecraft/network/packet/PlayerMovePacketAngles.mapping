@@ -1,0 +1,5 @@
+CLASS net/minecraft/unmapped/C_7170474 net/minecraft/network/packet/PlayerMovePacketAngles
+	METHOD <init> (FFZ)V
+		ARG 1 yaw
+		ARG 2 pitch
+		ARG 3 onGround

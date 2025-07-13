@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_3632207 net/minecraft/world/explosion/Explosion
+	METHOD a (Lnet/minecraft/unmapped/C_3906126;Lnet/minecraft/unmapped/C_6385858;DDDF)V
+		ARG 1 world

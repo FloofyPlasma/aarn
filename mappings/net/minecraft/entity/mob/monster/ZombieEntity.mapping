@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_8345828 net/minecraft/entity/mob/monster/ZombieEntity
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;)V
+		ARG 1 world

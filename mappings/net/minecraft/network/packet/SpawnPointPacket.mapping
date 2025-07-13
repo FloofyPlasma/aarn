@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_5315820 net/minecraft/network/packet/SpawnPointPacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

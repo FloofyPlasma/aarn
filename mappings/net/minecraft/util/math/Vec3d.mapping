@@ -1,0 +1,88 @@
+CLASS net/minecraft/unmapped/C_0336319 net/minecraft/util/math/Vec3d
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d CACHE Ljava/util/List;
+	FIELD e nextCacheIndex I
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a resetCache ()V
+	METHOD a of (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a rotateX (F)V
+		ARG 1 angle
+	METHOD a subtractFrom (Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+	METHOD a intermediateWithX (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		COMMENT returns a vector between this and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT given a value of {@code x} in between this and the given vector's X-coordinates,
+		COMMENT this method returns a vector with Y- and Z-coordinates in between those of this
+		COMMENT and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT if this and the given vector have virtually identical X-coordinates, or the given
+		COMMENT value of {@code x} does not lie in between this and the given vector's X-coordinates,
+		COMMENT this method returns {@code null}
+		ARG 1 vec
+		ARG 2 x
+	METHOD b normalize ()Lnet/minecraft/unmapped/C_0336319;
+	METHOD b ofCache (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD b rotateY (F)V
+		ARG 1 angle
+	METHOD b cross (Lnet/minecraft/unmapped/C_0336319;)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 vec
+	METHOD b intermediateWithY (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		COMMENT returns a vector between this and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT given a value of {@code y} in between this and the given vector's Y-coordinates,
+		COMMENT this method returns a vector with X- and Z-coordinates in between those of this
+		COMMENT and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT if this and the given vector have virtually identical Y-coordinates, or the given
+		COMMENT value of {@code y} does not lie in between this and the given vector's Y-coordinates,
+		COMMENT this method returns {@code null}
+		ARG 1 vec
+		ARG 2 y
+	METHOD c length ()D
+	METHOD c add (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c distanceTo (Lnet/minecraft/unmapped/C_0336319;)D
+		ARG 1 vec
+	METHOD c intermediateWithZ (Lnet/minecraft/unmapped/C_0336319;D)Lnet/minecraft/unmapped/C_0336319;
+		COMMENT returns a vector between this and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT given a value of {@code z} in between this and the given vector's Z-coordinates,
+		COMMENT this method returns a vector with X- and Y-coordinates in between those of this
+		COMMENT and the given vector
+		COMMENT
+		COMMENT <p>
+		COMMENT if this and the given vector have virtually identical Z-coordinates, or the given
+		COMMENT value of {@code z} does not lie in between this and the given vector's Z-coordinates,
+		COMMENT this method returns {@code null}
+		ARG 1 vec
+		ARG 2 z
+	METHOD d squaredDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d squaredDistanceTo (Lnet/minecraft/unmapped/C_0336319;)D
+		ARG 1 vec
+	METHOD e subtract (DDD)Lnet/minecraft/unmapped/C_0336319;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD toString toString ()Ljava/lang/String;

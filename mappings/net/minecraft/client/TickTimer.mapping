@@ -1,0 +1,3 @@
+CLASS net/minecraft/unmapped/C_5974036 net/minecraft/client/TickTimer
+	METHOD <init> (F)V
+		ARG 1 tps

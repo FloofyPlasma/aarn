@@ -1,0 +1,54 @@
+CLASS net/minecraft/unmapped/C_5283200 net/minecraft/client/render/world/RenderChunk
+	FIELD A hasSkyLight Z
+	FIELD B blockEntities Ljava/util/List;
+	FIELD C glList I
+	FIELD D TESSELATOR Lnet/minecraft/unmapped/C_2334550;
+	FIELD E compiled Z
+	FIELD F globalBlockEntities Ljava/util/List;
+	FIELD a world Lnet/minecraft/unmapped/C_3906126;
+	FIELD b updateCounter I
+	FIELD c originX I
+	FIELD d originY I
+	FIELD e originZ I
+	FIELD i regionOriginX I
+	FIELD j regionOriginY I
+	FIELD k regionOriginZ I
+	FIELD l regionX I
+	FIELD m regionY I
+	FIELD n regionZ I
+	FIELD o visible Z
+	FIELD p blocks [Z
+	FIELD q centerX I
+	FIELD r centerY I
+	FIELD s centerZ I
+	FIELD u dirty Z
+	FIELD v bounds Lnet/minecraft/unmapped/C_1414550;
+	FIELD w index I
+	FIELD x glArbOcclusion Z
+	FIELD y glArbOcclusionPending Z
+	FIELD z glArbOcclusionQuery I
+	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;Ljava/util/List;IIIII)V
+		ARG 1 world
+		ARG 2 blockEntitiesToBeRendered
+		ARG 3 originX
+		ARG 4 originY
+		ARG 5 originZ
+		ARG 6 size
+		ARG 7 glList
+	METHOD a compile ()V
+	METHOD a getGlList (I)I
+		ARG 1 layers
+	METHOD a setOrigin (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a updateVisibility (Lnet/minecraft/unmapped/C_1633510;)V
+		ARG 1 culler
+	METHOD a squaredDistanceToCenter (Lnet/minecraft/unmapped/C_6385858;)F
+		ARG 1 camera
+	METHOD b reset ()V
+	METHOD c releaseBuffers ()V
+	METHOD d glCallList ()V
+	METHOD e isEmpty ()Z
+	METHOD f markDirty ()V
+	METHOD g glTranslatef ()V
