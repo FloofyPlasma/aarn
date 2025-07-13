@@ -1,1 +1,19 @@
 CLASS net/minecraft/unmapped/C_3984704 net/minecraft/nbt/NbtElement
+	FIELD a name Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a create (B)Lnet/minecraft/unmapped/C_3984704;
+		ARG 0 type
+	METHOD a read (Ljava/io/DataInput;)V
+		ARG 1 input
+	METHOD a write (Ljava/io/DataOutput;)V
+		ARG 1 output
+	METHOD a setName (Ljava/lang/String;)Lnet/minecraft/unmapped/C_3984704;
+		ARG 1 name
+	METHOD a serialize (Lnet/minecraft/unmapped/C_3984704;Ljava/io/DataOutput;)V
+		ARG 0 nbt
+		ARG 1 output
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b getName (B)Ljava/lang/String;
+		ARG 0 type
+	METHOD b deserialize (Ljava/io/DataInput;)Lnet/minecraft/unmapped/C_3984704;
+		ARG 0 input

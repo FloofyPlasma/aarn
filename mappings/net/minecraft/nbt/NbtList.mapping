@@ -1,5 +1,9 @@
 CLASS net/minecraft/unmapped/C_1011144 net/minecraft/nbt/NbtList
+	FIELD a elements Ljava/util/List;
+	FIELD b type B
 	METHOD a get (I)Lnet/minecraft/unmapped/C_3984704;
+		ARG 1 index
 	METHOD a add (Lnet/minecraft/unmapped/C_3984704;)V
+		ARG 1 element
 	METHOD c size ()I
 	METHOD toString toString ()Ljava/lang/String;
