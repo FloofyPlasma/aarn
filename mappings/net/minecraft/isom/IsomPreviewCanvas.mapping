@@ -1,4 +1,7 @@
 CLASS net/minecraft/unmapped/C_5586685 net/minecraft/isom/IsomPreviewCanvas
+	FIELD d world Lnet/minecraft/unmapped/C_3906126;
+	METHOD b start ()V
+	METHOD c stop ()V
 	METHOD keyPressed keyPressed (Ljava/awt/event/KeyEvent;)V
 	METHOD keyReleased keyReleased (Ljava/awt/event/KeyEvent;)V
 	METHOD keyTyped keyTyped (Ljava/awt/event/KeyEvent;)V
