@@ -1,4 +1,6 @@
 CLASS net/minecraft/unmapped/C_6205974 net/minecraft/world/gen/noise/PerlinNoise
+	FIELD a samplers [Lnet/minecraft/unmapped/C_0611937;
+	FIELD b samplerCount I
 	METHOD <init> (Ljava/util/Random;I)V
 		ARG 1 random
 		ARG 2 levels

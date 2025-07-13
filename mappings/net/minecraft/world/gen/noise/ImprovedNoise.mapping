@@ -1,3 +1,28 @@
 CLASS net/minecraft/unmapped/C_0611937 net/minecraft/world/gen/noise/ImprovedNoise
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d permutations [I
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
+	METHOD a gradient (IDDD)D
+		ARG 1 hash
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a getNoise ([DDDDIIIDDDD)V
+		ARG 1 noise
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 sizeX
+		ARG 9 sizeY
+		ARG 10 sizeZ
+		ARG 11 scaleX
+		ARG 13 scakeY
+		ARG 15 scaleZ
+		ARG 17 scaleExponent
+	METHOD b lerp (DDD)D
+		ARG 1 delta
+		ARG 3 min
+		ARG 5 max
