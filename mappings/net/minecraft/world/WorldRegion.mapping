@@ -1,4 +1,8 @@
 CLASS net/minecraft/unmapped/C_3134254 net/minecraft/world/WorldRegion
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunks [[Lnet/minecraft/unmapped/C_6755599;
+	FIELD d world Lnet/minecraft/unmapped/C_3906126;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;IIIIII)V
 		ARG 1 world
 		ARG 2 minX
@@ -7,3 +11,12 @@ CLASS net/minecraft/unmapped/C_3134254 net/minecraft/world/WorldRegion
 		ARG 5 maxX
 		ARG 6 maxY
 		ARG 7 maxZ
+	METHOD a getLightLevel (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 useNeighborLight
+	METHOD d getLightLevel (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

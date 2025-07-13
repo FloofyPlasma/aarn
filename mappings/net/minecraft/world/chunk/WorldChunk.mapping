@@ -1,5 +1,6 @@
 CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 	FIELD a hasSkyLight Z
+	FIELD b blockIds [B
 	FIELD c loaded Z
 	FIELD f skyLight Lnet/minecraft/unmapped/C_2758065;
 	METHOD <init> (Lnet/minecraft/unmapped/C_3906126;II)V
@@ -11,6 +12,25 @@ CLASS net/minecraft/unmapped/C_6755599 net/minecraft/world/chunk/WorldChunk
 		ARG 2 blocks
 		ARG 3 chunkX
 		ARG 4 chunkZ
+	METHOD a getBlockAt (III)I
+	METHOD a setBlockAt (IIII)Z
 	METHOD a setBlockWithMetadataAt (IIIII)Z
+	METHOD a setBlockEntityAt (IIILnet/minecraft/unmapped/C_2074023;)V
 	METHOD a getRandomForSlime (J)Ljava/util/Random;
+	METHOD a getEntities (Ljava/lang/Class;Lnet/minecraft/unmapped/C_1414550;Ljava/util/List;)V
+	METHOD a getLightAt (Lnet/minecraft/unmapped/C_5863046;III)I
+	METHOD a setLightAt (Lnet/minecraft/unmapped/C_5863046;IIII)V
+	METHOD a addEntity (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD a removeEntity (Lnet/minecraft/unmapped/C_6385858;I)V
+	METHOD a getEntities (Lnet/minecraft/unmapped/C_6385858;Lnet/minecraft/unmapped/C_1414550;Ljava/util/List;)V
+	METHOD a packChunkData ([BIIIIIII)I
+	METHOD b getHeight (II)I
+	METHOD b getBlockMetadataAt (III)I
+	METHOD b setBlockMetadataAt (IIII)V
+	METHOD b removeEntity (Lnet/minecraft/unmapped/C_6385858;)V
+	METHOD c hasSkyAccessAt (III)Z
+	METHOD c getLightAt (IIII)I
+	METHOD d getBlockEntityAt (III)Lnet/minecraft/unmapped/C_2074023;
 	METHOD e unload ()V
+	METHOD e removeBlockEntityAt (III)V
+	METHOD f markDirty ()V
