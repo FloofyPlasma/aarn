@@ -1,1 +1,5 @@
 CLASS net/minecraft/unmapped/C_4450135 net/minecraft/crafting/ArmorRecipes
+	FIELD a patterns [[Ljava/lang/String;
+	FIELD b recipies [[Ljava/lang/Object;
+	METHOD a register (Lnet/minecraft/unmapped/C_2154975;)V
+		ARG 1 manager
