@@ -1,1 +1,3 @@
 CLASS net/minecraft/unmapped/C_1518064 net/minecraft/world/gen/carver/CaveWorldCarver
+	METHOD a place (II[BDDD)V
+	METHOD a placeBranch (II[BDDDFFFIID)V
