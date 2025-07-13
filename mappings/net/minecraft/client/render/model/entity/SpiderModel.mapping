@@ -1,1 +1,12 @@
 CLASS net/minecraft/unmapped/C_8947510 net/minecraft/client/render/model/entity/SpiderModel
+	FIELD a head Lnet/minecraft/unmapped/C_0289174;
+	FIELD b neck Lnet/minecraft/unmapped/C_0289174;
+	FIELD c body Lnet/minecraft/unmapped/C_0289174;
+	FIELD d backRightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD e backLeftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD f backMiddleRightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD g backMiddleLeftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD h frontMiddleRightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD i frontMiddleLeftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD j frontRightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD m frontLeftLeg Lnet/minecraft/unmapped/C_0289174;

@@ -1,1 +1,9 @@
 CLASS net/minecraft/unmapped/C_3583747 net/minecraft/client/render/model/entity/ChickenModel
+	FIELD a head Lnet/minecraft/unmapped/C_0289174;
+	FIELD b body Lnet/minecraft/unmapped/C_0289174;
+	FIELD c rightLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD d leftLeg Lnet/minecraft/unmapped/C_0289174;
+	FIELD e rightWing Lnet/minecraft/unmapped/C_0289174;
+	FIELD f leftWing Lnet/minecraft/unmapped/C_0289174;
+	FIELD g beak Lnet/minecraft/unmapped/C_0289174;
+	FIELD h waddle Lnet/minecraft/unmapped/C_0289174;
