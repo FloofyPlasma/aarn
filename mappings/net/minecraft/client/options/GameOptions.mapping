@@ -22,7 +22,7 @@ CLASS net/minecraft/unmapped/C_7688744 net/minecraft/client/options/GameOptions
 	FIELD t keyBindings [Lnet/minecraft/unmapped/C_5027199;
 	FIELD u minecraft Lnet/minecraft/client/Minecraft;
 	FIELD w difficulty I
-	FIELD x debugEnabled Z
+	FIELD x thirdPerson Z
 	FIELD y RENDER_DISTANCE_SETTINGS [Ljava/lang/String;
 	FIELD z DIFFICULTY_SETTINGS [Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
